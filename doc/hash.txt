@@ -1,0 +1,2 @@
+hash table我们采用redis中的dict文件，该hash table便于实现锁表的结构，就是代码不太安全，建议略做修改使用。
+

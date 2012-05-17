@@ -1,0 +1,118 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+//并不建议使用RBTREE抽象cfSet, 主要的原因是cf中没有link字段
+////columnFamilySet *getColumnFamilySet();
+//void freeHeapColumnFamilySet(columnFamilySet *cfs);
+//int findColumnFamily(columnFamilySet *cfs, char *cfName);
+//int addColumnFamily(columnFamilySet *cfs, columnFamily *cf);
+//int serializeColumnFamilySet(columnFamilySet *cfs, buffer *buff);
+//int deserializeColumnFamilySet(columnFamilySet *cfs, buffer *buff);
+//int addColumnFamilySet(columnFamilySet *target, columnFamilySet *src);
+//
+//
+//
+//
+//
+////这里我们定义和columnSet差不多的接口
+//typedef struct columnFamilySet{
+//	columnFamilysHeader header;
+//	int cfCount;
+//}columnFamilySet;
+//typedef RB_HEAD(columnFamilysHeader, columnFamily) columnFamilysHeader);
+
+cf提供 个对外接口
+
+cf都是作为成员变量使用，所以定义该接口
+int initCF(columnFamily *cf, columnFamilyMetadata *cfmd);
+//动态申请cf
+int getCF(columnFamily **cf， columnFamilyMetadata *cfmd);
+int getCFType(columnFamily *cf, enum cfType *v);
+int getCFName(columnFamily *cf, char **name);
+int getCFKeyspace(columnFamily *cf, char **keyspace);
+int getCFID(columnFamily *cf, int *ID);
+int getCFColumnCount(columnFamily *cf, int *count);
+
+
+//序列化接口
+int serializeCF(columnFamily *cf, buffer *buff);
+int deserializeCF(buffer *buff, columnFamily *cf);
+
+//插入成功返回0 , 失败返回-1
+int insert(columnFamily *cf, rowMutation *rm);
+//为了能够反映失败的具体原因，返回int类型比较好
+int findColumnClone(columnFamily *cf, queryPath *pq, column **v);
+column *removeColumn(columnFamily *cf, queryPath *pq);
+void clearColumnFamily(columnFamily *cf);
+
+
+
+//该结构体主要是对cf抽象，这个抽象感觉很简单，有写问题
+struct columnFamily{ 
+	void  *columnOrSuperSet;
+	unsigned int localDelete;
+	unsigned int markDelete;
+	columnFamilyMetadata *cfmd;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+int serialize(superColumn *supercolumn, buffer *buff);
+int serializelen(superColumn *s);
+superColumn *deserialize(buffer *buff);
+unsigned int getLatestDelete(superColumn *s1, superColumn *s1);
+void destroy(superColumn *s);
+superColumn *clone(superColumn *s);
+			struct superColumn{
+				char *name;
+				unsigned int localdelete;
+				unsigned int deleteAt;
+				columnSet *columns;
+			}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+//对外定义的7个接口
+
+//因为使用指针指向columnSet或者superColumnSet的头部，所以这里建议使用getColumnSet
+columnSet *getColumnSet();
+int getColumnCount(columnSet *cs);
+
+//这个主要是考虑到使用的时候，头部也是申请的，要删除
+void freeHeapColumnSet(columnSet *cs);
+
+//返回值增加的数量, -1表示需要释放toInsert
+int addColumn(columnSet *cs, column *toInsert);
+
+//将src中的column添加到target中，并且最终会删除src，返回columnSet中所有column的数量
+int addColumnSet(columnSet *target, columnSet *src);
+
+//序列化columnSet，0表示返回成功，-1表示失败 
+int serializeColumnSet(columnSet *cs, buffer *b);
+int deserializeColumnSet(columnSet *cs, buffer *b);
+
+//参数column存储查找column的一些信息，返回删除是否成功
+int  deleteColumn(columnSet *cs, column *c);
+
+//这个是对column集合的一个抽象，使用红黑树抽象column集合
+typedef RB_HEAD(columnsHeader,column) columnsHeader;
+
+typedef struct columnSet {
+    columnsHeader header;
+    int elemCount;
+}columnSet;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+//column我们主要提供以下8个接口，column作为数据模型最基本的元素
+column *getColumn();
+column *cloneColumn(column *c);
+void freeHeapColumn(column *x);
+int serialize(column *c, buffer *buff);
+//这个接口之所以这样设计是为了返回出错的原因
+int deserialize(buffer *buff, column **x);
+int serializeLen(column *c);
+int comparePriority(column *left, column *right);                             
+int columnCmp(column *left, column *right);
+/*以下为column的抽象
+typedef struct column{
+ char *name;
+ char *value;
+ unsigned int timestamp;
+ char del; // 1 delete, 0 not
+ RB_ENTRY(column) link;
+}column;
+---------------------------------------------------------------------------------------------------------------------------------------------------------------

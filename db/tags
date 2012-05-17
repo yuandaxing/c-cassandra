@@ -1,0 +1,344 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR      =ar$/;"	m
+AS	Makefile	/^AS      =as$/;"	m
+AUXIL_RB_TREE	auxiRBtree.h	22;"	d
+CC	Makefile	/^CC      =gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/ -I..\/utils\/ -I..\/config -I..\/seda$/;"	m
+COLUMNCOUNTTHRESHOLD	memTable.h	16;"	d
+COLUMNNAMEHASHCOUNT	bloomFilter.h	9;"	d
+COLUMNSEREX	column.h	22;"	d
+COMMITLOGBUFFERSZ	commitLog.h	38;"	d
+COMMITLOGMAXSZ	commitLog.h	39;"	d
+COMMITLOGWRITERTHREAD	columnFamilyStore.h	29;"	d
+DATABUFFERSZ	ssTable.h	22;"	d
+EXECUT_TAGS	Makefile	/^EXECUT_TAGS := test$/;"	m
+FILTERBUFFERSZ	ssTable.h	24;"	d
+FLUSHINGTHREAD	columnFamilyStore.h	27;"	d
+GENERATE_OPS_DATA	auxiRBtree.h	27;"	d
+INDEXBUFFERSZ	ssTable.h	23;"	d
+INSERTEDCOMPLETELYCF	memTable.h	14;"	d
+INSERTEDFAILED	memTable.h	15;"	d
+INSERTEDMAX	memTable.h	13;"	d
+KEYHASHCOUNT	bloomFilter.h	8;"	d
+K_1	ssTable.h	20;"	d
+LD	Makefile	/^LD      =ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -lpthread -L..\/debug\/ -L..\/serialize\/ -L..\/config\/  -L..\/utils\/ -L..\/seda\/ -lm -ldebug -lserialize -lconfig -lutils -lseda $/;"	m
+MAX	superColumn.h	4;"	d
+MINHASH	bloomFilter.h	7;"	d
+M_1	ssTable.h	21;"	d
+NCOMMITLOGWRITERTHREAD	columnFamilyStore.h	30;"	d
+NFLUSHTHREAD	columnFamilyStore.h	28;"	d
+NSSTABLEREADER	columnFamilyStore.h	32;"	d
+OBJS	Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+RB_AUGMENT	tree.h	348;"	d
+RB_BLACK	tree.h	319;"	d
+RB_COLOR	tree.h	332;"	d
+RB_EMPTY	tree.h	334;"	d
+RB_ENTRY	tree.h	321;"	d
+RB_FIND	tree.h	683;"	d
+RB_FOREACH	tree.h	688;"	d
+RB_GENERATE	tree.h	405;"	d
+RB_HEAD	tree.h	307;"	d
+RB_INF	tree.h	679;"	d
+RB_INIT	tree.h	315;"	d
+RB_INITIALIZER	tree.h	312;"	d
+RB_INSERT	tree.h	681;"	d
+RB_LEFT	tree.h	329;"	d
+RB_MAX	tree.h	686;"	d
+RB_MIN	tree.h	685;"	d
+RB_NEGINF	tree.h	678;"	d
+RB_NEXT	tree.h	684;"	d
+RB_PARENT	tree.h	331;"	d
+RB_PROTOTYPE	tree.h	392;"	d
+RB_RED	tree.h	320;"	d
+RB_REMOVE	tree.h	682;"	d
+RB_RIGHT	tree.h	330;"	d
+RB_ROOT	tree.h	333;"	d
+RB_ROTATE_LEFT	tree.h	351;"	d
+RB_ROTATE_RIGHT	tree.h	371;"	d
+RB_SET	tree.h	336;"	d
+RB_SET_BLACKRED	tree.h	342;"	d
+RB_TREE_GENERATE	auxiRBtree.h	37;"	d
+READ_COMMITLOG	commitLog.h	8;"	d
+READ_TYPE	ssTable.h	26;"	d
+SPLAY_ASSEMBLE	tree.h	121;"	d
+SPLAY_EMPTY	tree.h	94;"	d
+SPLAY_ENTRY	tree.h	85;"	d
+SPLAY_FIND	tree.h	294;"	d
+SPLAY_FOREACH	tree.h	301;"	d
+SPLAY_GENERATE	tree.h	172;"	d
+SPLAY_HEAD	tree.h	73;"	d
+SPLAY_INF	tree.h	290;"	d
+SPLAY_INIT	tree.h	81;"	d
+SPLAY_INITIALIZER	tree.h	78;"	d
+SPLAY_INSERT	tree.h	292;"	d
+SPLAY_LEFT	tree.h	91;"	d
+SPLAY_LINKLEFT	tree.h	109;"	d
+SPLAY_LINKRIGHT	tree.h	115;"	d
+SPLAY_MAX	tree.h	298;"	d
+SPLAY_MIN	tree.h	296;"	d
+SPLAY_NEGINF	tree.h	289;"	d
+SPLAY_NEXT	tree.h	295;"	d
+SPLAY_PROTOTYPE	tree.h	130;"	d
+SPLAY_REMOVE	tree.h	293;"	d
+SPLAY_RIGHT	tree.h	92;"	d
+SPLAY_ROOT	tree.h	93;"	d
+SPLAY_ROTATE_LEFT	tree.h	103;"	d
+SPLAY_ROTATE_RIGHT	tree.h	97;"	d
+SRCS	Makefile	/^SRCS =   column.c superColumn.c columnFamily.c ssTable.c rowMutation.c memTable.c commitLog.c bloomFilter.c columnFamilyStore.c dataModel.c test.c$/;"	m
+SSTABLEREADER	columnFamilyStore.h	31;"	d
+WRITE_COMMITLOG	commitLog.h	9;"	d
+WRITE_TYPE	ssTable.h	27;"	d
+_BLOOMFILTER_H_	bloomFilter.h	2;"	d
+_COLUMNFAMILY_H_	columnFamily.h	15;"	d
+_COLUMN_H_	column.h	15;"	d
+_COMMITLOG_H_	commitLog.h	2;"	d
+_DATAMODEL_H_	dataModel.h	2;"	d
+_MEMTABLE_H_	memTable.h	2;"	d
+_QUERYPATH_H_	queryPath.h	2;"	d
+_ROWMUTATION_H_	rowMutation.h	15;"	d
+_SSTABLE_H_	ssTable.h	2;"	d
+_SUPERCOLUMN_H_	superColumn.h	2;"	d
+_SYS_TREE_H_	tree.h	28;"	d
+addCFColumn	columnFamily.c	/^int addCFColumn(columnFamily *cf , column *toInsert)$/;"	f
+addColumn	column.c	/^int addColumn(columnSet *cs, column *toInsert)$/;"	f
+addColumnSet	column.c	/^int addColumnSet(columnSet *target, columnSet *src)$/;"	f
+addSSTBF	ssTable.c	/^int addSSTBF(char *key, int len, ssTable *sst)$/;"	f
+addToBF	bloomFilter.c	/^int addToBF(bloomFilter *bf, char *bytes, int len)$/;"	f
+auxilary_recover	commitLog.c	/^int auxilary_recover(char *fullLogPath)$/;"	f
+before	queryPath.h	/^	unsigned int before;$/;"	m	struct:queryPath
+beforeWrite	commitLog.c	/^static int beforeWrite()$/;"	f	file:
+bf	ssTable.h	/^	bloomFilter  *bf;$/;"	m	struct:ssTable
+bitsCount	bloomFilter.h	/^	int bitsCount;$/;"	m	struct:bloomFilter
+bloomFilter	bloomFilter.h	/^typedef struct bloomFilter{$/;"	s
+bloomFilter	bloomFilter.h	/^}bloomFilter;$/;"	t	typeref:struct:bloomFilter
+bloomFilterFile	ssTable.h	/^	fileAbstract *bloomFilterFile;$/;"	m	struct:ssTable
+buff	columnFamilyStore.h	/^	buffer *buff;$/;"	m	struct:commitLogWriter
+cf	rowMutation.h	/^	columnFamily *cf;$/;"	m	struct:rowMutation
+cfCompare	columnFamily.c	/^int cfCompare(columnFamily *cf1, columnFamily *cf2)$/;"	f
+cfCount	commitLog.h	/^    int cfCount;$/;"	m	struct:clHeader
+cfName	queryPath.h	/^	char *cfName;$/;"	m	struct:queryPath
+cfName	rowMutation.h	/^	char *cfName;$/;"	m	struct:rowMutation
+cfm	columnFamily.h	/^	columnFamilyMetadata *cfm;$/;"	m	struct:columnFamily
+cfmd	columnFamilyStore.h	/^	columnFamilyMetadata *cfmd;$/;"	m	struct:columnFamilyStore
+cfmd	columnFamilyStore.h	/^	columnFamilyMetadata *cfmd;$/;"	m	struct:commitLogWriter
+cfmd	memTable.h	/^	columnFamilyMetadata *cfmd;$/;"	m	struct:memTable
+cfs	columnFamilyStore.h	/^	columnFamilyStore *cfs;$/;"	m	struct:flushTask
+cfsCompare	dataModel.c	/^int cfsCompare(void *privdata, const void *key1, $/;"	f
+cfsHashTable	dataModel.h	/^	dict *cfsHashTable;$/;"	m	struct:dataModel
+cfsHashing	dataModel.c	/^unsigned int cfsHashing(const void *key)$/;"	f
+cfsKeyDestr	dataModel.c	/^static void cfsKeyDestr(void *privdata, void *key)$/;"	f	file:
+cfsMutex	columnFamilyStore.h	/^	pthread_mutex_t cfsMutex;$/;"	m	struct:columnFamilyStore
+clHeader	commitLog.h	/^typedef struct clHeader{$/;"	s
+clHeader	commitLog.h	/^}clHeader;$/;"	t	typeref:struct:clHeader
+clHeaderUpdate	columnFamilyStore.h	/^	int clHeaderUpdate;$/;"	m	struct:flushTask
+clWriterHandler	columnFamilyStore.c	/^void clWriterHandler(void *arg)$/;"	f
+clearColumnFamily	columnFamily.c	/^void clearColumnFamily(columnFamily *cf)$/;"	f
+clearDirty	commitLog.c	/^int clearDirty(clHeader *header, int entry)$/;"	f
+clh	commitLog.h	/^	clHeader *clh;$/;"	m	struct:commitLog
+cloneColumn	column.c	/^column * cloneColumn(column *x)$/;"	f
+column	column.h	/^typedef struct column{$/;"	s
+column	column.h	/^}column; $/;"	t	typeref:struct:column
+columnComp	column.c	/^inline int columnComp(column *x, column *y)$/;"	f
+columnCount	superColumn.h	/^	int columnCount;$/;"	m	struct:superColumn
+columnFamily	columnFamily.h	/^typedef struct columnFamily{$/;"	s
+columnFamily	columnFamily.h	/^}columnFamily;$/;"	t	typeref:struct:columnFamily
+columnFamilySet	rowMutation.h	/^typedef RB_HEAD(columnFamilySet, columnFamily) columnFamilySet;$/;"	t
+columnFamilyStore	columnFamilyStore.h	/^typedef struct columnFamilyStore{$/;"	s
+columnFamilyStore	columnFamilyStore.h	/^}columnFamilyStore;$/;"	t	typeref:struct:columnFamilyStore
+columnName	queryPath.h	/^	char *columnName;$/;"	m	struct:queryPath
+columnSet	column.h	/^typedef struct columnSet{$/;"	s
+columnSet	column.h	/^}columnSet;$/;"	t	typeref:struct:columnSet
+columnorSuper	columnFamily.h	/^	void *columnorSuper;$/;"	m	struct:columnFamily
+columns	superColumn.h	/^	struct columnSet columns;$/;"	m	struct:superColumn	typeref:struct:superColumn::columnSet
+columnsHeader	column.h	/^typedef RB_HEAD(columnsHeader,column) columnsHeader; $/;"	t
+commitLog	commitLog.h	/^typedef struct commitLog{$/;"	s
+commitLog	commitLog.h	/^}commitLog;$/;"	t	typeref:struct:commitLog
+commitLogWriter	columnFamilyStore.h	/^typedef struct commitLogWriter{$/;"	s
+commitLogWriter	columnFamilyStore.h	/^}commitLogWriter;$/;"	t	typeref:struct:commitLogWriter
+compPriority	column.c	/^int compPriority(column *x, column *y) $/;"	f
+config	test.c	/^char *config = ".\/cassandra.conf";$/;"	v
+createAllCFSfromConfig	dataModel.c	/^static int createAllCFSfromConfig()$/;"	f	file:
+curCL	commitLog.c	/^commitLog *curCL;$/;"	v
+curMT	columnFamilyStore.h	/^	memTable *curMT;$/;"	m	struct:columnFamilyStore
+curSSTSN	ssTable.c	/^static int curSSTSN = 0;$/;"	v	file:
+dataFile	ssTable.h	/^	fileAbstract *dataFile;$/;"	m	struct:ssTable
+dataModel	dataModel.h	/^typedef struct dataModel{$/;"	s
+dataModel	dataModel.h	/^}dataModel;$/;"	t	typeref:struct:dataModel
+decrColumnCount	column.c	/^void decrColumnCount(column *c)$/;"	f
+del	column.h	/^	uint8_t del; \/\/ 1 delete, 0 not$/;"	m	struct:column
+deleteColumn	column.c	/^int deleteColumn(columnSet *cs, column *c)$/;"	f
+deserializeCF	columnFamily.c	/^int deserializeCF(buffer *buff, columnFamily *cf)$/;"	f
+deserializeCLH	commitLog.c	/^int deserializeCLH(buffer *buff, clHeader **header)$/;"	f
+deserializeColumn	column.c	/^int deserializeColumn(buffer *buff, column **x)$/;"	f
+deserializeColumnSet	column.c	/^int deserializeColumnSet(columnSet *cs, buffer *b)$/;"	f
+deserializeRM	rowMutation.c	/^int deserializeRM(buffer *b, rowMutation *rm)$/;"	f
+desrializeBF	bloomFilter.c	/^int desrializeBF(buffer *buff, bloomFilter **bfv)$/;"	f
+destroyCFSThread	columnFamilyStore.c	/^void destroyCFSThread()$/;"	f
+destroyDM	dataModel.c	/^void __exit destroyDM()$/;"	f
+dirtyBit	commitLog.h	/^    char *dirtyBit;$/;"	m	struct:clHeader
+dmType	dataModel.c	/^dictType dmType = {$/;"	v
+dupBloomFilter	bloomFilter.c	/^bloomFilter *dupBloomFilter(bloomFilter *bf)$/;"	f
+elemCount	column.h	/^	int elemCount;$/;"	m	struct:columnSet
+ep	memTable.h	/^	dictEntry **ep;$/;"	m	struct:sortedDE
+fa	commitLog.h	/^	fileAbstract *fa;$/;"	m	struct:commitLog
+filterBit	bloomFilter.h	/^	char *filterBit;$/;"	m	struct:bloomFilter
+findCFColumn	columnFamily.c	/^column *findCFColumn(columnFamily *cf, char *columnName)$/;"	f
+findCSColumn	column.c	/^column *findCSColumn(columnSet *cs, char *name)	$/;"	f
+findColumn	memTable.c	/^column *findColumn(memTable *mt, queryPath *qp)$/;"	f
+findDMCFS	dataModel.c	/^columnFamilyStore *findDMCFS(char *keyspaceName, char *cfName)$/;"	f
+findMTCF	memTable.c	/^columnFamily *findMTCF(memTable *mt, queryPath *qp)$/;"	f
+flag	columnFamilyStore.c	/^static int flag = 0;$/;"	v	file:
+flushTask	columnFamilyStore.h	/^typedef struct flushTask{$/;"	s
+flushTask	columnFamilyStore.h	/^}flushTask;$/;"	t	typeref:struct:flushTask
+flushToDisk	memTable.c	/^int flushToDisk(memTable *mt, struct ssTable *sst)$/;"	f
+flushingHandler	columnFamilyStore.c	/^void flushingHandler(void *arg)$/;"	f
+flushingMTL	columnFamilyStore.h	/^	memTableList flushingMTL;$/;"	m	struct:columnFamilyStore
+forceCFSFlush	columnFamilyStore.c	/^int forceCFSFlush(columnFamilyStore *cfs)$/;"	f
+forceFlushDM	dataModel.c	/^int forceFlushDM(char *keyspaceName, char *cfName)$/;"	f
+freeHeapBF	bloomFilter.c	/^void freeHeapBF(bloomFilter *bf)$/;"	f
+freeHeapCFStore	columnFamilyStore.c	/^void freeHeapCFStore(columnFamilyStore *cfs)$/;"	f
+freeHeapCLHeader	commitLog.c	/^int freeHeapCLHeader(clHeader *header)$/;"	f
+freeHeapColumn	column.c	/^void freeHeapColumn(column *x)$/;"	f
+freeHeapColumnFamily	columnFamily.c	/^void freeHeapColumnFamily(columnFamily *cf)$/;"	f
+freeHeapColumnSet	column.c	/^void freeHeapColumnSet(columnSet *cs)$/;"	f
+freeHeapCommitLog	commitLog.c	/^void freeHeapCommitLog(commitLog* cl)$/;"	f
+freeHeapMemTL	memTable.c	/^void freeHeapMemTL(memTableList *mtl)$/;"	f
+freeHeapMemTable	memTable.c	/^void freeHeapMemTable(memTable *mt)$/;"	f
+freeHeapQP	queryPath.c	/^void freeHeapQP(queryPath *qp)$/;"	f
+freeHeapRM	rowMutation.c	/^void freeHeapRM(rowMutation *rm)$/;"	f
+freeHeapSST	ssTable.c	/^void freeHeapSST(ssTable *sst)$/;"	f
+freeHeapSSTL	ssTable.c	/^void freeHeapSSTL(ssTableList *sstl)$/;"	f
+freeHeapSortedDE	memTable.c	/^void freeHeapSortedDE(sortedDE *de)$/;"	f
+freeKeyFromMt	memTable.c	/^int freeKeyFromMt(memTable *mt, char *key)$/;"	f
+froze	memTable.h	/^    int froze;$/;"	m	struct:memTable
+g_dataModel	dataModel.c	/^dataModel g_dataModel;$/;"	v
+getBloomFilter	bloomFilter.c	/^int getBloomFilter(int hashCount, int strCount, bloomFilter **bfv)$/;"	f
+getCF	columnFamily.c	/^int getCF(columnFamily **cf, columnFamilyMetadata *cfm)$/;"	f
+getCFColumnCount	columnFamily.c	/^int getCFColumnCount(columnFamily *cf, int *count)$/;"	f
+getCFID	columnFamily.c	/^int getCFID(columnFamily *cf, int *ID)$/;"	f
+getCFKeyspace	columnFamily.c	/^int getCFKeyspace(columnFamily *cf, char **keyspace)$/;"	f
+getCFName	columnFamily.c	/^int getCFName(columnFamily *cf, char **name)$/;"	f
+getCFSColumn	columnFamilyStore.c	/^int getCFSColumn(columnFamilyStore *cfs, queryPath *qp, column **v)$/;"	f
+getCFStore	columnFamilyStore.c	/^columnFamilyStore *getCFStore(columnFamilyMetadata *cfmd)$/;"	f
+getCFType	columnFamily.c	/^int getCFType(columnFamily *cf, enum cfType *v)$/;"	f
+getCLHeader	commitLog.c	/^int getCLHeader(clHeader **header, int size)$/;"	f
+getCLWriter	columnFamilyStore.c	/^commitLogWriter *getCLWriter(buffer *buff, $/;"	f
+getColumn	column.c	/^column *getColumn()$/;"	f
+getColumnCount	column.c	/^int getColumnCount(columnSet *cs, int *v)$/;"	f
+getColumnDM	dataModel.c	/^int getColumnDM(queryPath *path, column **x)$/;"	f
+getColumnSerializeLen	column.c	/^int getColumnSerializeLen(column *x)$/;"	f
+getColumnSet	column.c	/^columnSet *getColumnSet()$/;"	f
+getCommitLog	commitLog.c	/^int getCommitLog(commitLog **cl, char *cp, char type)$/;"	f
+getCommitLogFilePath	commitLog.c	/^int getCommitLogFilePath(char **path)$/;"	f
+getCommitLogReader	commitLog.c	/^int getCommitLogReader(char *fullLogPath, commitLog **writer)$/;"	f
+getCommitLogWriter	commitLog.c	/^int getCommitLogWriter(commitLog **cl)$/;"	f
+getFirstDirtyPos	commitLog.c	/^int getFirstDirtyPos(clHeader *header, int *pos)$/;"	f
+getFirstMemTL	memTable.c	/^int getFirstMemTL(memTableList *mtl, memTable **mt)$/;"	f
+getFirstSSTL	ssTable.c	/^int getFirstSSTL(ssTableList *sstl, ssTable **sst)$/;"	f
+getFlushTask	columnFamilyStore.c	/^flushTask *getFlushTask(columnFamilyStore *cfs, memTable *mt)$/;"	f
+getKeyCFPairCount	memTable.c	/^int getKeyCFPairCount(memTable *mt, int *count)$/;"	f
+getMTColumnCount	memTable.c	/^int getMTColumnCount(memTable *mt, int *countV)$/;"	f
+getMemTable	memTable.c	/^memTable *getMemTable(columnFamilyMetadata *cfmd)$/;"	f
+getRM	rowMutation.c	/^rowMutation *getRM()$/;"	f
+getRMCFID	rowMutation.c	/^int getRMCFID(rowMutation *rm, int *id)$/;"	f
+getSortedEntry	memTable.c	/^int getSortedEntry(memTable *mt, sortedDE **v)$/;"	f
+hash	bloomFilter.c	/^int hash(char *data, int length, int seed) $/;"	f
+hashCount	bloomFilter.h	/^	int hashCount;$/;"	m	struct:bloomFilter
+hashFunc	memTable.c	/^static unsigned int hashFunc(const void *key)$/;"	f	file:
+header	column.h	/^	columnsHeader header;$/;"	m	struct:columnSet
+incSSTSN	ssTable.c	/^static int incSSTSN()$/;"	f	file:
+indexFile	ssTable.h	/^	fileAbstract *indexFile;$/;"	m	struct:ssTable
+initCF	columnFamily.c	/^int initCF(columnFamily *cf, columnFamilyMetadata *cfmd)$/;"	f
+initCFSThread	columnFamilyStore.c	/^void  initCFSThread()$/;"	f
+initDM	dataModel.c	/^int __init initDM()$/;"	f
+insertCF	columnFamily.c	/^int insertCF(columnFamily *cf, columnFamily *inserted)$/;"	f
+insertCFStore	columnFamilyStore.c	/^int insertCFStore(columnFamilyStore *cfs, rowMutation *rm)$/;"	f
+insertDM	dataModel.c	/^int insertDM(rowMutation *rm)$/;"	f
+insertDMCFS	dataModel.c	/^int insertDMCFS(columnFamilyStore *cfs)$/;"	f
+insertMemTable	memTable.c	/^int insertMemTable(memTable *mt, rowMutation *rm)$/;"	f
+isDirty	commitLog.c	/^int isDirty(clHeader *header, int entry)$/;"	f
+key	queryPath.h	/^	char *key;$/;"	m	struct:queryPath
+key	rowMutation.h	/^	char *key;$/;"	m	struct:rowMutation
+keyCF_pair	memTable.h	/^    dict *keyCF_pair;\/\/该字段用来存储key cf对$/;"	m	struct:memTable
+keyCF_pairCompare	memTable.c	/^static int keyCF_pairCompare(void *privdata, const void *key1, const void *key2)$/;"	f	file:
+keyCompare	memTable.c	/^static int keyCompare(const void *e1, const void *e2)$/;"	f	file:
+keyDestructor	memTable.c	/^static void keyDestructor(void *privdata, void *key)$/;"	f	file:
+keyspace	queryPath.h	/^	char *keyspace;$/;"	m	struct:queryPath
+keyspaceName	rowMutation.h	/^	char *keyspaceName;$/;"	m	struct:rowMutation
+link	column.h	/^	RB_ENTRY(column) link;$/;"	m	struct:column
+link	memTable.h	/^	LIST_ENTRY(memTable) link;$/;"	m	struct:memTable
+link	ssTable.h	/^	LIST_ENTRY(ssTable) link;$/;"	m	struct:ssTable
+link	superColumn.h	/^	RB_ENTRY(superColumn) link;$/;"	m	struct:superColumn
+localDelete	columnFamily.h	/^	unsigned int localDelete;$/;"	m	struct:columnFamily
+localDelete	superColumn.h	/^	unsigned int localDelete;$/;"	m	struct:superColumn
+main	test.c	/^int main()$/;"	f
+makeSSTablePath	ssTable.c	/^static int makeSSTablePath(const char *dataPath, char *keyspace, $/;"	f	file:
+markedForDelete	columnFamily.h	/^	unsigned int markedForDelete;$/;"	m	struct:columnFamily
+markedForDelete	superColumn.h	/^	unsigned int markedForDelete;$/;"	m	struct:superColumn
+memTLInsert	memTable.c	/^int memTLInsert(memTableList *mtl, memTable *mt)$/;"	f
+memTable	memTable.h	/^typedef struct memTable{$/;"	s
+memTable	memTable.h	/^}memTable;$/;"	t	typeref:struct:memTable
+memTableList	memTable.h	/^typedef LIST_HEAD(memTableList, memTable) memTableList;$/;"	t
+memTableType	memTable.c	/^static dictType memTableType = {hashFunc, NULL, NULL,keyCF_pairCompare, keyDestructor, valDestructor};$/;"	v	file:
+mt	columnFamilyStore.h	/^	memTable *mt;$/;"	m	struct:flushTask
+mutex	columnFamilyStore.h	/^	pthread_mutex_t mutex;$/;"	m	struct:flushTask
+name	column.h	/^	char *name;$/;"	m	struct:column
+name	superColumn.h	/^	char *name;$/;"	m	struct:superColumn
+needFlush	memTable.c	/^int needFlush(memTable *mt)$/;"	f
+needReplay	commitLog.c	/^static int needReplay(rowMutation *rm, commitLog *cl, long pos)$/;"	f	file:
+openReadFromWrite	ssTable.c	/^int openReadFromWrite(ssTable *sstW, ssTable **sstR)$/;"	f
+openWriteSSTable	ssTable.c	/^int openWriteSSTable(columnFamilyMetadata *cfmd, ssTable **sst, int keyCount)$/;"	f
+posAt	commitLog.h	/^    int *posAt;$/;"	m	struct:clHeader
+putKeyCFPair	memTable.c	/^int putKeyCFPair(memTable *mt, char *key, columnFamily *cf)$/;"	f
+queryPath	queryPath.h	/^typedef struct queryPath{$/;"	s
+queryPath	queryPath.h	/^}queryPath;$/;"	t	typeref:struct:queryPath
+recoverFromCommitLog	commitLog.c	/^int recoverFromCommitLog()$/;"	f
+recoverFromCurPos	commitLog.c	/^static int recoverFromCurPos(commitLog *reader)$/;"	f	file:
+refCount	column.h	/^	uint16_t refCount;$/;"	m	struct:column
+refCount	columnFamilyStore.h	/^	int refCount;$/;"	m	struct:flushTask
+refCount	ssTable.h	/^	uint16_t refCount;$/;"	m	struct:ssTable
+removeFirstMemTL	memTable.c	/^int removeFirstMemTL(memTableList *mtl, memTable **mt)$/;"	f
+removeFirstSSTL	ssTable.c	/^int removeFirstSSTL(ssTableList *sstl, ssTable **sst)$/;"	f
+removeKeyFromMT	memTable.c	/^int removeKeyFromMT(memTable *mt, char *key, columnFamily **cf)$/;"	f
+rowMutation	rowMutation.h	/^typedef struct rowMutation{$/;"	s
+rowMutation	rowMutation.h	/^}rowMutation;$/;"	t	typeref:struct:rowMutation
+serializeBF	bloomFilter.c	/^int serializeBF(buffer *buff, bloomFilter *bf)$/;"	f
+serializeCF	columnFamily.c	/^int serializeCF(columnFamily *cf, buffer *buff)$/;"	f
+serializeCLH	commitLog.c	/^int serializeCLH(clHeader *header, buffer *buff)$/;"	f
+serializeColumn	column.c	/^int serializeColumn(column *x, buffer *buff)$/;"	f
+serializeColumnSet	column.c	/^int serializeColumnSet(columnSet *cs, buffer *buff)$/;"	f
+serializeRM	rowMutation.c	/^int serializeRM(buffer *b, rowMutation *rm)$/;"	f
+setCurSSTSN	ssTable.c	/^int setCurSSTSN(int sn)$/;"	f
+setDirty	commitLog.c	/^int setDirty(clHeader *header, int entry)$/;"	f
+setEntryPos	commitLog.c	/^int setEntryPos(clHeader *header, int entry, int position)$/;"	f
+signal	columnFamilyStore.h	/^	pthread_cond_t signal;$/;"	m	struct:flushTask
+size	column.h	/^	uint16_t size;$/;"	m	struct:column
+size	memTable.h	/^	int size;$/;"	m	struct:sortedDE
+sortedDE	memTable.h	/^typedef struct sortedDE{$/;"	s
+sortedDE	memTable.h	/^}sortedDE;$/;"	t	typeref:struct:sortedDE
+ssTL	columnFamilyStore.h	/^	ssTableList ssTL;$/;"	m	struct:columnFamilyStore
+ssTLInsert	ssTable.c	/^int ssTLInsert(ssTableList *sstl, ssTable *sst)$/;"	f
+ssTable	ssTable.h	/^typedef struct ssTable{$/;"	s
+ssTable	ssTable.h	/^}ssTable;$/;"	t	typeref:struct:ssTable
+ssTableList	ssTable.h	/^typedef LIST_HEAD(ssTableList, ssTable) ssTableList;$/;"	t
+strCount	bloomFilter.h	/^	int strCount;$/;"	m	struct:bloomFilter
+superColumn	superColumn.h	/^typedef struct superColumn{$/;"	s
+superColumn	superColumn.h	/^}superColumn;$/;"	t	typeref:struct:superColumn
+superColumnComp	superColumn.c	/^inline int superColumnComp(superColumn *x, superColumn *y)$/;"	f
+superColumnName	queryPath.h	/^	char *superColumnName;$/;"	m	struct:queryPath
+superColumnSet	superColumn.h	/^typedef RB_HEAD(superColumnSet,superColumn) superColumnSet; $/;"	t
+timestamp	column.h	/^	uint32_t timestamp;$/;"	m	struct:column
+type	ssTable.h	/^	char type;$/;"	m	struct:ssTable
+valDestructor	memTable.c	/^static void valDestructor(void *privdata, void *ob)$/;"	f	file:
+value	column.h	/^	char *value;$/;"	m	struct:column
+writeCommitLog	commitLog.c	/^int writeCommitLog(buffer *rm, const columnFamilyMetadata *cfmd)$/;"	f
+writeHeaderSyn	commitLog.c	/^static int writeHeaderSyn(commitLog *cl, int needSeekFile)$/;"	f	file:
+writeSSTableBF	ssTable.c	/^int writeSSTableBF(buffer *bf, ssTable *sst)$/;"	f
+writeSSTableData	ssTable.c	/^long writeSSTableData(buffer *cf, ssTable *sst)$/;"	f
+writeSSTableIndex	ssTable.c	/^long writeSSTableIndex(buffer *index, ssTable *sst)$/;"	f

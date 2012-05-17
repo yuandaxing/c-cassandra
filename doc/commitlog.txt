@@ -1,0 +1,49 @@
+//对外提供三个接口
+/*将cfID对应的rm中的数据写入commitLog中
+int writeCommitLog(int cfID, buffer *rm);
+/*启动的时候恢复commitLog */
+int recoveryFromCommitLog();
+/*当memTable写磁盘，调用该方法调整commitLog中cf的位置*/
+int flushMTSynCommitLog(int cfID);
+
+
+
+
+
+
+
+
+
+
+/*这两个主要是用来控制commitLog的内存释放*/
+commitLog *getCommitLog();
+void putCommitLog(commitLog *);
+clFlushContext *getCurFlushContex(commitLog *cl, int cfID);
+int setCurCommitLogFile(char *name);
+int memFlushAtPos(clContext *ct);
+																				/*该结构体主要是抽象当前commitLog的上下文 */
+typedef struct commitLog{														typedef struct clFlushContext{
+																						char *fileName;
+																						int cfID;
+																						int pos;
+																					}clFlushContext;
+	fileAbstract *fa;
+	clHeader *header;
+	int ref; //该字段主要是用于释放ref
+}commitLog;
+/*这是当前正在使用的commitLog*/
+extern commitLog curcommitLog;
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*创建一个size大小的header */
+int getCLHeader(clHeader **header, int size);
+/*设置某一个entry项为脏*/
+int setDirty(clHeader *header, int entry);
+/*设置某一项当前的位置*/
+int setEntryPos(clHeader *header, int entry, int position);
+int isDirty(clHeader *header, int entry);
+
+typedef struct clHeader{
+	int cfCount;
+	char *dirtyBit;
+	int *posAt;
+}clHeader;

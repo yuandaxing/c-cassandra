@@ -1,0 +1,8 @@
+对于查询，当前的设计准备只能查询column
+typedef struct queryPath{
+	char *keyspace;
+	char *key;
+	char *superColumnName;
+	char *columnName;
+	unsigned int before;
+}queryPath;

@@ -1,0 +1,27 @@
+cassandra 的并发性设计问题
+
+当前我的做法是cfstore是不让做插入删除操作，索引对于dataModel来说，我们不需要任何锁的问题
+对于memTable，我们有插入，删除，修改操作，因为这部份很快，所以8把锁就可以。对于加入到队列的memtable
+因为这部份的memTable只提供读，其他的不需要,但是ssTable的读确是相当耗时，这部份如果使用锁的话，就会出现问题，而且这部份
+根本就不需要锁。
+
+因此，我们需要锁的地方是
+
+typedef struct columnFamilyStore{
+	    memTable *curMT;
+	    memTableList flushingMTL;
+	    columnFamilyMetadata *cfmd;
+	    ssTableList ssTL;
+	}columnFamilyStore;
+
+//这部份共用一把锁
+memTable *curMT变量的修改，以及该memTable的修改
+flushingMTL的插入，修改
+
+//这部份很麻烦
+ssTL的插入
+
+为了避免高并发的场景，我们可以用一个数组保存所有所有的引用。
+
+假定我们有1000 000 0 条记录，每个保存一个引用 10^7*4 = 40M空间
+

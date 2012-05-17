@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR      =ar$/;"	m
+AS	Makefile	/^AS      =as$/;"	m
+CC	Makefile	/^CC      =gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/  -I..\/include\/ -I..\/utils$/;"	m
+EXECUT_TAGS	Makefile	/^EXECUT_TAGS := test$/;"	m
+LD	Makefile	/^LD      =ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L..\/debug -L..\/serialize  -L..\/utils -lm -lpthread -ldebug -lserialize  -lutils$/;"	m
+OBJS	Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+Proc	config.h	/^typedef int (*Proc)(tokens *tks);$/;"	t
+ProcList	config.c	/^keyProc  ProcList[] = {$/;"	v
+SRCS	Makefile	/^SRCS =  config.c tableMetadata.c test.c$/;"	m
+TEST_LEN	test.c	2;"	d	file:
+_TABLEMETADATA_H_	tableMetadata.h	2;"	d
+cfID	tableMetadata.h	/^	int cfID;$/;"	m	struct:columnFamilyMetadata
+cfName	tableMetadata.h	/^    char *cfName;                               $/;"	m	struct:columnFamilyMetadata
+cfProc	config.c	/^static int cfProc(tokens *tks)$/;"	f	file:
+cfType	tableMetadata.h	/^enum cfType{standard, super};$/;"	g
+cfmHash	tableMetadata.c	/^static unsigned int cfmHash(const void *key)$/;"	f	file:
+cfmType	tableMetadata.c	/^dictType cfmType = {cfmHash, NULL, NULL, keyCompare, $/;"	v
+columnFamilyMetadata	tableMetadata.h	/^typedef struct columnFamilyMetadata{                     $/;"	s
+columnFamilyMetadata	tableMetadata.h	/^}columnFamilyMetadata; $/;"	t	typeref:struct:columnFamilyMetadata
+configPath	tableMetadata.h	/^	char *configPath;$/;"	m	struct:fileLocation
+curCFID	config.c	/^static int curCFID = 1;$/;"	v	file:
+curKeyspace	config.c	/^static char curKeyspace[100] = {0};$/;"	v	file:
+dataPath	tableMetadata.h	/^	char *dataPath;$/;"	m	struct:fileLocation
+dataPathPorc	config.c	/^static int dataPathPorc(tokens *tks)$/;"	f	file:
+deallocSeed	tableMetadata.c	/^int deallocSeed()$/;"	f
+deallocTK	config.c	/^int deallocTK(tokens *tks)$/;"	f
+fileLocation	tableMetadata.h	/^typedef struct fileLocation{$/;"	s
+fileLocation	tableMetadata.h	/^}fileLocation;$/;"	t	typeref:struct:fileLocation
+findCFMetaData	tableMetadata.c	/^columnFamilyMetadata *findCFMetaData(char *tableName, char *cfName)$/;"	f
+fl	tableMetadata.c	/^fileLocation fl;$/;"	v
+freeCFM	tableMetadata.c	/^void freeCFM(columnFamilyMetadata *cfmd)$/;"	f
+freeFromTable	tableMetadata.c	/^int freeFromTable(char *tableName, char *cfName)$/;"	f
+freeHeapAllCFMD	tableMetadata.c	/^void freeHeapAllCFMD()$/;"	f
+freeHeapCFMD	tableMetadata.c	/^void freeHeapCFMD(columnFamilyMetadata *cfm)$/;"	f
+g_cfmDict	tableMetadata.c	/^dict *g_cfmDict = NULL;$/;"	v
+g_sd	tableMetadata.c	/^seed g_sd;$/;"	v
+getCFCount	tableMetadata.c	/^int getCFCount(int *count)$/;"	f
+getCurTime	tableMetadata.c	/^time_t getCurTime()$/;"	f
+getDataPath	tableMetadata.c	/^int getDataPath(const char **dp)$/;"	f
+getPidPath	tableMetadata.c	/^int getPidPath(const char **pp)$/;"	f
+initDictCFMD	tableMetadata.c	/^int __init initDictCFMD()$/;"	f
+isComment	config.c	/^int isComment(char *line, int len)$/;"	f
+keyCompare	tableMetadata.c	/^static int keyCompare(void *privdata, const void *key1, const void *key2)$/;"	f	file:
+keyDestructor	tableMetadata.c	/^static void keyDestructor(void *privdata, void *key)$/;"	f	file:
+keyProc	config.h	/^typedef struct keyProc{$/;"	s
+keyProc	config.h	/^}keyProc;$/;"	t	typeref:struct:keyProc
+keyspaceProc	config.c	/^static int keyspaceProc(tokens *tks)$/;"	f	file:
+leak	test.c	/^int  leak()$/;"	f
+len	config.h	/^    int len;$/;"	m	struct:token
+line	test.c	/^char line[TEST_LEN][100] = $/;"	v
+loadConfig	config.c	/^int __init loadConfig(char *confFile)$/;"	f
+main	test.c	/^int main()$/;"	f
+name	config.h	/^    char *name;$/;"	m	struct:keyProc
+otherPath	tableMetadata.h	/^	char *otherPath;$/;"	m	struct:fileLocation
+p	tableMetadata.h	/^	char **p;$/;"	m	struct:seed
+pidPath	tableMetadata.h	/^	char *pidPath;$/;"	m	struct:fileLocation
+pidPathPorc	config.c	/^static int pidPathPorc(tokens *tks)$/;"	f	file:
+printTableMetadata	tableMetadata.c	/^void printTableMetadata()$/;"	f
+printTokens	config.c	/^void printTokens(tokens *tks)$/;"	f
+proc	config.h	/^    Proc proc;$/;"	m	struct:keyProc
+putCFMDToTable	tableMetadata.c	/^int putCFMDToTable(columnFamilyMetadata *cfmd)$/;"	f
+putDataPath	tableMetadata.c	/^int putDataPath(const char *p)$/;"	f
+putMetadataToCFMD	tableMetadata.c	/^int putMetadataToCFMD(char *tableName, char *cfName, char *type, int cfID)$/;"	f
+putPidPath	tableMetadata.c	/^int putPidPath(const char *p)$/;"	f
+putSeed	tableMetadata.c	/^int putSeed(char *seed)$/;"	f
+reserveTK	config.c	/^int reserveTK(tokens *tks, int size)$/;"	f
+seed	tableMetadata.h	/^typedef struct seed{$/;"	s
+seed	tableMetadata.h	/^}seed;$/;"	t	typeref:struct:seed
+seedCount	tableMetadata.h	/^	int seedCount;$/;"	m	struct:seed
+seedProc	config.c	/^static int seedProc(tokens *tks)$/;"	f	file:
+shouldSkip	config.c	/^int shouldSkip(char *line, int len)$/;"	f
+size	tableMetadata.h	/^	int size;$/;"	m	struct:seed
+splite	config.c	/^int splite(char *line, char delimiter, tokens *tks, char *tokenDelimter)$/;"	f
+standard	tableMetadata.h	/^enum cfType{standard, super};$/;"	e	enum:cfType
+start	config.h	/^    char *start;$/;"	m	struct:token
+strTrim	config.c	/^int strTrim(char *line, int len, char *characters)$/;"	f
+super	tableMetadata.h	/^enum cfType{standard, super};$/;"	e	enum:cfType
+tableName	tableMetadata.h	/^    char *tableName;                          $/;"	m	struct:columnFamilyMetadata
+tk	config.h	/^    token *tk;$/;"	m	struct:tokens
+tkCount	config.h	/^    int tkCount;$/;"	m	struct:tokens
+tkSize	config.h	/^    int tkSize;$/;"	m	struct:tokens
+token	config.h	/^typedef struct token{$/;"	s
+token	config.h	/^}token;$/;"	t	typeref:struct:token
+tokens	config.h	/^typedef struct tokens{$/;"	s
+tokens	config.h	/^}tokens;$/;"	t	typeref:struct:tokens
+type	tableMetadata.h	/^	enum cfType type;$/;"	m	struct:columnFamilyMetadata	typeref:enum:columnFamilyMetadata::cfType

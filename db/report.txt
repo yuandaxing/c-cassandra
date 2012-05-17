@@ -1,0 +1,433 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 47.62      0.10     0.10                             chksum_crc32
+  9.52      0.12     0.02                             thread_fun
+  4.76      0.13     0.01    98030   102.01   102.01  findDMCFS
+  4.76      0.14     0.01    89996   111.12   111.12  freeHeapCLWriter
+  4.76      0.15     0.01                             dictAdd
+  4.76      0.16     0.01                             dictRehash
+  4.76      0.17     0.01                             getCRC32
+  4.76      0.18     0.01                             writeAppendFile
+  2.38      0.18     0.01    96915    51.59    51.59  getColumn
+  2.38      0.19     0.01    94598    52.86    52.86  writeCommitLog
+  2.38      0.20     0.01                             cloneColumn
+  2.38      0.20     0.01                             endOfFile
+  2.38      0.20     0.01                             getCurFilePos
+  2.38      0.21     0.01                             needReplay
+  0.00      0.21     0.00   222341     0.00     0.00  hashFunc
+  0.00      0.21     0.00   196724     0.00     0.00  getCFType
+  0.00      0.21     0.00   131484     0.00     0.00  keyCF_pairCompare
+  0.00      0.21     0.00    98617     0.00     0.00  getCLWriter
+  0.00      0.21     0.00    98551     0.00     0.00  columnsHeader_RB_NEXT
+  0.00      0.21     0.00    98499     0.00     0.00  columnsHeader_RB_INSERT
+  0.00      0.21     0.00    98436     0.00     0.00  columnsHeader_RB_FIND
+  0.00      0.21     0.00    98315     0.00     0.00  addColumn
+  0.00      0.21     0.00    98188     0.00     0.00  columnsHeader_RB_INSERT_COLOR
+  0.00      0.21     0.00    98161     0.00     0.00  serializeColumn
+  0.00      0.21     0.00    97936     0.00   102.11  insertDM
+  0.00      0.21     0.00    97680     0.00     0.00  getMTColumnCount
+  0.00      0.21     0.00    97477     0.00     0.00  serializeCF
+  0.00      0.21     0.00    97441     0.00     0.00  getCF
+  0.00      0.21     0.00    97322     0.00     0.00  columnsHeader_RB_MINMAX
+  0.00      0.21     0.00    97203     0.00     0.00  cfsHashing
+  0.00      0.21     0.00    97087     0.00     0.00  serializeColumnSet
+  0.00      0.21     0.00    97059     0.00     0.00  insertMemTable
+  0.00      0.21     0.00    97051     0.00     0.00  addCFColumn
+  0.00      0.21     0.00    96956     0.00     0.00  freeHeapRM
+  0.00      0.21     0.00    96711     0.00     0.00  putKeyCFPair
+  0.00      0.21     0.00    96579     0.00     0.00  needFlush
+  0.00      0.21     0.00    96465     0.00     0.00  insertCFStore
+  0.00      0.21     0.00    96082     0.00     0.00  getColumnSet
+  0.00      0.21     0.00    95804     0.00     0.00  getCFColumnCount
+  0.00      0.21     0.00    95791     0.00     0.00  serializeRM
+  0.00      0.21     0.00    94934     0.00     0.00  cfsCompare
+  0.00      0.21     0.00    93151     0.00   161.03  clWriterHandler
+  0.00      0.21     0.00    91957     0.00     0.00  getCLPos
+  0.00      0.21     0.00    91426     0.00     0.00  isDirty
+  0.00      0.21     0.00    91063     0.00     0.00  beforeWrite
+  0.00      0.21     0.00        2     0.00     0.00  getCFStore
+  0.00      0.21     0.00        2     0.00     0.00  getMemTable
+  0.00      0.21     0.00        2     0.00     0.00  insertDMCFS
+  0.00      0.21     0.00        2     0.00     0.00  serializeCLH
+  0.00      0.21     0.00        2     0.00     0.00  writeHeaderSyn
+  0.00      0.21     0.00        1     0.00     0.00  createAllCFSfromConfig
+  0.00      0.21     0.00        1     0.00     0.00  getCLHeader
+  0.00      0.21     0.00        1     0.00     0.00  getCommitLog
+  0.00      0.21     0.00        1     0.00     0.00  getCommitLogFilePath
+  0.00      0.21     0.00        1     0.00     0.00  getCommitLogWriter
+  0.00      0.21     0.00        1     0.00     0.00  initCFSThread
+  0.00      0.21     0.00        1     0.00     0.00  initDM
+  0.00      0.21     0.00        1     0.00     0.00  setDirty
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 4.76% of 0.21 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     47.6    0.10    0.00                 chksum_crc32 [1]
+-----------------------------------------------
+                                                 <spontaneous>
+[2]     16.7    0.02    0.01                 thread_fun [2]
+                0.00    0.01   93151/93151       clWriterHandler [3]
+-----------------------------------------------
+                0.00    0.01   93151/93151       thread_fun [2]
+[3]      7.1    0.00    0.01   93151         clWriterHandler [3]
+                0.01    0.00   89996/89996       freeHeapCLWriter [7]
+                0.01    0.00   94598/94598       writeCommitLog [13]
+-----------------------------------------------
+                                                 <spontaneous>
+[4]      7.1    0.00    0.01                 main [4]
+                0.00    0.01   97936/97936       insertDM [6]
+                0.01    0.00   96915/96915       getColumn [12]
+                0.00    0.00   97441/97441       getCF [30]
+                0.00    0.00   97051/97051       addCFColumn [35]
+                0.00    0.00   96956/96956       freeHeapRM [36]
+                0.00    0.00       1/1           initDM [58]
+-----------------------------------------------
+                0.01    0.00   98030/98030       insertDM [6]
+[5]      4.8    0.01    0.00   98030         findDMCFS [5]
+-----------------------------------------------
+                0.00    0.01   97936/97936       main [4]
+[6]      4.8    0.00    0.01   97936         insertDM [6]
+                0.01    0.00   98030/98030       findDMCFS [5]
+                0.00    0.00   96465/96465       insertCFStore [39]
+-----------------------------------------------
+                0.01    0.00   89996/89996       clWriterHandler [3]
+[7]      4.8    0.01    0.00   89996         freeHeapCLWriter [7]
+-----------------------------------------------
+                                                 <spontaneous>
+[8]      4.8    0.01    0.00                 dictAdd [8]
+-----------------------------------------------
+                                                 <spontaneous>
+[9]      4.8    0.01    0.00                 dictRehash [9]
+                0.00    0.00  126219/222341      hashFunc [18]
+-----------------------------------------------
+                                                 <spontaneous>
+[10]     4.8    0.01    0.00                 getCRC32 [10]
+-----------------------------------------------
+                                                 <spontaneous>
+[11]     4.8    0.01    0.00                 writeAppendFile [11]
+-----------------------------------------------
+                0.01    0.00   96915/96915       main [4]
+[12]     2.4    0.01    0.00   96915         getColumn [12]
+-----------------------------------------------
+                0.01    0.00   94598/94598       clWriterHandler [3]
+[13]     2.4    0.01    0.00   94598         writeCommitLog [13]
+                0.00    0.00   91426/91426       isDirty [45]
+                0.00    0.00   91063/91063       beforeWrite [46]
+                0.00    0.00       1/1           setDirty [59]
+                0.00    0.00       1/2           writeHeaderSyn [51]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     2.4    0.01    0.00                 cloneColumn [14]
+-----------------------------------------------
+                                                 <spontaneous>
+[15]     2.4    0.01    0.00                 endOfFile [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     2.4    0.01    0.00                 getCurFilePos [16]
+-----------------------------------------------
+                                                 <spontaneous>
+[17]     2.4    0.01    0.00                 needReplay [17]
+-----------------------------------------------
+                0.00    0.00   96122/222341      _dictKeyIndex [279]
+                0.00    0.00  126219/222341      dictRehash [9]
+[18]     0.0    0.00    0.00  222341         hashFunc [18]
+-----------------------------------------------
+                0.00    0.00   98187/196724      addCFColumn [35]
+                0.00    0.00   98537/196724      serializeCF [29]
+[19]     0.0    0.00    0.00  196724         getCFType [19]
+-----------------------------------------------
+                0.00    0.00  131484/131484      _dictKeyIndex [279]
+[20]     0.0    0.00    0.00  131484         keyCF_pairCompare [20]
+-----------------------------------------------
+                0.00    0.00   98617/98617       insertCFStore [39]
+[21]     0.0    0.00    0.00   98617         getCLWriter [21]
+-----------------------------------------------
+                0.00    0.00   98551/98551       serializeColumnSet [33]
+[22]     0.0    0.00    0.00   98551         columnsHeader_RB_NEXT [22]
+-----------------------------------------------
+                0.00    0.00   98499/98499       addColumn [25]
+[23]     0.0    0.00    0.00   98499         columnsHeader_RB_INSERT [23]
+                0.00    0.00   98188/98188       columnsHeader_RB_INSERT_COLOR [26]
+-----------------------------------------------
+                0.00    0.00   98436/98436       addColumn [25]
+[24]     0.0    0.00    0.00   98436         columnsHeader_RB_FIND [24]
+-----------------------------------------------
+                0.00    0.00   98315/98315       addCFColumn [35]
+[25]     0.0    0.00    0.00   98315         addColumn [25]
+                0.00    0.00   98499/98499       columnsHeader_RB_INSERT [23]
+                0.00    0.00   98436/98436       columnsHeader_RB_FIND [24]
+-----------------------------------------------
+                0.00    0.00   98188/98188       columnsHeader_RB_INSERT [23]
+[26]     0.0    0.00    0.00   98188         columnsHeader_RB_INSERT_COLOR [26]
+-----------------------------------------------
+                0.00    0.00   98161/98161       serializeColumnSet [33]
+[27]     0.0    0.00    0.00   98161         serializeColumn [27]
+-----------------------------------------------
+                0.00    0.00   97680/97680       needFlush [38]
+[28]     0.0    0.00    0.00   97680         getMTColumnCount [28]
+-----------------------------------------------
+                0.00    0.00   97477/97477       serializeRM [42]
+[29]     0.0    0.00    0.00   97477         serializeCF [29]
+                0.00    0.00   98537/196724      getCFType [19]
+                0.00    0.00   97087/97087       serializeColumnSet [33]
+-----------------------------------------------
+                0.00    0.00   97441/97441       main [4]
+[30]     0.0    0.00    0.00   97441         getCF [30]
+                0.00    0.00   96082/96082       getColumnSet [40]
+-----------------------------------------------
+                0.00    0.00   97322/97322       serializeColumnSet [33]
+[31]     0.0    0.00    0.00   97322         columnsHeader_RB_MINMAX [31]
+-----------------------------------------------
+                0.00    0.00       2/97203       _dictKeyIndex [279]
+                0.00    0.00   97201/97203       dictFind [106]
+[32]     0.0    0.00    0.00   97203         cfsHashing [32]
+-----------------------------------------------
+                0.00    0.00   97087/97087       serializeCF [29]
+[33]     0.0    0.00    0.00   97087         serializeColumnSet [33]
+                0.00    0.00   98551/98551       columnsHeader_RB_NEXT [22]
+                0.00    0.00   98161/98161       serializeColumn [27]
+                0.00    0.00   97322/97322       columnsHeader_RB_MINMAX [31]
+-----------------------------------------------
+                0.00    0.00   97059/97059       insertCFStore [39]
+[34]     0.0    0.00    0.00   97059         insertMemTable [34]
+                0.00    0.00   96711/96711       putKeyCFPair [37]
+                0.00    0.00   95804/95804       getCFColumnCount [41]
+-----------------------------------------------
+                0.00    0.00   97051/97051       main [4]
+[35]     0.0    0.00    0.00   97051         addCFColumn [35]
+                0.00    0.00   98315/98315       addColumn [25]
+                0.00    0.00   98187/196724      getCFType [19]
+-----------------------------------------------
+                0.00    0.00   96956/96956       main [4]
+[36]     0.0    0.00    0.00   96956         freeHeapRM [36]
+-----------------------------------------------
+                0.00    0.00   96711/96711       insertMemTable [34]
+[37]     0.0    0.00    0.00   96711         putKeyCFPair [37]
+-----------------------------------------------
+                0.00    0.00   96579/96579       insertCFStore [39]
+[38]     0.0    0.00    0.00   96579         needFlush [38]
+                0.00    0.00   97680/97680       getMTColumnCount [28]
+-----------------------------------------------
+                0.00    0.00   96465/96465       insertDM [6]
+[39]     0.0    0.00    0.00   96465         insertCFStore [39]
+                0.00    0.00   98617/98617       getCLWriter [21]
+                0.00    0.00   97059/97059       insertMemTable [34]
+                0.00    0.00   96579/96579       needFlush [38]
+                0.00    0.00   95791/95791       serializeRM [42]
+-----------------------------------------------
+                0.00    0.00   96082/96082       getCF [30]
+[40]     0.0    0.00    0.00   96082         getColumnSet [40]
+-----------------------------------------------
+                0.00    0.00   95804/95804       insertMemTable [34]
+[41]     0.0    0.00    0.00   95804         getCFColumnCount [41]
+-----------------------------------------------
+                0.00    0.00   95791/95791       insertCFStore [39]
+[42]     0.0    0.00    0.00   95791         serializeRM [42]
+                0.00    0.00   97477/97477       serializeCF [29]
+-----------------------------------------------
+                0.00    0.00   94934/94934       dictFind [106]
+[43]     0.0    0.00    0.00   94934         cfsCompare [43]
+-----------------------------------------------
+                0.00    0.00       1/91957       writeHeaderSyn [51]
+                0.00    0.00   91956/91957       beforeWrite [46]
+[44]     0.0    0.00    0.00   91957         getCLPos [44]
+-----------------------------------------------
+                0.00    0.00   91426/91426       writeCommitLog [13]
+[45]     0.0    0.00    0.00   91426         isDirty [45]
+-----------------------------------------------
+                0.00    0.00   91063/91063       writeCommitLog [13]
+[46]     0.0    0.00    0.00   91063         beforeWrite [46]
+                0.00    0.00   91956/91957       getCLPos [44]
+                0.00    0.00       1/1           getCommitLogWriter [56]
+-----------------------------------------------
+                0.00    0.00       2/2           createAllCFSfromConfig [52]
+[47]     0.0    0.00    0.00       2         getCFStore [47]
+                0.00    0.00       2/2           getMemTable [48]
+-----------------------------------------------
+                0.00    0.00       2/2           getCFStore [47]
+[48]     0.0    0.00    0.00       2         getMemTable [48]
+-----------------------------------------------
+                0.00    0.00       2/2           createAllCFSfromConfig [52]
+[49]     0.0    0.00    0.00       2         insertDMCFS [49]
+-----------------------------------------------
+                0.00    0.00       2/2           writeHeaderSyn [51]
+[50]     0.0    0.00    0.00       2         serializeCLH [50]
+-----------------------------------------------
+                0.00    0.00       1/2           getCommitLog [54]
+                0.00    0.00       1/2           writeCommitLog [13]
+[51]     0.0    0.00    0.00       2         writeHeaderSyn [51]
+                0.00    0.00       2/2           serializeCLH [50]
+                0.00    0.00       1/91957       getCLPos [44]
+-----------------------------------------------
+                0.00    0.00       1/1           initDM [58]
+[52]     0.0    0.00    0.00       1         createAllCFSfromConfig [52]
+                0.00    0.00       2/2           getCFStore [47]
+                0.00    0.00       2/2           insertDMCFS [49]
+-----------------------------------------------
+                0.00    0.00       1/1           getCommitLog [54]
+[53]     0.0    0.00    0.00       1         getCLHeader [53]
+-----------------------------------------------
+                0.00    0.00       1/1           getCommitLogWriter [56]
+[54]     0.0    0.00    0.00       1         getCommitLog [54]
+                0.00    0.00       1/1           getCLHeader [53]
+                0.00    0.00       1/2           writeHeaderSyn [51]
+-----------------------------------------------
+                0.00    0.00       1/1           getCommitLogWriter [56]
+[55]     0.0    0.00    0.00       1         getCommitLogFilePath [55]
+-----------------------------------------------
+                0.00    0.00       1/1           beforeWrite [46]
+[56]     0.0    0.00    0.00       1         getCommitLogWriter [56]
+                0.00    0.00       1/1           getCommitLogFilePath [55]
+                0.00    0.00       1/1           getCommitLog [54]
+-----------------------------------------------
+                0.00    0.00       1/1           initDM [58]
+[57]     0.0    0.00    0.00       1         initCFSThread [57]
+-----------------------------------------------
+                0.00    0.00       1/1           main [4]
+[58]     0.0    0.00    0.00       1         initDM [58]
+                0.00    0.00       1/1           createAllCFSfromConfig [52]
+                0.00    0.00       1/1           initCFSThread [57]
+-----------------------------------------------
+                0.00    0.00       1/1           writeCommitLog [13]
+[59]     0.0    0.00    0.00       1         setDirty [59]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+
+Index by function name
+
+  [35] addCFColumn            [30] getCF                   [6] insertDM
+  [25] addColumn              [41] getCFColumnCount       [49] insertDMCFS
+  [46] beforeWrite (commitLog.c) [47] getCFStore          [34] insertMemTable
+  [43] cfsCompare             [19] getCFType              [45] isDirty
+  [32] cfsHashing             [53] getCLHeader            [20] keyCF_pairCompare (memTable.c)
+   [1] chksum_crc32           [44] getCLPos               [38] needFlush
+   [3] clWriterHandler        [21] getCLWriter            [17] needReplay (commitLog.c)
+  [14] cloneColumn            [10] getCRC32               [37] putKeyCFPair
+  [24] columnsHeader_RB_FIND  [12] getColumn              [29] serializeCF
+  [23] columnsHeader_RB_INSERT [40] getColumnSet          [50] serializeCLH
+  [26] columnsHeader_RB_INSERT_COLOR [54] getCommitLog    [27] serializeColumn
+  [31] columnsHeader_RB_MINMAX [55] getCommitLogFilePath  [33] serializeColumnSet
+  [22] columnsHeader_RB_NEXT  [56] getCommitLogWriter     [42] serializeRM
+  [52] createAllCFSfromConfig (dataModel.c) [16] getCurFilePos [59] setDirty
+   [8] dictAdd                [28] getMTColumnCount        [2] thread_fun
+   [9] dictRehash             [48] getMemTable            [11] writeAppendFile
+  [15] endOfFile              [18] hashFunc (memTable.c)  [13] writeCommitLog
+   [5] findDMCFS              [57] initCFSThread          [51] writeHeaderSyn (commitLog.c)
+   [7] freeHeapCLWriter       [58] initDM
+  [36] freeHeapRM             [39] insertCFStore

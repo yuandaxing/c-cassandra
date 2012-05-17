@@ -1,0 +1,20 @@
+//当前采用一种简化的设计，每次只能插入一个cf
+typedef struct rowMutation{
+    char *tableName;
+    char *key;
+	char *cfName;
+	columnFamily *cf; //这里主要是为了可以直接将cf插入到memTable中
+}rowMutation;
+
+/*
+ * rowMutation主要是用于节点之间传送数据，用于数据的写，是一个非常重要的数据结构
+ * cf字段是不可以为空的
+ */
+//初始化以及析构rm, 构造析构函数
+rowMutation *getRM();
+void freeHeadpRM(rowMutation *rm);
+//序列化，反序列化rm
+int serializeRM(buffer *b, rowMutation *rm);
+int deserializeRM(buffer *b, rowMutation *rm);
+//插入
+int insertRM(rowMutation *rm);

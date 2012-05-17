@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR      =ar$/;"	m
+AS	Makefile	/^AS      =as$/;"	m
+BYTELEN	serialize.h	22;"	d
+BYTESHEADLEN	serialize.h	23;"	d
+CC	Makefile	/^CC      =gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+COLUMNHEADLEN	serialize.h	24;"	d
+EXECUT_TAGS	Makefile	/^EXECUT_TAGS := test$/;"	m
+GET_BYTE	serialize.c	8;"	d	file:
+INTLEN	serialize.h	19;"	d
+LD	Makefile	/^LD      =ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L.  -L..\/debug\/  -lm -lpthread -ldebug$/;"	m
+LONGLEN	serialize.h	20;"	d
+OBJS	Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+PUT_BYTE	serialize.c	9;"	d	file:
+SRCS	Makefile	/^SRCS = serialize.c buffer.c test.c$/;"	m
+UNSIGNLEN	serialize.h	21;"	d
+_BUFFER_H_	buffer.h	2;"	d
+bseekToPos	buffer.c	/^int bseekToPos(buffer *buff, int pos)$/;"	f
+buff	buffer.h	/^    char *buff;$/;"	m	struct:buffer
+buffer	buffer.h	/^typedef struct buffer{$/;"	s
+buffer	buffer.h	/^}buffer;$/;"	t	typeref:struct:buffer
+freeBuffer	buffer.c	/^void freeBuffer(buffer *buff)$/;"	f
+getBuffer	buffer.c	/^buffer *getBuffer()$/;"	f
+getBufferBytes	buffer.c	/^int getBufferBytes(buffer *buff, char **bytes)$/;"	f
+getBytesCount	buffer.c	/^int getBytesCount(buffer *buff, int *count)$/;"	f
+main	test.c	/^int main()$/;"	f
+pos	buffer.h	/^    int pos;$/;"	m	struct:buffer
+readByte	serialize.c	/^int readByte(buffer *buff, char *v)$/;"	f
+readBytes	serialize.c	/^int readBytes(buffer *buff, char **v)$/;"	f
+readInt	serialize.c	/^int readInt(buffer *buff, int *v)$/;"	f
+readLong	serialize.c	/^int readLong(buffer *buff, long *v)$/;"	f
+readUnsignedInt	serialize.c	/^int readUnsignedInt(buffer *buff, unsigned int *v)$/;"	f
+reserve	buffer.c	/^int reserve(buffer *buff, int len)$/;"	f
+reset	buffer.c	/^int reset(buffer *buff)$/;"	f
+size	buffer.h	/^    int size;$/;"	m	struct:buffer
+writeByte	serialize.c	/^int writeByte(char byte, buffer *buff)$/;"	f
+writeBytes	serialize.c	/^int writeBytes(char *str, buffer *buff)$/;"	f
+writeInt	serialize.c	/^int writeInt(int data, buffer *buff)$/;"	f
+writeLong	serialize.c	/^int writeLong(long data, buffer *buff)$/;"	f
+writeUnsignedInt	serialize.c	/^int writeUnsignedInt(unsigned int data, buffer *buff)$/;"	f

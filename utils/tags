@@ -1,0 +1,212 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR      =ar$/;"	m
+AS	Makefile	/^AS      =as$/;"	m
+CC	Makefile	/^CC      =gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+CIRCLEQ_EMPTY	queue.h	559;"	d
+CIRCLEQ_ENTRY	queue.h	479;"	d
+CIRCLEQ_FIRST	queue.h	560;"	d
+CIRCLEQ_FOREACH	queue.h	546;"	d
+CIRCLEQ_FOREACH_REVERSE	queue.h	551;"	d
+CIRCLEQ_HEAD	queue.h	470;"	d
+CIRCLEQ_HEAD_INITIALIZER	queue.h	476;"	d
+CIRCLEQ_INIT	queue.h	488;"	d
+CIRCLEQ_INSERT_AFTER	queue.h	493;"	d
+CIRCLEQ_INSERT_BEFORE	queue.h	503;"	d
+CIRCLEQ_INSERT_HEAD	queue.h	513;"	d
+CIRCLEQ_INSERT_TAIL	queue.h	523;"	d
+CIRCLEQ_LAST	queue.h	561;"	d
+CIRCLEQ_LOOP_NEXT	queue.h	565;"	d
+CIRCLEQ_LOOP_PREV	queue.h	569;"	d
+CIRCLEQ_NEXT	queue.h	562;"	d
+CIRCLEQ_PREV	queue.h	563;"	d
+CIRCLEQ_REMOVE	queue.h	533;"	d
+DICT_ERR	dict.h	5;"	d
+DICT_HT_INITIAL_SIZE	dict.h	53;"	d
+DICT_NOTUSED	dict.h	8;"	d
+DICT_OK	dict.h	4;"	d
+DICT_STATS_VECTLEN	dict.c	554;"	d	file:
+EXECUT_TAGS	Makefile	/^EXECUT_TAGS := test$/;"	m
+LD	Makefile	/^LD      =ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L..\/debug\/ -L..\/serialize\/   -lm -lpthread -ldebug -lserialize -ldebug$/;"	m
+LIST_EMPTY	queue.h	142;"	d
+LIST_ENTRY	queue.h	92;"	d
+LIST_FIRST	queue.h	143;"	d
+LIST_FOREACH	queue.h	134;"	d
+LIST_HEAD	queue.h	84;"	d
+LIST_HEAD_INITIALIZER	queue.h	89;"	d
+LIST_INIT	queue.h	101;"	d
+LIST_INSERT_AFTER	queue.h	105;"	d
+LIST_INSERT_BEFORE	queue.h	113;"	d
+LIST_INSERT_HEAD	queue.h	120;"	d
+LIST_NEXT	queue.h	144;"	d
+LIST_REMOVE	queue.h	127;"	d
+OBJS	Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+SIMPLEQ_EMPTY	queue.h	359;"	d
+SIMPLEQ_ENTRY	queue.h	302;"	d
+SIMPLEQ_FIRST	queue.h	360;"	d
+SIMPLEQ_FOREACH	queue.h	351;"	d
+SIMPLEQ_HEAD	queue.h	293;"	d
+SIMPLEQ_HEAD_INITIALIZER	queue.h	299;"	d
+SIMPLEQ_INIT	queue.h	310;"	d
+SIMPLEQ_INSERT_AFTER	queue.h	327;"	d
+SIMPLEQ_INSERT_HEAD	queue.h	315;"	d
+SIMPLEQ_INSERT_TAIL	queue.h	321;"	d
+SIMPLEQ_NEXT	queue.h	361;"	d
+SIMPLEQ_REMOVE	queue.h	338;"	d
+SIMPLEQ_REMOVE_HEAD	queue.h	333;"	d
+SLIST_EMPTY	queue.h	203;"	d
+SLIST_ENTRY	queue.h	158;"	d
+SLIST_FIRST	queue.h	204;"	d
+SLIST_FOREACH	queue.h	197;"	d
+SLIST_HEAD	queue.h	150;"	d
+SLIST_HEAD_INITIALIZER	queue.h	155;"	d
+SLIST_INIT	queue.h	166;"	d
+SLIST_INSERT_AFTER	queue.h	170;"	d
+SLIST_INSERT_HEAD	queue.h	175;"	d
+SLIST_NEXT	queue.h	205;"	d
+SLIST_REMOVE	queue.h	184;"	d
+SLIST_REMOVE_HEAD	queue.h	180;"	d
+SRCS	Makefile	/^SRCS =  auxilFile.c crc32.c dict.c $/;"	m
+STAILQ_CONCAT	queue.h	274;"	d
+STAILQ_EMPTY	queue.h	285;"	d
+STAILQ_ENTRY	queue.h	220;"	d
+STAILQ_FIRST	queue.h	286;"	d
+STAILQ_FOREACH	queue.h	269;"	d
+STAILQ_HEAD	queue.h	211;"	d
+STAILQ_HEAD_INITIALIZER	queue.h	217;"	d
+STAILQ_INIT	queue.h	228;"	d
+STAILQ_INSERT_AFTER	queue.h	245;"	d
+STAILQ_INSERT_HEAD	queue.h	233;"	d
+STAILQ_INSERT_TAIL	queue.h	239;"	d
+STAILQ_NEXT	queue.h	287;"	d
+STAILQ_REMOVE	queue.h	256;"	d
+STAILQ_REMOVE_HEAD	queue.h	251;"	d
+TAILQ_CONCAT	queue.h	445;"	d
+TAILQ_EMPTY	queue.h	457;"	d
+TAILQ_ENTRY	queue.h	382;"	d
+TAILQ_FIRST	queue.h	458;"	d
+TAILQ_FOREACH	queue.h	435;"	d
+TAILQ_FOREACH_REVERSE	queue.h	440;"	d
+TAILQ_HEAD	queue.h	372;"	d
+TAILQ_HEAD_INITIALIZER	queue.h	374;"	d
+TAILQ_INIT	queue.h	387;"	d
+TAILQ_INSERT_AFTER	queue.h	409;"	d
+TAILQ_INSERT_BEFORE	queue.h	419;"	d
+TAILQ_INSERT_HEAD	queue.h	392;"	d
+TAILQ_INSERT_TAIL	queue.h	402;"	d
+TAILQ_LAST	queue.h	461;"	d
+TAILQ_NEXT	queue.h	459;"	d
+TAILQ_PREV	queue.h	463;"	d
+TAILQ_REMOVE	queue.h	426;"	d
+_AUXILFILE_H_	auxilFile.h	2;"	d
+_SYS_QUEUE_H_	queue.h	33;"	d
+_TAILQ_ENTRY	queue.h	377;"	d
+_TAILQ_HEAD	queue.h	367;"	d
+__DICT_H	dict.h	2;"	d
+_dictClear	dict.c	/^int _dictClear(dict *d, dictht *ht)$/;"	f
+_dictExpandIfNeeded	dict.c	/^static int _dictExpandIfNeeded(dict *d)$/;"	f	file:
+_dictInit	dict.c	/^int _dictInit(dict *d, dictType *type,$/;"	f
+_dictKeyIndex	dict.c	/^static int _dictKeyIndex(dict *d, const void *key)$/;"	f	file:
+_dictNextPower	dict.c	/^static unsigned long _dictNextPower(unsigned long size)$/;"	f	file:
+_dictPrintStatsHt	dict.c	/^static void _dictPrintStatsHt(dictht *ht) {$/;"	f	file:
+_dictRehashStep	dict.c	/^static void _dictRehashStep(dict *d) {$/;"	f	file:
+_dictReset	dict.c	/^static void _dictReset(dictht *ht)$/;"	f	file:
+buff	auxilFile.h	/^	char *buff;$/;"	m	struct:fileAbstract
+buffSize	auxilFile.h	/^	int buffSize;$/;"	m	struct:fileAbstract
+chksum_crc32	crc32.c	/^u_int32_t chksum_crc32 (unsigned char *block, unsigned int length)$/;"	f
+chksum_crc32gentab	crc32.c	/^void chksum_crc32gentab ()$/;"	f
+crc_tab	crc32.c	/^u_int32_t crc_tab[256];$/;"	v
+d	dict.h	/^    dict *d;$/;"	m	struct:dictIterator
+dict	dict.h	/^typedef struct dict {$/;"	s
+dict	dict.h	/^} dict;$/;"	t	typeref:struct:dict
+dictAdd	dict.c	/^int dictAdd(dict *d, void *key, void *val)$/;"	f
+dictCompareHashKeys	dict.h	78;"	d
+dictCreate	dict.c	/^dict *dictCreate(dictType *type,$/;"	f
+dictDelete	dict.c	/^int dictDelete(dict *ht, const void *key) {$/;"	f
+dictDeleteNoFree	dict.c	/^int dictDeleteNoFree(dict *ht, const void *key) {$/;"	f
+dictDisableResize	dict.c	/^void dictDisableResize(void) {$/;"	f
+dictEmpty	dict.c	/^void dictEmpty(dict *d) {$/;"	f
+dictEnableResize	dict.c	/^void dictEnableResize(void) {$/;"	f
+dictEntry	dict.h	/^typedef struct dictEntry {$/;"	s
+dictEntry	dict.h	/^} dictEntry;$/;"	t	typeref:struct:dictEntry
+dictExpand	dict.c	/^int dictExpand(dict *d, unsigned long size)$/;"	f
+dictFetchValue	dict.c	/^void *dictFetchValue(dict *d, const void *key) {$/;"	f
+dictFind	dict.c	/^dictEntry *dictFind(dict *d, const void *key)$/;"	f
+dictFreeEntryKey	dict.h	67;"	d
+dictFreeEntryVal	dict.h	56;"	d
+dictGenCaseHashFunction	dict.c	/^unsigned int dictGenCaseHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenHashFunction	dict.c	/^unsigned int dictGenHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenericDelete	dict.c	/^static int dictGenericDelete(dict *d, const void *key, int nofree)$/;"	f	file:
+dictGetEntryKey	dict.h	85;"	d
+dictGetEntryVal	dict.h	86;"	d
+dictGetIterator	dict.c	/^dictIterator *dictGetIterator(dict *d)$/;"	f
+dictGetRandomKey	dict.c	/^dictEntry *dictGetRandomKey(dict *d)$/;"	f
+dictGetSafeIterator	dict.c	/^dictIterator *dictGetSafeIterator(dict *d) {$/;"	f
+dictHashKey	dict.h	83;"	d
+dictIdentityHashFunction	dict.c	/^unsigned int dictIdentityHashFunction(unsigned int key)$/;"	f
+dictIntHashFunction	dict.c	/^unsigned int dictIntHashFunction(unsigned int key)$/;"	f
+dictIsRehashing	dict.h	89;"	d
+dictIterator	dict.h	/^typedef struct dictIterator {$/;"	s
+dictIterator	dict.h	/^} dictIterator;$/;"	t	typeref:struct:dictIterator
+dictNext	dict.c	/^dictEntry *dictNext(dictIterator *iter)$/;"	f
+dictPrintStats	dict.c	/^void dictPrintStats(dict *d) {$/;"	f
+dictRehash	dict.c	/^int dictRehash(dict *d, int n) {$/;"	f
+dictRehashMilliseconds	dict.c	/^int dictRehashMilliseconds(dict *d, int ms) {$/;"	f
+dictRelease	dict.c	/^void dictRelease(dict *d)$/;"	f
+dictReleaseIterator	dict.c	/^void dictReleaseIterator(dictIterator *iter)$/;"	f
+dictReplace	dict.c	/^int dictReplace(dict *d, void *key, void *val)$/;"	f
+dictResize	dict.c	/^int dictResize(dict *d)$/;"	f
+dictSetHashKey	dict.h	71;"	d
+dictSetHashVal	dict.h	60;"	d
+dictSize	dict.h	88;"	d
+dictSlots	dict.h	87;"	d
+dictType	dict.h	/^typedef struct dictType {$/;"	s
+dictType	dict.h	/^} dictType;$/;"	t	typeref:struct:dictType
+dict_can_resize	dict.c	/^static int dict_can_resize = 1;$/;"	v	file:
+dict_force_resize_ratio	dict.c	/^static unsigned int dict_force_resize_ratio = 5;$/;"	v	file:
+dictht	dict.h	/^typedef struct dictht {$/;"	s
+dictht	dict.h	/^} dictht;$/;"	t	typeref:struct:dictht
+entry	dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+fileAbstract	auxilFile.h	/^typedef struct fileAbstract{$/;"	s
+fileAbstract	auxilFile.h	/^}fileAbstract;$/;"	t	typeref:struct:fileAbstract
+fileName	auxilFile.h	/^	char *fileName;$/;"	m	struct:fileAbstract
+fp	auxilFile.h	/^	FILE *fp;$/;"	m	struct:fileAbstract
+freeHeapFile	auxilFile.c	/^int freeHeapFile(fileAbstract *fa)$/;"	f
+fseekToPos	auxilFile.c	/^int fseekToPos(fileAbstract *fa, off_t pos)$/;"	f
+getCRC32	crc32.c	/^int getCRC32(buffer *buff,  unsigned int *crc)$/;"	f
+getCurFilePos	auxilFile.c	/^int getCurFilePos(fileAbstract *fa, long *curPos)$/;"	f
+hashFunction	dict.h	/^    unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dictType
+ht	dict.h	/^    dictht ht[2];$/;"	m	struct:dict
+index	dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+iterators	dict.h	/^    int iterators; \/* number of iterators currently running *\/$/;"	m	struct:dict
+key	dict.h	/^    void *key;$/;"	m	struct:dictEntry
+keyCompare	dict.h	/^    int (*keyCompare)(void *privdata, const void *key1, const void *key2);$/;"	m	struct:dictType
+keyDestructor	dict.h	/^    void (*keyDestructor)(void *privdata, void *key);$/;"	m	struct:dictType
+keyDup	dict.h	/^    void *(*keyDup)(void *privdata, const void *key);$/;"	m	struct:dictType
+next	dict.h	/^    struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry
+nextEntry	dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+openFile	auxilFile.c	/^static int openFile(char *fileName, char *mode, int bufferSize, $/;"	f	file:
+openReadFile	auxilFile.c	/^int openReadFile(char *fileName, int bufferSize, fileAbstract **fa)$/;"	f
+openWriteFile	auxilFile.c	/^int openWriteFile(char *fileName, int bufferSize, fileAbstract **fa)$/;"	f
+privdata	dict.h	/^    void *privdata;$/;"	m	struct:dict
+readFile	auxilFile.c	/^int readFile(fileAbstract *fa, buffer *buff)$/;"	f
+rehashidx	dict.h	/^    int rehashidx; \/* rehashing not in progress if rehashidx == -1 *\/$/;"	m	struct:dict
+safe	dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+size	dict.h	/^    unsigned long size;$/;"	m	struct:dictht
+sizemask	dict.h	/^    unsigned long sizemask;$/;"	m	struct:dictht
+synFile	auxilFile.c	/^int synFile(fileAbstract *fa)$/;"	f
+table	dict.h	/^    dictEntry **table;$/;"	m	struct:dictht
+table	dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+timeInMilliseconds	dict.c	/^long long timeInMilliseconds(void) {$/;"	f
+type	dict.h	/^    dictType *type;$/;"	m	struct:dict
+used	dict.h	/^    unsigned long used;$/;"	m	struct:dictht
+val	dict.h	/^    void *val;$/;"	m	struct:dictEntry
+valDestructor	dict.h	/^    void (*valDestructor)(void *privdata, void *obj);$/;"	m	struct:dictType
+valDup	dict.h	/^    void *(*valDup)(void *privdata, const void *obj);$/;"	m	struct:dictType
+writeAppendFile	auxilFile.c	/^int writeAppendFile(fileAbstract *fa, buffer *buff)$/;"	f

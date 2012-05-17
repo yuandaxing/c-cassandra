@@ -1,0 +1,45 @@
+configure主要是读取系统的一些配置
+configure的写法如下: 
+参数名字：参数1 参数2 参数3
+参数之间通过‘ ’ '\n'分开
+注释通过
+#开头表示注释
+
+cluster-Name：cluster0
+
+seed：192.168.1.2
+	192.168.1.3
+	192.168.1.4
+
+GC:9800
+
+typedef struct token{
+	char *start;
+	int len;
+}token;
+
+typedef struct tokens{
+	token *tk;
+	int tkCount;
+	int tkSize;
+}tokens;
+
+int isComment(char *line, int len);
+int shouldSkip(char *line, int len);
+int strTrim(char *line, int len, char *characters);
+int reserveTK(tokens *tks, int size);
+int splite(char *line, char delimiter, tokens *tks, char *tokeDelimter);
+
+/*该问题的设计方法如下：通过一个链表注册相应的key，处理方法，然后每次读取一行
+  ，首先判断出是否是注释行，如果不是，则分离出相应的key，然后在链表中查找相应的方法处理.
+这里为了方便使用，我们之间使用数组表示就可以了*/
+typedef int (*Proc)(tokens *tks);
+typeded struct keyProc{
+	char *name;
+	Proc proc;
+}keyProc;
+
+
+
+
+

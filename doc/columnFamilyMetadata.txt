@@ -1,0 +1,25 @@
+//这里我们仅仅定义数据抽象，不做进一步
+
+//为了便于查找，这里采用hash表，速度非常快，tableName和cfName作为hash值
+//由于该数据结构只在加载的时候使用，而且只用于查找，所以速度很快, 并且不需要锁
+
+/*这里的设计方法是key为columnFamilyMetadata, value为NULL */
+enum cfType{standard, super};
+typedef struct columnFamilyMetadata{
+	char *tableName;
+	char *cfName;
+	enum cfType type;
+	int id;
+}columnFamilyMetadata;
+
+//这里使用hash表组织metadata的使用
+int initDictCFMD();
+int putCFMDToTable(columnFamilyMetadata *cfm);
+columnFamilyMetadata *findCFMetaData(char *tableName, char *cfName);
+void freeCFM(columnFamilyMetadata *cfm);
+void freeHeapAllCFMD();
+
+typedef struct fileLocationMetadata{
+	char *dataFileDir;
+	char *commitLogDir;
+}

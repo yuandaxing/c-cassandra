@@ -1,0 +1,53 @@
+fopen是标准c里的,而open是linux的系统调用.
+他们的层次不同.
+fopen可移植,open不能
+
+我认为fopen和open最主要的区别是fopen在用户态下就有了缓存，在进行read和write的时候减少了用户态和内核态的切换，
+而open则每次都需要进行内核态和用户态的切换；表现为，如果顺序访问文件，fopen系列的函数要比直接调用open系列快；如果随机访问文件open要比fopen快。
+
+1, open() is a system call
+fopen() is C library API
+2, "open" operated directly on the device, while "fopen" does not.
+3, When you open a file with "fopen", a tempoary buffer will be created.
+for "open", no buffer is created.
+4, 用fopen打开文件后返回文件指针FILE *，用open打开文件后返回文件描述符int，适用于不同的文件操作接口。
+I/O操作是缓冲文件系统的，文件操作是非缓冲文件系统的。
+1.缓冲文件系统
+缓冲文件系统的特点是：在内存开辟一个“缓冲区”，为程序中的每一个文件使用，当执行读文件的操作时，从磁盘文件将数据先读入内存“缓冲区”， 装满后再从内存“缓冲区”依此读入接收的变量。执行写文件的操作时，先将数据写入内存“缓冲区”，待内存“缓冲区”装满后再写入文件。由此可以看出，内存 “缓冲区”的大小，影响着实际操作外存的次数，内存“缓冲区”越大，则操作外存的次数就少，执行速度就快、效率高。一般来说，文件“缓冲区”的大小随机器 而定。
+fopen, fclose, fread, fwrite, fgetc, fgets, fputc, fputs, freopen, fseek, ftell, rewind等
+2.非缓冲文件系统
+缓冲文件系统是借助文件结构体指针来对文件进行管理，通过文件指针来对文件进行访问，既可以读写字符、字符串、格式化数据，也可以读写二进制数 据。非缓冲文件系统依赖于操作系统，通过操作系统的功能对文件进行读写，是系统级的输入输出，它不设文件结构体指针，只能读写二进制文件，但效率高、速度 快，由于ANSI标准不再包括非缓冲文件系统，因此建议大家最好不要选择它。本书只作简单介绍。
+open, close, read, write, getc, getchar, putc, putchar 等
+open等文件操作是系统级的调用。速度快，但是标准C不推荐了。
+
+
+考虑到可能自己设置缓冲，并且通用性的考虑，这里使用流文件
+但是fopen系列函数如何处理字节流，采用fread，fwrite读写二进制流
+//我们将采用setbuffer函数为file设置自定义的buffer                               
+typedef struct fileAbstract{                                                    
+    char *fileName;                                                             
+    FILE *fp;                                                                   
+    char *buff;                                                                 
+    int buffSize;                                                               
+}fileAbstract; 
+
+下面我们是我们体构的接口
+//构造析构函数
+int openReadFile(char *fileName, int bufferSize, fileAbstract **fa);
+int openWriteFile(char *fileName, int bufferSize, fileAbstract **fa);
+int closeFile(fileAbstract *fa);
+
+
+int fseekToPos(fileAbstract *fa, off_t pos);
+int writeAppendFile(fileAbstract *fa, buffer *buff, int size);
+int readFile(fileAbstract *fa, buffer *buff, int size);
+int synFile(fileAbstract *fa);
+
+//在这里我们还需要获取文件指针
+
+int getCurFilePos(fileAbstract *fa, unsinged long *pos);
+
+这里对于读写的设计，我想设计为每次读写一个block，比方说每次写一个block，我们先写block的大小，
+然后将block当作二进制流写入文件。读的时候，可以先读入block的大小，然后读取block块.
+每次读写buffer当作一个block
+

@@ -1,0 +1,33 @@
+/*首先设计buffer，buffer对外提供4个接口, 这部份没有完全抽象，是因为使用的是byte数组*/
+/*这个主要是考虑到当buffer不够使用的时候，为buffer预留一部份空间*/
+int reserve(buffer *buff, int len);
+/*释放当前buffer*/
+int freeBuffer(buffer *buff);
+/*生成一个buffer*/
+buffer *getBuffer();
+int reset(buffer *);
+int getBufferBytes(buffer *buff, int *bytes);
+//只能将当前buffer指针向前移动，不能向后移动
+int bseekToPos(buffer *buff, int pos);
+
+typedef struct buffer{
+	char *buff;
+	int size;
+	int pos;
+}buffer;
+--------------------------------------------------------------------------------------------
+下面是一些基本的序列化，和反序列化接口
+这里的问题是，当写出错，都是返回-1，成功返回0
+但是当读出错，返回-1有问题,这里建议将获取的值当作参数传递进来，然后
+返回值表明是否成功，直接选择退出，这样肯定有问题。
+
+int writeInt(int data, buffer *buff);
+int readInt(buffer *buff, int *v);
+int writeBytes(char *str, buffer *buff);
+int readBytes(buffer *buff, char **bytes);
+int writeLong(long data, buffer *buff);
+int readLong(char *buff, long *);
+int writeUnsignedInt(unsigned int data, buffer *buff);
+int readUnsignedInt(buffer *buff, unsigned int *);
+int writeByte(char byte, buffer *buff);
+char readByte(buffer *buff, char *);

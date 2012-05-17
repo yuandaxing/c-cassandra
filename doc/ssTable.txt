@@ -1,0 +1,41 @@
+//ssTable对外提供7个接口
+//ssTable的抽象目标是每次写入一个memTable，每次
+//commitLog是每次启动后就会删除旧的数据，而ssTable中的数据则要一直都保存在文件
+//中，而且每次启动后可能不变，所以文件需要设计为依次增大
+//这一部分的设计简化了很多
+
+
+//下面是打开一个读ssTable
+int openWriteSSTable(columnFamilyMetadata *cfmd, ssTable *sst);
+//将一个key cf写入到ssTable中
+static int writeSSTable(char *key, columnFamily *cf, ssTable *sst);
+//打开一个读的ssTable, 从写磁盘后的ssTable中打开
+int flushMemToSST(memTable *mt, ssTable *sst);
+int openReadFromWrite(ssTable *sstW, ssTable **sstR);
+//从ssTable中读取一个cf
+columnFamily* readssTable(queryPath *qp, ssTable *ss);
+
+//下面这两个接口主要是用于compaction
+int markDelete(ssTable *sst);
+int compactSSTable(listSSTable *lss);
+int deleteSSTable(ssTable *sst);
+int getSSTableFromCFMD(ssTable **sst, columnFamilyMetadata *cfmd);
+
+
+static int sstSN;
+typedef struct ssTable{
+	fileAbstract *dataFile;
+	fileAbstract *indexFile;
+	fileAbstract *bloomFilterFile;
+	bloomfilter *bf;
+	char type;
+}ssTable;
+
+//关键是这里要如何做index，这个确实很麻烦，我们每次写入一个key columnFamily, 要保存key，columnFamily的写入位置index，并且这里
+会遇到的问题是写入的columnFamily是按照key排好序的，但是使用hash表就无法排序，这里要怎么解决也很麻烦。可以使用一个指针数组保存每个columnFamily
+然后排序即可.
+
+//写入ssTable比较不好解决，这里采用java-cassandra的做法，每次在写入一个cf获取当前key，cf的写入的位置，这样将位置信息保存到index文件中就可以
+这里关键的地方是如何对column做索引，这个设计较麻烦，这里先不做column索引的处理，以后再考虑这部份的处理
+
+

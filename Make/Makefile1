@@ -1,0 +1,21 @@
+TOPDIR := $(shell if [ "$$PWD"!=""];then echo $$PWD;else pwd;fi)
+export TOPDIR
+
+LIBPATH := $(TOPDIR)/libs
+export LIBPATH
+
+
+
+SUBDIRS = app
+.PHONY : $(SUBDIRS)
+
+all:depend $(SUBDIRS)
+
+depend dep:
+	$for dir in $(SUBDIRS); do $(MAKE) -C $$dir .depend;done
+
+$(SUBDIRS):
+	$(MAKE) -C $@ all
+
+clean:
+	$for dir in $(SUBDIRS);do $(MAKE) -C $$dir clean; done

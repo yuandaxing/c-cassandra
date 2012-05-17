@@ -1,0 +1,27 @@
+cfStore的主要功能是对memTable，ssTable
+我们并不使用Table的概念，我们只使用cfStore，通过hash表将所有的cfStore组织起来，hash的键值是keyspace，cfName。
+每个cfStore负责对一个keyspace中的cf抽象。commitLog是全局共用的，所以cfStore主要是对memTable，ssTable抽象.
+
+
+typedef struct cfStore{
+	columnFamilyMetadata *cfmd;
+	memTable *curMT;
+	//这里我们需要一个链表存储正在flush的memTable
+	ssTableTracker sstt;
+	char delete; //支持动态删除cf的功能
+}cfStore;
+
+//构造析构函数
+cfStore *getFromHeap(columnFamilyMetadata *cfmd);
+void freeHeapCFStore(cfStore *cfs);
+
+
+//操作函数
+int insertCFStore(cfStore *cfs, rowMutation *rm);
+int forceCFSFlush(cfStore *cfs);
+int getColumnCFS(cfStore *cfs, queryPath *queryPath, column **col);
+int setDelete(cfStore *cfs);
+
+int loadAllCFStore();
+int deleteAllIlegalFile();
+

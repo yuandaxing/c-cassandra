@@ -1,0 +1,1482 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	test/autoconfig/Makefile	/^ACLOCAL = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	test/autoconfig/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AL_START_HEAD	db/adlist.h	90;"	d
+AL_START_TAIL	db/adlist.h	91;"	d
+AMTAR	test/autoconfig/Makefile	/^AMTAR = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run tar$/;"	m
+AR	config/Makefile	/^AR      =ar$/;"	m
+AR	db/Makefile	/^AR      =ar$/;"	m
+AR	debug/Makefile	/^AR      =ar$/;"	m
+AR	mem/Makefile	/^AR      =ar$/;"	m
+AR	serialize/Makefile	/^AR      =ar$/;"	m
+AR	splay_rb_tree/Makefile	/^AR      =ar$/;"	m
+AR	test/Makefile	/^AR      =ar$/;"	m
+AR	test/system/Makefile	/^AR      =ar$/;"	m
+AR	udpserver/Makefile	/^AR      =ar$/;"	m
+AR	utils/Makefile	/^AR      =ar$/;"	m
+AS	config/Makefile	/^AS      =as$/;"	m
+AS	db/Makefile	/^AS      =as$/;"	m
+AS	debug/Makefile	/^AS      =as$/;"	m
+AS	mem/Makefile	/^AS      =as$/;"	m
+AS	serialize/Makefile	/^AS      =as$/;"	m
+AS	splay_rb_tree/Makefile	/^AS      =as$/;"	m
+AS	test/Makefile	/^AS      =as$/;"	m
+AS	test/system/Makefile	/^AS      =as$/;"	m
+AS	udpserver/Makefile	/^AS      =as$/;"	m
+AS	utils/Makefile	/^AS      =as$/;"	m
+AUTOCONF	test/autoconfig/Makefile	/^AUTOCONF = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run autoconf$/;"	m
+AUTOHEADER	test/autoconfig/Makefile	/^AUTOHEADER = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run autoheader$/;"	m
+AUTOMAKE	test/autoconfig/Makefile	/^AUTOMAKE = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	test/autoconfig/Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
+AUXIL_RB_TREE	db/auxiRBtree.h	22;"	d
+AUXIL_RB_TREE	splay_rb_tree/auxiRBtree.h	9;"	d
+AWK	test/autoconfig/Makefile	/^AWK = mawk$/;"	m
+BLOCK_SIZE	test/ia/ia.h	34;"	d
+BYTELEN	serialize/serialize.h	22;"	d
+BYTESHEADLEN	serialize/serialize.h	23;"	d
+CC	config/Makefile	/^CC      =gcc$/;"	m
+CC	db/Makefile	/^CC      =gcc$/;"	m
+CC	debug/Makefile	/^CC      =gcc$/;"	m
+CC	mem/Makefile	/^CC      =gcc$/;"	m
+CC	seda/Makefile	/^CC	= gcc$/;"	m
+CC	serialize/Makefile	/^CC      =gcc$/;"	m
+CC	splay_rb_tree/Makefile	/^CC      =gcc$/;"	m
+CC	test/Makefile	/^CC      =g++$/;"	m
+CC	test/autoconfig/Makefile	/^CC = gcc$/;"	m
+CC	test/ia/Makefile	/^CC=cc$/;"	m
+CC	test/system/Makefile	/^CC      =gcc$/;"	m
+CC	udpserver/Makefile	/^CC      =gcc$/;"	m
+CC	utils/Makefile	/^CC      =gcc$/;"	m
+CCDEPMODE	test/autoconfig/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	test/autoconfig/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	config/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/  -I..\/include\/ -I..\/utils$/;"	m
+CFLAGS	db/Makefile	/^CFLAGS =  -g -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/ -I..\/utils\/ -I..\/config -I..\/seda$/;"	m
+CFLAGS	debug/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+CFLAGS	mem/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/ -I..\/utils\/ -I..\/config$/;"	m
+CFLAGS	seda/Makefile	/^CFLAGS	= -g$/;"	m
+CFLAGS	serialize/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+CFLAGS	splay_rb_tree/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -fno-strict-aliasing $/;"	m
+CFLAGS	test/Makefile	/^CFLAGS = $/;"	m
+CFLAGS	test/autoconfig/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	test/ia/Makefile	/^CFLAGS=-g$/;"	m
+CFLAGS	test/system/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+CFLAGS	udpserver/Makefile	/^CFLAGS =  -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing $/;"	m
+CFLAGS	utils/Makefile	/^CFLAGS = -g  -Wall -DMUTEX -DDEBUG -fno-strict-aliasing -I..\/debug\/ -I..\/serialize\/ -I..\/mem\/$/;"	m
+CIRCLEQ_EMPTY	seda/queue.h	559;"	d
+CIRCLEQ_EMPTY	utils/queue.h	559;"	d
+CIRCLEQ_ENTRY	seda/queue.h	479;"	d
+CIRCLEQ_ENTRY	utils/queue.h	479;"	d
+CIRCLEQ_FIRST	seda/queue.h	560;"	d
+CIRCLEQ_FIRST	utils/queue.h	560;"	d
+CIRCLEQ_FOREACH	seda/queue.h	546;"	d
+CIRCLEQ_FOREACH	utils/queue.h	546;"	d
+CIRCLEQ_FOREACH_REVERSE	seda/queue.h	551;"	d
+CIRCLEQ_FOREACH_REVERSE	utils/queue.h	551;"	d
+CIRCLEQ_HEAD	seda/queue.h	470;"	d
+CIRCLEQ_HEAD	utils/queue.h	470;"	d
+CIRCLEQ_HEAD_INITIALIZER	seda/queue.h	476;"	d
+CIRCLEQ_HEAD_INITIALIZER	utils/queue.h	476;"	d
+CIRCLEQ_INIT	seda/queue.h	488;"	d
+CIRCLEQ_INIT	utils/queue.h	488;"	d
+CIRCLEQ_INSERT_AFTER	seda/queue.h	493;"	d
+CIRCLEQ_INSERT_AFTER	utils/queue.h	493;"	d
+CIRCLEQ_INSERT_BEFORE	seda/queue.h	503;"	d
+CIRCLEQ_INSERT_BEFORE	utils/queue.h	503;"	d
+CIRCLEQ_INSERT_HEAD	seda/queue.h	513;"	d
+CIRCLEQ_INSERT_HEAD	utils/queue.h	513;"	d
+CIRCLEQ_INSERT_TAIL	seda/queue.h	523;"	d
+CIRCLEQ_INSERT_TAIL	utils/queue.h	523;"	d
+CIRCLEQ_LAST	seda/queue.h	561;"	d
+CIRCLEQ_LAST	utils/queue.h	561;"	d
+CIRCLEQ_LOOP_NEXT	seda/queue.h	565;"	d
+CIRCLEQ_LOOP_NEXT	utils/queue.h	565;"	d
+CIRCLEQ_LOOP_PREV	seda/queue.h	569;"	d
+CIRCLEQ_LOOP_PREV	utils/queue.h	569;"	d
+CIRCLEQ_NEXT	seda/queue.h	562;"	d
+CIRCLEQ_NEXT	utils/queue.h	562;"	d
+CIRCLEQ_PREV	seda/queue.h	563;"	d
+CIRCLEQ_PREV	utils/queue.h	563;"	d
+CIRCLEQ_REMOVE	seda/queue.h	533;"	d
+CIRCLEQ_REMOVE	utils/queue.h	533;"	d
+COLUMNCOUNTTHRESHOLD	db/memTable.h	14;"	d
+COLUMNHEADLEN	serialize/serialize.h	24;"	d
+COLUMNNAMEHASHCOUNT	db/bloomFilter.h	9;"	d
+COLUMNSEREX	db/column.h	24;"	d
+COMMITLOGBUFFERSZ	db/commitLog.h	12;"	d
+COMMITLOGMAXSZ	db/commitLog.h	13;"	d
+COMMITLOGWRITERTHREAD	db/columnFamilyStore.h	11;"	d
+COMPILE	test/autoconfig/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	test/autoconfig/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	test/autoconfig/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	test/autoconfig/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CPPFLAGS	test/autoconfig/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	test/autoconfig/Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	test/autoconfig/Makefile	/^CYGPATH_W = echo$/;"	m
+DATABUFFERSZ	db/ssTable.h	22;"	d
+DEFAULT_INCLUDES	test/autoconfig/Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	test/autoconfig/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	test/autoconfig/Makefile	/^DEPDIR = .deps$/;"	m
+DICT_ERR	test/system/dict.h	5;"	d
+DICT_ERR	utils/dict.h	5;"	d
+DICT_HT_INITIAL_SIZE	test/system/dict.h	53;"	d
+DICT_HT_INITIAL_SIZE	utils/dict.h	54;"	d
+DICT_NOTUSED	test/system/dict.h	8;"	d
+DICT_NOTUSED	utils/dict.h	8;"	d
+DICT_OK	test/system/dict.h	4;"	d
+DICT_OK	utils/dict.h	4;"	d
+DICT_STATS_VECTLEN	test/system/dict.c	554;"	d	file:
+DICT_STATS_VECTLEN	utils/dict.c	554;"	d	file:
+DISTFILES	test/autoconfig/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	test/autoconfig/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	test/autoconfig/Makefile	/^DIST_COMMON = $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	test/autoconfig/Makefile	/^DIST_SOURCES = $(hello_SOURCES)$/;"	m
+Disassembly	seda/a.s	/^Disassembly of section .fini:$/;"	l
+Disassembly	seda/a.s	/^Disassembly of section .init:$/;"	l
+Disassembly	seda/a.s	/^Disassembly of section .plt:$/;"	l
+Disassembly	seda/a.s	/^Disassembly of section .text:$/;"	l
+Disassembly	test/a.s	/^Disassembly of section .fini:$/;"	l
+Disassembly	test/a.s	/^Disassembly of section .init:$/;"	l
+Disassembly	test/a.s	/^Disassembly of section .plt:$/;"	l
+Disassembly	test/a.s	/^Disassembly of section .text:$/;"	l
+ECHO_C	test/autoconfig/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	test/autoconfig/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	test/autoconfig/Makefile	/^ECHO_T = $/;"	m
+ETAGS	test/autoconfig/Makefile	/^ETAGS = etags$/;"	m
+EXECUT_TAGS	config/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	db/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	debug/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	mem/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	serialize/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	splay_rb_tree/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	test/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	test/system/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXECUT_TAGS	udpserver/Makefile	/^EXECUT_TAGS := server$/;"	m
+EXECUT_TAGS	utils/Makefile	/^EXECUT_TAGS := test$/;"	m
+EXEEXT	test/autoconfig/Makefile	/^EXEEXT = $/;"	m
+FALSE	seda/thread.c	9;"	d	file:
+FILE_DES_VALID	debug/log.h	29;"	d
+FILTERBUFFERSZ	db/ssTable.h	24;"	d
+FLUSHINGTHREAD	db/columnFamilyStore.h	9;"	d
+GENERATE_OPS_DATA	db/auxiRBtree.h	27;"	d
+GENERATE_OPS_DATA	splay_rb_tree/auxiRBtree.h	14;"	d
+GET_BYTE	serialize/serialize.h	28;"	d
+GZIP_ENV	test/autoconfig/Makefile	/^GZIP_ENV = --best$/;"	m
+INDEXBUFFERSZ	db/ssTable.h	23;"	d
+INDEXINTERVAL	db/indexHelper.h	3;"	d
+INSERTEDCOMPLETELYCF	db/memTable.h	12;"	d
+INSERTEDFAILED	db/memTable.h	13;"	d
+INSERTEDMAX	db/memTable.h	11;"	d
+INSTALL	test/autoconfig/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	test/autoconfig/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	test/autoconfig/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	test/autoconfig/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	test/autoconfig/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	test/autoconfig/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INT	splay_rb_tree/test_tree.c	/^struct INT{$/;"	s	file:
+INTLEN	serialize/serialize.h	19;"	d
+Int	splay_rb_tree/test.c	/^struct Int{$/;"	s	file:
+KEYHASHCOUNT	db/bloomFilter.h	8;"	d
+K_1	db/ssTable.h	20;"	d
+LD	config/Makefile	/^LD      =ld$/;"	m
+LD	db/Makefile	/^LD      =ld$/;"	m
+LD	debug/Makefile	/^LD      =ld$/;"	m
+LD	mem/Makefile	/^LD      =ld$/;"	m
+LD	serialize/Makefile	/^LD      =ld$/;"	m
+LD	splay_rb_tree/Makefile	/^LD      =ld$/;"	m
+LD	test/Makefile	/^LD      =ld$/;"	m
+LD	test/system/Makefile	/^LD      =ld$/;"	m
+LD	udpserver/Makefile	/^LD      =ld$/;"	m
+LD	utils/Makefile	/^LD      =ld$/;"	m
+LDFLAGS	config/Makefile	/^LDFLAGS = -L..\/debug -L..\/serialize  -L..\/utils -lm -lpthread -ldebug -lserialize  -lutils$/;"	m
+LDFLAGS	db/Makefile	/^LDFLAGS = -pg -lpthread -L..\/debug\/ -L..\/serialize\/ -L..\/config\/  -L..\/utils\/ -L..\/seda\/ -lm -ldebug -lserialize -lconfig -lutils -lseda $/;"	m
+LDFLAGS	debug/Makefile	/^LDFLAGS = -L.   -lm -lpthread$/;"	m
+LDFLAGS	mem/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	seda/Makefile	/^LDFLAGS	= -lpthread$/;"	m
+LDFLAGS	serialize/Makefile	/^LDFLAGS = -L.  -L..\/debug\/  -lm -lpthread -ldebug$/;"	m
+LDFLAGS	splay_rb_tree/Makefile	/^LDFLAGS = -L.   -lm -lpthread$/;"	m
+LDFLAGS	test/Makefile	/^LDFLAGS =$/;"	m
+LDFLAGS	test/autoconfig/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	test/system/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	udpserver/Makefile	/^LDFLAGS = -L.   -lm -lpthread -levent$/;"	m
+LDFLAGS	utils/Makefile	/^LDFLAGS = -L..\/debug\/ -L..\/serialize\/   -lm -lpthread -ldebug -lserialize -ldebug$/;"	m
+LIB	seda/Makefile	/^LIB = libseda.a$/;"	m
+LIBOBJS	test/autoconfig/Makefile	/^LIBOBJS = $/;"	m
+LIBS	test/autoconfig/Makefile	/^LIBS = $/;"	m
+LINK	test/autoconfig/Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LIST_EMPTY	seda/queue.h	142;"	d
+LIST_EMPTY	utils/queue.h	142;"	d
+LIST_ENTRY	seda/queue.h	92;"	d
+LIST_ENTRY	utils/queue.h	92;"	d
+LIST_FIRST	seda/queue.h	143;"	d
+LIST_FIRST	utils/queue.h	143;"	d
+LIST_FOREACH	seda/queue.h	134;"	d
+LIST_FOREACH	utils/queue.h	134;"	d
+LIST_HEAD	seda/queue.h	84;"	d
+LIST_HEAD	utils/queue.h	84;"	d
+LIST_HEAD_INITIALIZER	seda/queue.h	89;"	d
+LIST_HEAD_INITIALIZER	utils/queue.h	89;"	d
+LIST_INIT	seda/queue.h	101;"	d
+LIST_INIT	utils/queue.h	101;"	d
+LIST_INSERT_AFTER	seda/queue.h	105;"	d
+LIST_INSERT_AFTER	utils/queue.h	105;"	d
+LIST_INSERT_BEFORE	seda/queue.h	113;"	d
+LIST_INSERT_BEFORE	utils/queue.h	113;"	d
+LIST_INSERT_HEAD	seda/queue.h	120;"	d
+LIST_INSERT_HEAD	utils/queue.h	120;"	d
+LIST_NEXT	seda/queue.h	144;"	d
+LIST_NEXT	utils/queue.h	144;"	d
+LIST_REMOVE	seda/queue.h	127;"	d
+LIST_REMOVE	utils/queue.h	127;"	d
+LOG_WRITE	debug/log.h	17;"	d
+LOG_WRITE	debug/log.h	34;"	d
+LOG_WRITE	udpserver/log.h	17;"	d
+LOG_WRITE	udpserver/log.h	19;"	d
+LONGLEN	serialize/serialize.h	20;"	d
+LTLIBOBJS	test/autoconfig/Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	test/autoconfig/Makefile	/^MAKEINFO = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/missing --run makeinfo$/;"	m
+MALLOC_EXIT_NULL	mem/mem.h	3;"	d
+MAX	db/superColumn.h	4;"	d
+MAX_SENDBUF_SIZE	udpserver/udpsocket.c	49;"	d	file:
+MINHASH	db/bloomFilter.h	7;"	d
+MKDIR_P	test/autoconfig/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+M_1	db/ssTable.h	21;"	d
+NCOMMITLOGWRITERTHREAD	db/columnFamilyStore.h	12;"	d
+NFLUSHTHREAD	db/columnFamilyStore.h	10;"	d
+NORMAL_INSTALL	test/autoconfig/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	test/autoconfig/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NOT_LESS_THAN	debug/log.h	24;"	d
+NSSTABLEREADER	db/columnFamilyStore.h	14;"	d
+OBJEXT	test/autoconfig/Makefile	/^OBJEXT = o$/;"	m
+OBJS	config/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	db/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	debug/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	mem/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	seda/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	serialize/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	splay_rb_tree/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	test/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	test/system/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	udpserver/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+OBJS	utils/Makefile	/^OBJS := $(SRCS:.c=.o)$/;"	m
+PACKAGE	test/autoconfig/Makefile	/^PACKAGE = test$/;"	m
+PACKAGE	test/autoconfig/config.h	5;"	d
+PACKAGE_BUGREPORT	test/autoconfig/Makefile	/^PACKAGE_BUGREPORT = mryuan0@gmail.com$/;"	m
+PACKAGE_BUGREPORT	test/autoconfig/config.h	8;"	d
+PACKAGE_NAME	test/autoconfig/Makefile	/^PACKAGE_NAME = FULL-PACKAGE-NAME$/;"	m
+PACKAGE_NAME	test/autoconfig/config.h	11;"	d
+PACKAGE_STRING	test/autoconfig/Makefile	/^PACKAGE_STRING = FULL-PACKAGE-NAME VERSION$/;"	m
+PACKAGE_STRING	test/autoconfig/config.h	14;"	d
+PACKAGE_TARNAME	test/autoconfig/Makefile	/^PACKAGE_TARNAME = full-package-name$/;"	m
+PACKAGE_TARNAME	test/autoconfig/config.h	17;"	d
+PACKAGE_URL	test/autoconfig/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	test/autoconfig/config.h	20;"	d
+PACKAGE_VERSION	test/autoconfig/Makefile	/^PACKAGE_VERSION = VERSION$/;"	m
+PACKAGE_VERSION	test/autoconfig/config.h	23;"	d
+PATH_SEPARATOR	test/autoconfig/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POINTER_NOT_NULL	debug/log.h	19;"	d
+POINTER_NOT_NULL	debug/log.h	35;"	d
+POST_INSTALL	test/autoconfig/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	test/autoconfig/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	test/autoconfig/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	test/autoconfig/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	test/autoconfig/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PUT_BYTE	serialize/serialize.h	29;"	d
+Proc	config/config.h	/^typedef int (*Proc)(tokens *tks);$/;"	t
+ProcList	config/config.c	/^keyProc  ProcList[] = {$/;"	v
+RBINT	splay_rb_tree/test_tree.c	/^struct RBINT{$/;"	s	file:
+RB_AUGMENT	db/tree.h	348;"	d
+RB_AUGMENT	seda/tree.h	348;"	d
+RB_AUGMENT	splay_rb_tree/tree.h	348;"	d
+RB_BLACK	db/tree.h	319;"	d
+RB_BLACK	seda/tree.h	319;"	d
+RB_BLACK	splay_rb_tree/tree.h	319;"	d
+RB_COLOR	db/tree.h	332;"	d
+RB_COLOR	seda/tree.h	332;"	d
+RB_COLOR	splay_rb_tree/tree.h	332;"	d
+RB_EMPTY	db/tree.h	334;"	d
+RB_EMPTY	seda/tree.h	334;"	d
+RB_EMPTY	splay_rb_tree/tree.h	334;"	d
+RB_ENTRY	db/tree.h	321;"	d
+RB_ENTRY	seda/tree.h	321;"	d
+RB_ENTRY	splay_rb_tree/tree.h	321;"	d
+RB_FIND	db/tree.h	683;"	d
+RB_FIND	seda/tree.h	683;"	d
+RB_FIND	splay_rb_tree/tree.h	683;"	d
+RB_FOREACH	db/tree.h	688;"	d
+RB_FOREACH	seda/tree.h	688;"	d
+RB_FOREACH	splay_rb_tree/tree.h	688;"	d
+RB_GENERATE	db/tree.h	405;"	d
+RB_GENERATE	seda/tree.h	405;"	d
+RB_GENERATE	splay_rb_tree/tree.h	405;"	d
+RB_HEAD	db/tree.h	307;"	d
+RB_HEAD	seda/tree.h	307;"	d
+RB_HEAD	splay_rb_tree/tree.h	307;"	d
+RB_INF	db/tree.h	679;"	d
+RB_INF	seda/tree.h	679;"	d
+RB_INF	splay_rb_tree/tree.h	679;"	d
+RB_INIT	db/tree.h	315;"	d
+RB_INIT	seda/tree.h	315;"	d
+RB_INIT	splay_rb_tree/tree.h	315;"	d
+RB_INITIALIZER	db/tree.h	312;"	d
+RB_INITIALIZER	seda/tree.h	312;"	d
+RB_INITIALIZER	splay_rb_tree/tree.h	312;"	d
+RB_INSERT	db/tree.h	681;"	d
+RB_INSERT	seda/tree.h	681;"	d
+RB_INSERT	splay_rb_tree/tree.h	681;"	d
+RB_LEFT	db/tree.h	329;"	d
+RB_LEFT	seda/tree.h	329;"	d
+RB_LEFT	splay_rb_tree/tree.h	329;"	d
+RB_MAX	db/tree.h	686;"	d
+RB_MAX	seda/tree.h	686;"	d
+RB_MAX	splay_rb_tree/tree.h	686;"	d
+RB_MIN	db/tree.h	685;"	d
+RB_MIN	seda/tree.h	685;"	d
+RB_MIN	splay_rb_tree/tree.h	685;"	d
+RB_NEGINF	db/tree.h	678;"	d
+RB_NEGINF	seda/tree.h	678;"	d
+RB_NEGINF	splay_rb_tree/tree.h	678;"	d
+RB_NEXT	db/tree.h	684;"	d
+RB_NEXT	seda/tree.h	684;"	d
+RB_NEXT	splay_rb_tree/tree.h	684;"	d
+RB_PARENT	db/tree.h	331;"	d
+RB_PARENT	seda/tree.h	331;"	d
+RB_PARENT	splay_rb_tree/tree.h	331;"	d
+RB_PROTOTYPE	db/tree.h	392;"	d
+RB_PROTOTYPE	seda/tree.h	392;"	d
+RB_PROTOTYPE	splay_rb_tree/tree.h	392;"	d
+RB_RED	db/tree.h	320;"	d
+RB_RED	seda/tree.h	320;"	d
+RB_RED	splay_rb_tree/tree.h	320;"	d
+RB_REMOVE	db/tree.h	682;"	d
+RB_REMOVE	seda/tree.h	682;"	d
+RB_REMOVE	splay_rb_tree/tree.h	682;"	d
+RB_RIGHT	db/tree.h	330;"	d
+RB_RIGHT	seda/tree.h	330;"	d
+RB_RIGHT	splay_rb_tree/tree.h	330;"	d
+RB_ROOT	db/tree.h	333;"	d
+RB_ROOT	seda/tree.h	333;"	d
+RB_ROOT	splay_rb_tree/tree.h	333;"	d
+RB_ROTATE_LEFT	db/tree.h	351;"	d
+RB_ROTATE_LEFT	seda/tree.h	351;"	d
+RB_ROTATE_LEFT	splay_rb_tree/tree.h	351;"	d
+RB_ROTATE_RIGHT	db/tree.h	371;"	d
+RB_ROTATE_RIGHT	seda/tree.h	371;"	d
+RB_ROTATE_RIGHT	splay_rb_tree/tree.h	371;"	d
+RB_SET	db/tree.h	336;"	d
+RB_SET	seda/tree.h	336;"	d
+RB_SET	splay_rb_tree/tree.h	336;"	d
+RB_SET_BLACKRED	db/tree.h	342;"	d
+RB_SET_BLACKRED	seda/tree.h	342;"	d
+RB_SET_BLACKRED	splay_rb_tree/tree.h	342;"	d
+RB_TREE_GENERATE	db/auxiRBtree.h	37;"	d
+RB_TREE_GENERATE	splay_rb_tree/auxiRBtree.h	24;"	d
+READ_COMMITLOG	db/commitLog.h	10;"	d
+READ_TYPE	db/ssTable.h	26;"	d
+SET_MAKE	test/autoconfig/Makefile	/^SET_MAKE = $/;"	m
+SHELL	test/autoconfig/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIMPLEQ_EMPTY	seda/queue.h	359;"	d
+SIMPLEQ_EMPTY	utils/queue.h	359;"	d
+SIMPLEQ_ENTRY	seda/queue.h	302;"	d
+SIMPLEQ_ENTRY	utils/queue.h	302;"	d
+SIMPLEQ_FIRST	seda/queue.h	360;"	d
+SIMPLEQ_FIRST	utils/queue.h	360;"	d
+SIMPLEQ_FOREACH	seda/queue.h	351;"	d
+SIMPLEQ_FOREACH	utils/queue.h	351;"	d
+SIMPLEQ_HEAD	seda/queue.h	293;"	d
+SIMPLEQ_HEAD	utils/queue.h	293;"	d
+SIMPLEQ_HEAD_INITIALIZER	seda/queue.h	299;"	d
+SIMPLEQ_HEAD_INITIALIZER	utils/queue.h	299;"	d
+SIMPLEQ_INIT	seda/queue.h	310;"	d
+SIMPLEQ_INIT	utils/queue.h	310;"	d
+SIMPLEQ_INSERT_AFTER	seda/queue.h	327;"	d
+SIMPLEQ_INSERT_AFTER	utils/queue.h	327;"	d
+SIMPLEQ_INSERT_HEAD	seda/queue.h	315;"	d
+SIMPLEQ_INSERT_HEAD	utils/queue.h	315;"	d
+SIMPLEQ_INSERT_TAIL	seda/queue.h	321;"	d
+SIMPLEQ_INSERT_TAIL	utils/queue.h	321;"	d
+SIMPLEQ_NEXT	seda/queue.h	361;"	d
+SIMPLEQ_NEXT	utils/queue.h	361;"	d
+SIMPLEQ_REMOVE	seda/queue.h	338;"	d
+SIMPLEQ_REMOVE	utils/queue.h	338;"	d
+SIMPLEQ_REMOVE_HEAD	seda/queue.h	333;"	d
+SIMPLEQ_REMOVE_HEAD	utils/queue.h	333;"	d
+SLIST_EMPTY	seda/queue.h	203;"	d
+SLIST_EMPTY	utils/queue.h	203;"	d
+SLIST_ENTRY	seda/queue.h	158;"	d
+SLIST_ENTRY	utils/queue.h	158;"	d
+SLIST_FIRST	seda/queue.h	204;"	d
+SLIST_FIRST	utils/queue.h	204;"	d
+SLIST_FOREACH	seda/queue.h	197;"	d
+SLIST_FOREACH	utils/queue.h	197;"	d
+SLIST_HEAD	seda/queue.h	150;"	d
+SLIST_HEAD	utils/queue.h	150;"	d
+SLIST_HEAD_INITIALIZER	seda/queue.h	155;"	d
+SLIST_HEAD_INITIALIZER	utils/queue.h	155;"	d
+SLIST_INIT	seda/queue.h	166;"	d
+SLIST_INIT	utils/queue.h	166;"	d
+SLIST_INSERT_AFTER	seda/queue.h	170;"	d
+SLIST_INSERT_AFTER	utils/queue.h	170;"	d
+SLIST_INSERT_HEAD	seda/queue.h	175;"	d
+SLIST_INSERT_HEAD	utils/queue.h	175;"	d
+SLIST_NEXT	seda/queue.h	205;"	d
+SLIST_NEXT	utils/queue.h	205;"	d
+SLIST_REMOVE	seda/queue.h	184;"	d
+SLIST_REMOVE	utils/queue.h	184;"	d
+SLIST_REMOVE_HEAD	seda/queue.h	180;"	d
+SLIST_REMOVE_HEAD	utils/queue.h	180;"	d
+SOURCES	test/autoconfig/Makefile	/^SOURCES = $(hello_SOURCES)$/;"	m
+SPLAY_ASSEMBLE	db/tree.h	121;"	d
+SPLAY_ASSEMBLE	seda/tree.h	121;"	d
+SPLAY_ASSEMBLE	splay_rb_tree/tree.h	121;"	d
+SPLAY_EMPTY	db/tree.h	94;"	d
+SPLAY_EMPTY	seda/tree.h	94;"	d
+SPLAY_EMPTY	splay_rb_tree/tree.h	94;"	d
+SPLAY_ENTRY	db/tree.h	85;"	d
+SPLAY_ENTRY	seda/tree.h	85;"	d
+SPLAY_ENTRY	splay_rb_tree/tree.h	85;"	d
+SPLAY_FIND	db/tree.h	294;"	d
+SPLAY_FIND	seda/tree.h	294;"	d
+SPLAY_FIND	splay_rb_tree/tree.h	294;"	d
+SPLAY_FOREACH	db/tree.h	301;"	d
+SPLAY_FOREACH	seda/tree.h	301;"	d
+SPLAY_FOREACH	splay_rb_tree/tree.h	301;"	d
+SPLAY_GENERATE	db/tree.h	172;"	d
+SPLAY_GENERATE	seda/tree.h	172;"	d
+SPLAY_GENERATE	splay_rb_tree/tree.h	172;"	d
+SPLAY_HEAD	db/tree.h	73;"	d
+SPLAY_HEAD	seda/tree.h	73;"	d
+SPLAY_HEAD	splay_rb_tree/tree.h	73;"	d
+SPLAY_INF	db/tree.h	290;"	d
+SPLAY_INF	seda/tree.h	290;"	d
+SPLAY_INF	splay_rb_tree/tree.h	290;"	d
+SPLAY_INIT	db/tree.h	81;"	d
+SPLAY_INIT	seda/tree.h	81;"	d
+SPLAY_INIT	splay_rb_tree/tree.h	81;"	d
+SPLAY_INITIALIZER	db/tree.h	78;"	d
+SPLAY_INITIALIZER	seda/tree.h	78;"	d
+SPLAY_INITIALIZER	splay_rb_tree/tree.h	78;"	d
+SPLAY_INSERT	db/tree.h	292;"	d
+SPLAY_INSERT	seda/tree.h	292;"	d
+SPLAY_INSERT	splay_rb_tree/tree.h	292;"	d
+SPLAY_LEFT	db/tree.h	91;"	d
+SPLAY_LEFT	seda/tree.h	91;"	d
+SPLAY_LEFT	splay_rb_tree/tree.h	91;"	d
+SPLAY_LINKLEFT	db/tree.h	109;"	d
+SPLAY_LINKLEFT	seda/tree.h	109;"	d
+SPLAY_LINKLEFT	splay_rb_tree/tree.h	109;"	d
+SPLAY_LINKRIGHT	db/tree.h	115;"	d
+SPLAY_LINKRIGHT	seda/tree.h	115;"	d
+SPLAY_LINKRIGHT	splay_rb_tree/tree.h	115;"	d
+SPLAY_MAX	db/tree.h	298;"	d
+SPLAY_MAX	seda/tree.h	298;"	d
+SPLAY_MAX	splay_rb_tree/tree.h	298;"	d
+SPLAY_MIN	db/tree.h	296;"	d
+SPLAY_MIN	seda/tree.h	296;"	d
+SPLAY_MIN	splay_rb_tree/tree.h	296;"	d
+SPLAY_NEGINF	db/tree.h	289;"	d
+SPLAY_NEGINF	seda/tree.h	289;"	d
+SPLAY_NEGINF	splay_rb_tree/tree.h	289;"	d
+SPLAY_NEXT	db/tree.h	295;"	d
+SPLAY_NEXT	seda/tree.h	295;"	d
+SPLAY_NEXT	splay_rb_tree/tree.h	295;"	d
+SPLAY_PROTOTYPE	db/tree.h	130;"	d
+SPLAY_PROTOTYPE	seda/tree.h	130;"	d
+SPLAY_PROTOTYPE	splay_rb_tree/tree.h	130;"	d
+SPLAY_REMOVE	db/tree.h	293;"	d
+SPLAY_REMOVE	seda/tree.h	293;"	d
+SPLAY_REMOVE	splay_rb_tree/tree.h	293;"	d
+SPLAY_RIGHT	db/tree.h	92;"	d
+SPLAY_RIGHT	seda/tree.h	92;"	d
+SPLAY_RIGHT	splay_rb_tree/tree.h	92;"	d
+SPLAY_ROOT	db/tree.h	93;"	d
+SPLAY_ROOT	seda/tree.h	93;"	d
+SPLAY_ROOT	splay_rb_tree/tree.h	93;"	d
+SPLAY_ROTATE_LEFT	db/tree.h	103;"	d
+SPLAY_ROTATE_LEFT	seda/tree.h	103;"	d
+SPLAY_ROTATE_LEFT	splay_rb_tree/tree.h	103;"	d
+SPLAY_ROTATE_RIGHT	db/tree.h	97;"	d
+SPLAY_ROTATE_RIGHT	seda/tree.h	97;"	d
+SPLAY_ROTATE_RIGHT	splay_rb_tree/tree.h	97;"	d
+SRCS	config/Makefile	/^SRCS =  config.c tableMetadata.c test.c$/;"	m
+SRCS	db/Makefile	/^SRCS =   column.c superColumn.c columnFamily.c ssTable.c rowMutation.c memTable.c commitLog.c bloomFilter.c columnFamilyStore.c dataModel.c test.c$/;"	m
+SRCS	debug/Makefile	/^SRCS = log.c  test.c$/;"	m
+SRCS	mem/Makefile	/^SRCS =   test.c$/;"	m
+SRCS	seda/Makefile	/^SRCS = thread.c stage.c stage_manager.c handler.c test_seda.c$/;"	m
+SRCS	serialize/Makefile	/^SRCS = serialize.c buffer.c $/;"	m
+SRCS	splay_rb_tree/Makefile	/^SRCS =   test.c $/;"	m
+SRCS	test/Makefile	/^SRCS = test.cpp $/;"	m
+SRCS	test/system/Makefile	/^	SRCS =  const.c$/;"	m
+SRCS	udpserver/Makefile	/^SRCS =   log.c slist.c  udpsocket.c server.c$/;"	m
+SRCS	utils/Makefile	/^SRCS =  auxilFile.c crc32.c dict.c $/;"	m
+SSTABLEREADER	db/columnFamilyStore.h	13;"	d
+STAILQ_CONCAT	seda/queue.h	274;"	d
+STAILQ_CONCAT	utils/queue.h	274;"	d
+STAILQ_EMPTY	seda/queue.h	285;"	d
+STAILQ_EMPTY	utils/queue.h	285;"	d
+STAILQ_ENTRY	seda/queue.h	220;"	d
+STAILQ_ENTRY	utils/queue.h	220;"	d
+STAILQ_FIRST	seda/queue.h	286;"	d
+STAILQ_FIRST	utils/queue.h	286;"	d
+STAILQ_FOREACH	seda/queue.h	269;"	d
+STAILQ_FOREACH	utils/queue.h	269;"	d
+STAILQ_HEAD	seda/queue.h	211;"	d
+STAILQ_HEAD	utils/queue.h	211;"	d
+STAILQ_HEAD_INITIALIZER	seda/queue.h	217;"	d
+STAILQ_HEAD_INITIALIZER	utils/queue.h	217;"	d
+STAILQ_INIT	seda/queue.h	228;"	d
+STAILQ_INIT	utils/queue.h	228;"	d
+STAILQ_INSERT_AFTER	seda/queue.h	245;"	d
+STAILQ_INSERT_AFTER	utils/queue.h	245;"	d
+STAILQ_INSERT_HEAD	seda/queue.h	233;"	d
+STAILQ_INSERT_HEAD	utils/queue.h	233;"	d
+STAILQ_INSERT_TAIL	seda/queue.h	239;"	d
+STAILQ_INSERT_TAIL	utils/queue.h	239;"	d
+STAILQ_NEXT	seda/queue.h	287;"	d
+STAILQ_NEXT	utils/queue.h	287;"	d
+STAILQ_REMOVE	seda/queue.h	256;"	d
+STAILQ_REMOVE	utils/queue.h	256;"	d
+STAILQ_REMOVE_HEAD	seda/queue.h	251;"	d
+STAILQ_REMOVE_HEAD	utils/queue.h	251;"	d
+STRIP	test/autoconfig/Makefile	/^STRIP = $/;"	m
+SUBDIRS	Makefile	/^SUBDIRS=splay_rb_tree debug serialize utils\/ config\/ seda\/  mem db $/;"	m
+TAILQ_CONCAT	seda/queue.h	445;"	d
+TAILQ_CONCAT	utils/queue.h	445;"	d
+TAILQ_EMPTY	seda/queue.h	457;"	d
+TAILQ_EMPTY	utils/queue.h	457;"	d
+TAILQ_ENTRY	seda/queue.h	382;"	d
+TAILQ_ENTRY	utils/queue.h	382;"	d
+TAILQ_FIRST	seda/queue.h	458;"	d
+TAILQ_FIRST	utils/queue.h	458;"	d
+TAILQ_FOREACH	seda/queue.h	435;"	d
+TAILQ_FOREACH	utils/queue.h	435;"	d
+TAILQ_FOREACH_REVERSE	seda/queue.h	440;"	d
+TAILQ_FOREACH_REVERSE	utils/queue.h	440;"	d
+TAILQ_HEAD	seda/queue.h	372;"	d
+TAILQ_HEAD	utils/queue.h	372;"	d
+TAILQ_HEAD_INITIALIZER	seda/queue.h	374;"	d
+TAILQ_HEAD_INITIALIZER	utils/queue.h	374;"	d
+TAILQ_INIT	seda/queue.h	387;"	d
+TAILQ_INIT	utils/queue.h	387;"	d
+TAILQ_INSERT_AFTER	seda/queue.h	409;"	d
+TAILQ_INSERT_AFTER	utils/queue.h	409;"	d
+TAILQ_INSERT_BEFORE	seda/queue.h	419;"	d
+TAILQ_INSERT_BEFORE	utils/queue.h	419;"	d
+TAILQ_INSERT_HEAD	seda/queue.h	392;"	d
+TAILQ_INSERT_HEAD	utils/queue.h	392;"	d
+TAILQ_INSERT_TAIL	seda/queue.h	402;"	d
+TAILQ_INSERT_TAIL	utils/queue.h	402;"	d
+TAILQ_LAST	seda/queue.h	461;"	d
+TAILQ_LAST	utils/queue.h	461;"	d
+TAILQ_NEXT	seda/queue.h	459;"	d
+TAILQ_NEXT	utils/queue.h	459;"	d
+TAILQ_PREV	seda/queue.h	463;"	d
+TAILQ_PREV	utils/queue.h	463;"	d
+TAILQ_REMOVE	seda/queue.h	426;"	d
+TAILQ_REMOVE	utils/queue.h	426;"	d
+TARGET	seda/Makefile	/^TARGET = test$/;"	m
+TEST_LEN	config/test.c	2;"	d	file:
+TRUE	seda/thread.c	8;"	d	file:
+UNSIGNLEN	serialize/serialize.h	21;"	d
+VERSION	test/autoconfig/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	test/autoconfig/config.h	26;"	d
+WRITE_COMMITLOG	db/commitLog.h	11;"	d
+WRITE_TYPE	db/ssTable.h	27;"	d
+_AUXILFILE_H_	utils/auxilFile.h	2;"	d
+_BLOOMFILTER_H_	db/bloomFilter.h	2;"	d
+_BUFFER_H_	serialize/buffer.h	2;"	d
+_COLUMNFAMILY_H_	db/columnFamily.h	15;"	d
+_COLUMN_H_	db/column.h	15;"	d
+_COMMITLOG_H_	db/commitLog.h	2;"	d
+_DATAMODEL_H_	db/dataModel.h	2;"	d
+_HANDLER_H_	seda/handler.h	2;"	d
+_INIT_H_	include/init.h	2;"	d
+_LOG_H_	debug/log.h	2;"	d
+_LOG_H_	udpserver/log.h	2;"	d
+_MEMTABLE_H_	db/memTable.h	2;"	d
+_QUERYPATH_H_	db/queryPath.h	2;"	d
+_ROWMUTATION_H_	db/rowMutation.h	15;"	d
+_SEDA_H	include/seda.h	2;"	d
+_SEDA_H	seda/seda.h	2;"	d
+_SLIST_H_	udpserver/slist.h	2;"	d
+_SSTABLE_H_	db/ssTable.h	2;"	d
+_STAGE_H_	seda/stage.h	2;"	d
+_SUPERCOLUMN_H_	db/superColumn.h	2;"	d
+_SYS_QUEUE_H_	seda/queue.h	33;"	d
+_SYS_QUEUE_H_	utils/queue.h	33;"	d
+_SYS_TREE_H_	db/tree.h	28;"	d
+_SYS_TREE_H_	seda/tree.h	28;"	d
+_SYS_TREE_H_	splay_rb_tree/tree.h	28;"	d
+_TABLEMETADATA_H_	config/tableMetadata.h	2;"	d
+_TAILQ_ENTRY	seda/queue.h	377;"	d
+_TAILQ_ENTRY	utils/queue.h	377;"	d
+_TAILQ_HEAD	seda/queue.h	367;"	d
+_TAILQ_HEAD	utils/queue.h	367;"	d
+_THREAD_H_	seda/thread.h	2;"	d
+_UDPSOCKET_H_	udpserver/udpsocket.h	2;"	d
+__ADLIST_H__	db/adlist.h	32;"	d
+__DICT_H	test/system/dict.h	2;"	d
+__DICT_H	utils/dict.h	2;"	d
+__construct	include/init.h	7;"	d
+__dealloc	include/init.h	8;"	d
+__exit	include/init.h	5;"	d
+__init	include/init.h	4;"	d
+__queue	udpserver/slist.h	/^typedef struct __queue{$/;"	s
+__slist	udpserver/slist.h	/^typedef struct __slist{$/;"	s
+_dictClear	test/system/dict.c	/^int _dictClear(dict *d, dictht *ht)$/;"	f
+_dictClear	utils/dict.c	/^int _dictClear(dict *d, dictht *ht)$/;"	f
+_dictExpandIfNeeded	test/system/dict.c	/^static int _dictExpandIfNeeded(dict *d)$/;"	f	file:
+_dictExpandIfNeeded	utils/dict.c	/^static int _dictExpandIfNeeded(dict *d)$/;"	f	file:
+_dictInit	test/system/dict.c	/^int _dictInit(dict *d, dictType *type,$/;"	f
+_dictInit	utils/dict.c	/^int _dictInit(dict *d, dictType *type,$/;"	f
+_dictKeyIndex	test/system/dict.c	/^static int _dictKeyIndex(dict *d, const void *key)$/;"	f	file:
+_dictKeyIndex	utils/dict.c	/^static int _dictKeyIndex(dict *d, const void *key)$/;"	f	file:
+_dictNextPower	test/system/dict.c	/^static unsigned long _dictNextPower(unsigned long size)$/;"	f	file:
+_dictNextPower	utils/dict.c	/^static unsigned long _dictNextPower(unsigned long size)$/;"	f	file:
+_dictPrintStatsHt	test/system/dict.c	/^static void _dictPrintStatsHt(dictht *ht) {$/;"	f	file:
+_dictPrintStatsHt	utils/dict.c	/^static void _dictPrintStatsHt(dictht *ht) {$/;"	f	file:
+_dictRehashStep	test/system/dict.c	/^static void _dictRehashStep(dict *d) {$/;"	f	file:
+_dictRehashStep	utils/dict.c	/^static void _dictRehashStep(dict *d) {$/;"	f	file:
+_dictReset	test/system/dict.c	/^static void _dictReset(dictht *ht)$/;"	f	file:
+_dictReset	utils/dict.c	/^static void _dictReset(dictht *ht)$/;"	f	file:
+_hashtable	test/system/hash.c	/^struct _hashtable$/;"	s	file:
+_log_write	debug/log.c	/^int _log_write(char *file, int line, const char *fmt,...)$/;"	f
+_log_write	udpserver/log.c	/^int _log_write(char *file, int line, const char *fmt,...)$/;"	f
+a	seda/a.s	/^a:     file format elf32-i386$/;"	l
+a	test/a.s	/^a:     file format elf32-i386$/;"	l
+aaaaaaaaaaa	test/b.c	/^int aaaaaaaaaaa(int k)$/;"	f
+abs_builddir	test/autoconfig/Makefile	/^abs_builddir = \/home\/ydx\/program\/test\/autoconfig$/;"	m
+abs_srcdir	test/autoconfig/Makefile	/^abs_srcdir = \/home\/ydx\/program\/test\/autoconfig$/;"	m
+abs_top_builddir	test/autoconfig/Makefile	/^abs_top_builddir = \/home\/ydx\/program\/test\/autoconfig$/;"	m
+abs_top_srcdir	test/autoconfig/Makefile	/^abs_top_srcdir = \/home\/ydx\/program\/test\/autoconfig$/;"	m
+ac_ct_CC	test/autoconfig/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_fn_c_try_compile	test/autoconfig/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_compile	test/autoconfig/test-1.0/configure	/^ac_fn_c_try_compile ()$/;"	f
+addCFColumn	db/columnFamily.c	/^int addCFColumn(columnFamily *cf , column *toInsert)$/;"	f
+addColumn	db/column.c	/^int addColumn(columnSet *cs, column *toInsert)$/;"	f
+addColumnSet	db/column.c	/^int addColumnSet(columnSet *target, columnSet *src)$/;"	f
+addIndexNotCopy	db/indexHelper.c	/^int addIndexNotCopy(keyIndex *ki, char *key, int pos)$/;"	f
+addSSTBF	db/ssTable.c	/^int addSSTBF(char *key, int len, ssTable *sst)$/;"	f
+addToBF	db/bloomFilter.c	/^int addToBF(bloomFilter *bf, char *bytes, int len)$/;"	f
+am__CONFIG_DISTCLEAN_FILES	test/autoconfig/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	test/autoconfig/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__cd	test/autoconfig/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	test/autoconfig/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	test/autoconfig/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	test/autoconfig/Makefile	/^am__include = include$/;"	m
+am__installdirs	test/autoconfig/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	test/autoconfig/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	test/autoconfig/Makefile	/^am__mv = mv -f$/;"	m
+am__quote	test/autoconfig/Makefile	/^am__quote = $/;"	m
+am__remove_distdir	test/autoconfig/Makefile	/^am__remove_distdir = \\$/;"	m
+am__tar	test/autoconfig/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	test/autoconfig/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_hello_OBJECTS	test/autoconfig/Makefile	/^am_hello_OBJECTS = test.$(OBJEXT)$/;"	m
+arg	seda/handler.h	/^	void *arg;$/;"	m	struct:handler_info
+as_fn_append	test/autoconfig/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	test/autoconfig/configure	/^  as_fn_append ()$/;"	f
+as_fn_append	test/autoconfig/test-1.0/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	test/autoconfig/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	test/autoconfig/configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	test/autoconfig/test-1.0/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	test/autoconfig/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	test/autoconfig/configure	/^as_fn_error ()$/;"	f
+as_fn_error	test/autoconfig/test-1.0/configure	/^as_fn_error ()$/;"	f
+as_fn_exit	test/autoconfig/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	test/autoconfig/configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	test/autoconfig/test-1.0/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	test/autoconfig/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	test/autoconfig/test-1.0/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	test/autoconfig/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	test/autoconfig/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	test/autoconfig/test-1.0/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	test/autoconfig/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	test/autoconfig/test-1.0/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	test/autoconfig/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	test/autoconfig/test-1.0/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	test/autoconfig/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	test/autoconfig/configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	test/autoconfig/test-1.0/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	test/autoconfig/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	test/autoconfig/test-1.0/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	test/autoconfig/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	test/autoconfig/configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	test/autoconfig/test-1.0/configure	/^as_fn_unset ()$/;"	f
+auxilary_recover	db/commitLog.c	/^int auxilary_recover(char *fullLogPath)$/;"	f
+bbbbbbbbb	test/b.c	/^inline int bbbbbbbbb(int k)$/;"	f
+before	db/queryPath.h	/^	unsigned int before;$/;"	m	struct:queryPath
+beforeWrite	db/commitLog.c	/^static int beforeWrite()$/;"	f	file:
+bf	db/ssTable.h	/^	bloomFilter  *bf;$/;"	m	struct:ssTable
+bin_PROGRAMS	test/autoconfig/Makefile	/^bin_PROGRAMS = hello$(EXEEXT)$/;"	m
+bindir	test/autoconfig/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bitsCount	db/bloomFilter.h	/^	int bitsCount;$/;"	m	struct:bloomFilter
+bloomFilter	db/bloomFilter.h	/^typedef struct bloomFilter{$/;"	s
+bloomFilter	db/bloomFilter.h	/^}bloomFilter;$/;"	t	typeref:struct:bloomFilter
+bloomFilterFile	db/ssTable.h	/^	fileAbstract *bloomFilterFile;$/;"	m	struct:ssTable
+bseekToPos	serialize/buffer.c	/^int bseekToPos(buffer *buff, int pos)$/;"	f
+buff	db/columnFamilyStore.c	/^	buffer *buff;$/;"	m	struct:commitLogWriter	file:
+buff	serialize/buffer.h	/^    char *buff;$/;"	m	struct:buffer
+buff	utils/auxilFile.h	/^	char *buff;$/;"	m	struct:fileAbstract
+buffSize	utils/auxilFile.h	/^	int buffSize;$/;"	m	struct:fileAbstract
+buffer	serialize/buffer.h	/^typedef struct buffer{$/;"	s
+buffer	serialize/buffer.h	/^}buffer;$/;"	t	typeref:struct:buffer
+build_alias	test/autoconfig/Makefile	/^build_alias = $/;"	m
+builddir	test/autoconfig/Makefile	/^builddir = .$/;"	m
+byteCount	db/commitLog.c	/^    int byteCount;$/;"	m	struct:clHeader	file:
+cancel_thread_safe	seda/thread.c	/^int cancel_thread_safe(thread_info *ti)$/;"	f
+ccccccccc	test/b.c	/^static int ccccccccc(int k)$/;"	f	file:
+cf	db/rowMutation.h	/^	columnFamily *cf;$/;"	m	struct:rowMutation
+cfCompare	db/columnFamily.c	/^static int cfCompare(columnFamily *cf1, columnFamily *cf2)$/;"	f	file:
+cfCount	db/commitLog.c	/^    int cfCount;$/;"	m	struct:clHeader	file:
+cfID	config/tableMetadata.h	/^	int cfID;$/;"	m	struct:columnFamilyMetadata
+cfName	config/tableMetadata.h	/^    char *cfName;                               $/;"	m	struct:columnFamilyMetadata
+cfName	db/queryPath.h	/^	char *cfName;$/;"	m	struct:queryPath
+cfName	db/rowMutation.h	/^	char *cfName;$/;"	m	struct:rowMutation
+cfProc	config/config.c	/^static int cfProc(tokens *tks)$/;"	f	file:
+cfType	config/tableMetadata.h	/^enum cfType{standard, super};$/;"	g
+cfm	db/columnFamily.h	/^	columnFamilyMetadata *cfm;$/;"	m	struct:columnFamily
+cfmType	config/tableMetadata.c	/^dictType cfmType = {cfmdHash, NULL, NULL, cfmdCompare, $/;"	v
+cfmd	db/columnFamilyStore.c	/^	columnFamilyMetadata *cfmd;$/;"	m	struct:commitLogWriter	file:
+cfmd	db/columnFamilyStore.h	/^	columnFamilyMetadata *cfmd;$/;"	m	struct:columnFamilyStore
+cfmdCompare	config/tableMetadata.c	/^int cfmdCompare(void *privdata, const void *key1, const void *key2)$/;"	f
+cfmdHash	config/tableMetadata.c	/^unsigned int cfmdHash(const void *key)$/;"	f
+cfs	db/columnFamilyStore.c	/^	columnFamilyStore *cfs;$/;"	m	struct:flushTask	file:
+cfsCompare	db/dataModel.c	/^int cfsCompare(void *privdata, const void *key1, $/;"	f
+cfsHashTable	db/dataModel.h	/^	dict *cfsHashTable;$/;"	m	struct:dataModel
+cfsHashing	db/dataModel.c	/^unsigned int cfsHashing(const void *key)$/;"	f
+cfsKeyDestr	db/dataModel.c	/^static void cfsKeyDestr(void *privdata, void *key)$/;"	f	file:
+cfsMutex	db/columnFamilyStore.h	/^	pthread_mutex_t cfsMutex;$/;"	m	struct:columnFamilyStore
+chksum_crc32	utils/crc32.c	/^u_int32_t chksum_crc32 (unsigned char *block, unsigned int length)$/;"	f
+chksum_crc32gentab	utils/crc32.c	/^void chksum_crc32gentab ()$/;"	f
+clHeader	db/commitLog.c	/^typedef struct clHeader{$/;"	s	file:
+clHeader	db/commitLog.c	/^}clHeader;$/;"	t	typeref:struct:clHeader	file:
+clHeaderUpdate	db/columnFamilyStore.c	/^	int clHeaderUpdate;$/;"	m	struct:flushTask	file:
+clWriterHandler	db/columnFamilyStore.c	/^void clWriterHandler(void *arg)$/;"	f
+clearColumnFamily	db/columnFamily.c	/^void clearColumnFamily(columnFamily *cf)$/;"	f
+clearDirty	db/commitLog.c	/^void clearDirty(clHeader *header, int entry)$/;"	f
+clh	db/commitLog.h	/^	struct clHeader *clh;$/;"	m	struct:commitLog	typeref:struct:commitLog::clHeader
+cloneColumn	db/column.c	/^column * cloneColumn(column *x)$/;"	f
+close_file	debug/log.c	/^static int close_file()$/;"	f	file:
+close_file	udpserver/log.c	/^static int close_file()$/;"	f	file:
+close_log	debug/log.c	/^int close_log()$/;"	f
+close_log	udpserver/log.c	/^int close_log()$/;"	f
+cmp	splay_rb_tree/test.c	/^int cmp(struct Int *x, struct Int *y)$/;"	f
+cmp	splay_rb_tree/test_tree.c	/^int inline cmp(struct INT *x, struct INT *y)$/;"	f
+cmpstringp	test/kk.c	/^	          cmpstringp(const void *p1, const void *p2)$/;"	f	file:
+column	db/column.h	/^typedef struct column{$/;"	s
+column	db/column.h	/^}column; $/;"	t	typeref:struct:column
+columnComp	db/column.c	/^static inline int columnComp(column *x, column *y)$/;"	f	file:
+columnCount	db/memTable.h	/^    int columnCount;$/;"	m	struct:memTable
+columnCount	db/superColumn.h	/^	int columnCount;$/;"	m	struct:superColumn
+columnFamily	db/columnFamily.h	/^typedef struct columnFamily{$/;"	s
+columnFamily	db/columnFamily.h	/^}columnFamily;$/;"	t	typeref:struct:columnFamily
+columnFamilyMetadata	config/tableMetadata.h	/^typedef struct columnFamilyMetadata{                     $/;"	s
+columnFamilyMetadata	config/tableMetadata.h	/^}columnFamilyMetadata; $/;"	t	typeref:struct:columnFamilyMetadata
+columnFamilySet	db/rowMutation.h	/^typedef RB_HEAD(columnFamilySet, columnFamily) columnFamilySet;$/;"	t
+columnFamilyStore	db/columnFamilyStore.h	/^typedef struct columnFamilyStore{$/;"	s
+columnFamilyStore	db/columnFamilyStore.h	/^}columnFamilyStore;$/;"	t	typeref:struct:columnFamilyStore
+columnMutex	db/column.c	/^pthread_mutex_t columnMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+columnName	db/queryPath.h	/^	char *columnName;$/;"	m	struct:queryPath
+columnSet	db/column.h	/^typedef struct columnSet{$/;"	s
+columnSet	db/column.h	/^}columnSet;$/;"	t	typeref:struct:columnSet
+columnorSuper	db/columnFamily.h	/^	void *columnorSuper;$/;"	m	struct:columnFamily
+columns	db/superColumn.h	/^	struct columnSet columns;$/;"	m	struct:superColumn	typeref:struct:superColumn::columnSet
+columnsHeader	db/column.h	/^typedef RB_HEAD(columnsHeader,column) columnsHeader; $/;"	t
+commitLog	db/commitLog.h	/^typedef struct commitLog{$/;"	s
+commitLog	db/commitLog.h	/^}commitLog;$/;"	t	typeref:struct:commitLog
+commitLogWriter	db/columnFamilyStore.c	/^typedef struct commitLogWriter{$/;"	s	file:
+commitLogWriter	db/columnFamilyStore.c	/^}commitLogWriter;$/;"	t	typeref:struct:commitLogWriter	file:
+compPriority	db/column.c	/^int compPriority(column *x, column *y) $/;"	f
+compare	test/ss.c	/^int compare(void *a, void *b)$/;"	f
+compare	test/system/hash.c	/^	int (*compare)(void *, void *);$/;"	m	struct:_hashtable	file:
+config	db/test.c	/^char *config = ".\/cassandra.conf";$/;"	v
+configPath	config/tableMetadata.h	/^	char *configPath;$/;"	m	struct:fileLocation
+count	test/system/hash.c	/^	int count;$/;"	m	struct:_hashtable	file:
+crc_tab	utils/crc32.c	/^u_int32_t crc_tab[256];$/;"	v
+createAllCFSfromConfig	db/dataModel.c	/^static int createAllCFSfromConfig()$/;"	f	file:
+create_hashtable	test/system/hash.h	2;"	d
+curCFID	config/config.c	/^static int curCFID = 0;$/;"	v	file:
+curCL	db/commitLog.c	/^commitLog *curCL;$/;"	v
+curKeyspace	config/config.c	/^static char curKeyspace[100] = {0};$/;"	v	file:
+curMT	db/columnFamilyStore.h	/^	memTable *curMT;$/;"	m	struct:columnFamilyStore
+curSSTSN	db/ssTable.c	/^static int curSSTSN = 0;$/;"	v	file:
+d	test/system/dict.h	/^    dict *d;$/;"	m	struct:dictIterator
+d	utils/dict.h	/^    dict *d;$/;"	m	struct:dictIterator
+data	splay_rb_tree/test_tree.c	/^	int data;$/;"	m	struct:INT	file:
+data	splay_rb_tree/test_tree.c	/^	int data;$/;"	m	struct:RBINT	file:
+data	test/ia/ia.h	/^		data[BLOCK_SIZE];$/;"	m	struct:infinite_array
+data	test/system/hash.c	/^	void *data;$/;"	m	struct:hashentry	file:
+dataFile	db/ssTable.h	/^	fileAbstract *dataFile;$/;"	m	struct:ssTable
+dataModel	db/dataModel.h	/^typedef struct dataModel{$/;"	s
+dataModel	db/dataModel.h	/^}dataModel;$/;"	t	typeref:struct:dataModel
+dataPath	config/tableMetadata.h	/^	char *dataPath;$/;"	m	struct:fileLocation
+dataPathPorc	config/config.c	/^static int dataPathPorc(tokens *tks)$/;"	f	file:
+datadir	test/autoconfig/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	test/autoconfig/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dddddddd	test/b.c	/^int dddddddd(int k)$/;"	f
+deallocSeed	config/tableMetadata.c	/^int deallocSeed()$/;"	f
+deallocStage	seda/stage_manager.c	/^int deallocStage(char *name)$/;"	f
+deallocStageStruct	seda/stage.c	/^void deallocStageStruct(stage *s)$/;"	f
+deallocTK	config/config.c	/^int deallocTK(tokens *tks)$/;"	f
+decrColumnRef	db/column.c	/^void decrColumnRef(column *c)$/;"	f
+decrFlushTask	db/columnFamilyStore.c	/^void decrFlushTask(flushTask *ft)$/;"	f
+decrSSTRef	db/ssTable.c	/^void decrSSTRef(ssTable *sst)$/;"	f
+del	db/column.h	/^	uint8_t del; \/\/ 1 delete, 0 not$/;"	m	struct:column
+deleteColumn	db/column.c	/^int deleteColumn(columnSet *cs, column *c)$/;"	f
+depcomp	test/autoconfig/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+deserializeCF	db/columnFamily.c	/^int deserializeCF(buffer *buff, columnFamily *cf)$/;"	f
+deserializeCLH	db/commitLog.c	/^clHeader* deserializeCLH(buffer *buff)$/;"	f
+deserializeColumn	db/column.c	/^int deserializeColumn(buffer *buff, column **x)$/;"	f
+deserializeColumnSet	db/column.c	/^int deserializeColumnSet(columnSet *cs, buffer *b)$/;"	f
+deserializeRM	db/rowMutation.c	/^int deserializeRM(buffer *b, rowMutation *rm)$/;"	f
+desrializeBF	db/bloomFilter.c	/^int desrializeBF(buffer *buff, bloomFilter **bfv)$/;"	f
+destroyCFSThread	db/columnFamilyStore.c	/^void destroyCFSThread()$/;"	f
+destroyDM	db/dataModel.c	/^void __exit destroyDM()$/;"	f
+dict	test/system/dict.h	/^typedef struct dict {$/;"	s
+dict	test/system/dict.h	/^} dict;$/;"	t	typeref:struct:dict
+dict	utils/dict.h	/^typedef struct dict {$/;"	s
+dict	utils/dict.h	/^} dict;$/;"	t	typeref:struct:dict
+dictAdd	test/system/dict.c	/^int dictAdd(dict *d, void *key, void *val)$/;"	f
+dictAdd	utils/dict.c	/^int dictAdd(dict *d, void *key, void *val)$/;"	f
+dictCompareHashKeys	test/system/dict.h	78;"	d
+dictCompareHashKeys	utils/dict.h	79;"	d
+dictCreate	test/system/dict.c	/^dict *dictCreate(dictType *type,$/;"	f
+dictCreate	utils/dict.c	/^dict *dictCreate(dictType *type,$/;"	f
+dictDelete	test/system/dict.c	/^int dictDelete(dict *ht, const void *key) {$/;"	f
+dictDelete	utils/dict.c	/^int dictDelete(dict *ht, const void *key) {$/;"	f
+dictDeleteNoFree	test/system/dict.c	/^int dictDeleteNoFree(dict *ht, const void *key) {$/;"	f
+dictDeleteNoFree	utils/dict.c	/^int dictDeleteNoFree(dict *ht, const void *key) {$/;"	f
+dictDisableResize	test/system/dict.c	/^void dictDisableResize(void) {$/;"	f
+dictDisableResize	utils/dict.c	/^void dictDisableResize(void) {$/;"	f
+dictEmpty	test/system/dict.c	/^void dictEmpty(dict *d) {$/;"	f
+dictEmpty	utils/dict.c	/^void dictEmpty(dict *d) {$/;"	f
+dictEnableResize	test/system/dict.c	/^void dictEnableResize(void) {$/;"	f
+dictEnableResize	utils/dict.c	/^void dictEnableResize(void) {$/;"	f
+dictEntry	test/system/dict.h	/^typedef struct dictEntry {$/;"	s
+dictEntry	test/system/dict.h	/^} dictEntry;$/;"	t	typeref:struct:dictEntry
+dictEntry	utils/dict.h	/^typedef struct dictEntry {$/;"	s
+dictEntry	utils/dict.h	/^} dictEntry;$/;"	t	typeref:struct:dictEntry
+dictExpand	test/system/dict.c	/^int dictExpand(dict *d, unsigned long size)$/;"	f
+dictExpand	utils/dict.c	/^int dictExpand(dict *d, unsigned long size)$/;"	f
+dictFetchValue	test/system/dict.c	/^void *dictFetchValue(dict *d, const void *key) {$/;"	f
+dictFetchValue	utils/dict.c	/^void *dictFetchValue(dict *d, const void *key) {$/;"	f
+dictFind	test/system/dict.c	/^dictEntry *dictFind(dict *d, const void *key)$/;"	f
+dictFind	utils/dict.c	/^dictEntry *dictFind(dict *d, const void *key)$/;"	f
+dictFreeEntryKey	test/system/dict.h	67;"	d
+dictFreeEntryKey	utils/dict.h	68;"	d
+dictFreeEntryVal	test/system/dict.h	56;"	d
+dictFreeEntryVal	utils/dict.h	57;"	d
+dictGenCaseHashFunction	test/system/dict.c	/^unsigned int dictGenCaseHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenCaseHashFunction	utils/dict.c	/^unsigned int dictGenCaseHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenHashFunction	test/system/dict.c	/^unsigned int dictGenHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenHashFunction	utils/dict.c	/^unsigned int dictGenHashFunction(const unsigned char *buf, int len) {$/;"	f
+dictGenericDelete	test/system/dict.c	/^static int dictGenericDelete(dict *d, const void *key, int nofree)$/;"	f	file:
+dictGenericDelete	utils/dict.c	/^static int dictGenericDelete(dict *d, const void *key, int nofree)$/;"	f	file:
+dictGetEntryKey	test/system/dict.h	85;"	d
+dictGetEntryKey	utils/dict.h	86;"	d
+dictGetEntryVal	test/system/dict.h	86;"	d
+dictGetEntryVal	utils/dict.h	87;"	d
+dictGetIterator	test/system/dict.c	/^dictIterator *dictGetIterator(dict *d)$/;"	f
+dictGetIterator	utils/dict.c	/^dictIterator *dictGetIterator(dict *d)$/;"	f
+dictGetRandomKey	test/system/dict.c	/^dictEntry *dictGetRandomKey(dict *d)$/;"	f
+dictGetRandomKey	utils/dict.c	/^dictEntry *dictGetRandomKey(dict *d)$/;"	f
+dictGetSafeIterator	test/system/dict.c	/^dictIterator *dictGetSafeIterator(dict *d) {$/;"	f
+dictGetSafeIterator	utils/dict.c	/^dictIterator *dictGetSafeIterator(dict *d) {$/;"	f
+dictHashKey	test/system/dict.h	83;"	d
+dictHashKey	utils/dict.h	84;"	d
+dictIdentityHashFunction	test/system/dict.c	/^unsigned int dictIdentityHashFunction(unsigned int key)$/;"	f
+dictIdentityHashFunction	utils/dict.c	/^unsigned int dictIdentityHashFunction(unsigned int key)$/;"	f
+dictIntHashFunction	test/system/dict.c	/^unsigned int dictIntHashFunction(unsigned int key)$/;"	f
+dictIntHashFunction	utils/dict.c	/^unsigned int dictIntHashFunction(unsigned int key)$/;"	f
+dictIsRehashing	test/system/dict.h	89;"	d
+dictIsRehashing	utils/dict.h	90;"	d
+dictIterator	test/system/dict.h	/^typedef struct dictIterator {$/;"	s
+dictIterator	test/system/dict.h	/^} dictIterator;$/;"	t	typeref:struct:dictIterator
+dictIterator	utils/dict.h	/^typedef struct dictIterator {$/;"	s
+dictIterator	utils/dict.h	/^} dictIterator;$/;"	t	typeref:struct:dictIterator
+dictNext	test/system/dict.c	/^dictEntry *dictNext(dictIterator *iter)$/;"	f
+dictNext	utils/dict.c	/^dictEntry *dictNext(dictIterator *iter)$/;"	f
+dictPrintStats	test/system/dict.c	/^void dictPrintStats(dict *d) {$/;"	f
+dictPrintStats	utils/dict.c	/^void dictPrintStats(dict *d) {$/;"	f
+dictRehash	test/system/dict.c	/^int dictRehash(dict *d, int n) {$/;"	f
+dictRehash	utils/dict.c	/^int dictRehash(dict *d, int n) {$/;"	f
+dictRehashMilliseconds	test/system/dict.c	/^int dictRehashMilliseconds(dict *d, int ms) {$/;"	f
+dictRehashMilliseconds	utils/dict.c	/^int dictRehashMilliseconds(dict *d, int ms) {$/;"	f
+dictRelease	test/system/dict.c	/^void dictRelease(dict *d)$/;"	f
+dictRelease	utils/dict.c	/^void dictRelease(dict *d)$/;"	f
+dictReleaseIterator	test/system/dict.c	/^void dictReleaseIterator(dictIterator *iter)$/;"	f
+dictReleaseIterator	utils/dict.c	/^void dictReleaseIterator(dictIterator *iter)$/;"	f
+dictReplace	test/system/dict.c	/^int dictReplace(dict *d, void *key, void *val)$/;"	f
+dictReplace	utils/dict.c	/^int dictReplace(dict *d, void *key, void *val)$/;"	f
+dictResize	test/system/dict.c	/^int dictResize(dict *d)$/;"	f
+dictResize	utils/dict.c	/^int dictResize(dict *d)$/;"	f
+dictSetHashKey	test/system/dict.h	71;"	d
+dictSetHashKey	utils/dict.h	72;"	d
+dictSetHashVal	test/system/dict.h	60;"	d
+dictSetHashVal	utils/dict.h	61;"	d
+dictSize	test/system/dict.h	88;"	d
+dictSize	utils/dict.h	89;"	d
+dictSlots	test/system/dict.h	87;"	d
+dictSlots	utils/dict.h	88;"	d
+dictType	test/system/dict.h	/^typedef struct dictType {$/;"	s
+dictType	test/system/dict.h	/^} dictType;$/;"	t	typeref:struct:dictType
+dictType	utils/dict.h	/^typedef struct dictType {$/;"	s
+dictType	utils/dict.h	/^} dictType;$/;"	t	typeref:struct:dictType
+dict_can_resize	test/system/dict.c	/^static int dict_can_resize = 1;$/;"	v	file:
+dict_can_resize	utils/dict.c	/^static int dict_can_resize = 1;$/;"	v	file:
+dict_force_resize_ratio	test/system/dict.c	/^static unsigned int dict_force_resize_ratio = 5;$/;"	v	file:
+dict_force_resize_ratio	utils/dict.c	/^static unsigned int dict_force_resize_ratio = 5;$/;"	v	file:
+dictht	test/system/dict.h	/^typedef struct dictht {$/;"	s
+dictht	test/system/dict.h	/^} dictht;$/;"	t	typeref:struct:dictht
+dictht	utils/dict.h	/^typedef struct dictht {$/;"	s
+dictht	utils/dict.h	/^} dictht;$/;"	t	typeref:struct:dictht
+direction	db/adlist.h	/^    int direction;$/;"	m	struct:listIter
+dirtyBit	db/commitLog.c	/^    char *dirtyBit;$/;"	m	struct:clHeader	file:
+dispatchStage	seda/stage_manager.c	/^int dispatchStage(char *name, void (*handler)(void *), $/;"	f
+dispatch_num	seda/stage.h	/^	int dispatch_num;$/;"	m	struct:stage
+dispatch_stage	seda/stage.c	/^int dispatch_stage(handler_info *hi, stage *s)$/;"	f
+dispatch_thread	seda/thread.c	/^int dispatch_thread(thread_info *ti, handler_info *hi)$/;"	f
+distcleancheck_listfiles	test/autoconfig/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	test/autoconfig/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	test/autoconfig/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+dmType	db/dataModel.c	/^dictType dmType = {$/;"	v
+doIndexIndex	db/indexHelper.c	/^keyIndex *doIndexIndex(keyIndex *ki, ssTable *sst)$/;"	f
+docdir	test/autoconfig/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dup	db/adlist.h	/^    void *(*dup)(void *ptr);$/;"	m	struct:list
+dupBloomFilter	db/bloomFilter.c	/^bloomFilter *dupBloomFilter(bloomFilter *bf)$/;"	f
+dvidir	test/autoconfig/Makefile	/^dvidir = ${docdir}$/;"	m
+e	udpserver/slist.h	/^		struct event e;$/;"	m	struct:__slist	typeref:struct:__slist::event
+elemCount	db/column.h	/^	int elemCount;$/;"	m	struct:columnSet
+empty	udpserver/slist.c	/^static int empty(queue_t *q)$/;"	f	file:
+endOfFile	utils/auxilFile.c	/^int endOfFile(fileAbstract *fa)$/;"	f
+entry	test/system/dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+entry	utils/dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+ep	db/memTable.c	/^	dictEntry **ep;$/;"	m	struct:sortedDE	file:
+equal_str	test/system/hash.c	/^int equal_str(void *k1, void *k2)$/;"	f
+exec_prefix	test/autoconfig/Makefile	/^exec_prefix = ${prefix}$/;"	m
+f	seda/test.s	/^f:$/;"	l
+f	test/c.c	/^int f()$/;"	f
+fa	db/commitLog.h	/^	fileAbstract *fa;$/;"	m	struct:commitLog
+fileAbstract	utils/auxilFile.h	/^typedef struct fileAbstract{$/;"	s
+fileAbstract	utils/auxilFile.h	/^}fileAbstract;$/;"	t	typeref:struct:fileAbstract
+fileLocation	config/tableMetadata.h	/^typedef struct fileLocation{$/;"	s
+fileLocation	config/tableMetadata.h	/^}fileLocation;$/;"	t	typeref:struct:fileLocation
+fileName	utils/auxilFile.h	/^	char *fileName;$/;"	m	struct:fileAbstract
+filterBit	db/bloomFilter.h	/^	char *filterBit;$/;"	m	struct:bloomFilter
+findCFColumn	db/columnFamily.c	/^column *findCFColumn(columnFamily *cf, char *columnName)$/;"	f
+findCFMetaData	config/tableMetadata.c	/^columnFamilyMetadata *findCFMetaData(char *keyspaceName, char *cfName)$/;"	f
+findCSColumn	db/column.c	/^column *findCSColumn(columnSet *cs, char *name)	$/;"	f
+findColumn	db/memTable.c	/^column *findColumn(memTable *mt, queryPath *qp)$/;"	f
+findDMCFS	db/dataModel.c	/^columnFamilyStore *findDMCFS(char *keyspaceName, char *cfName)$/;"	f
+findMTCF	db/memTable.c	/^columnFamily *findMTCF(memTable *mt, queryPath *qp)$/;"	f
+find_stage	seda/stage_manager.c	/^static stage *find_stage(char *name)$/;"	f	file:
+fl	config/tableMetadata.c	/^fileLocation fl;$/;"	v
+flag	db/columnFamilyStore.c	/^static int flag = 0;$/;"	v	file:
+flushTask	db/columnFamilyStore.c	/^typedef struct flushTask{$/;"	s	file:
+flushTask	db/columnFamilyStore.c	/^}flushTask;$/;"	t	typeref:struct:flushTask	file:
+flushToDisk	db/memTable.c	/^int flushToDisk(memTable *mt, struct ssTable *sst)$/;"	f
+flushingHandler	db/columnFamilyStore.c	/^void flushingHandler(void *arg)$/;"	f
+flushingMTL	db/columnFamilyStore.h	/^	memTableList flushingMTL;$/;"	m	struct:columnFamilyStore
+forceCFSFlush	db/columnFamilyStore.c	/^int forceCFSFlush(columnFamilyStore *cfs)$/;"	f
+forceFlushDM	db/dataModel.c	/^int forceFlushDM(char *keyspaceName, char *cfName)$/;"	f
+fp	debug/log.c	/^static FILE *fp = NULL;$/;"	v	file:
+fp	udpserver/log.c	/^static FILE *fp = NULL;$/;"	v	file:
+fp	utils/auxilFile.h	/^	FILE *fp;$/;"	m	struct:fileAbstract
+free	db/adlist.h	/^    void (*free)(void *ptr);$/;"	m	struct:list
+freeCFM	config/tableMetadata.c	/^void freeCFM(columnFamilyMetadata *cfmd)$/;"	f
+freeFromTable	config/tableMetadata.c	/^int freeFromTable(char *keyspaceName, char *cfName)$/;"	f
+freeHeapAllCFMD	config/tableMetadata.c	/^void freeHeapAllCFMD()$/;"	f
+freeHeapBF	db/bloomFilter.c	/^void freeHeapBF(bloomFilter *bf)$/;"	f
+freeHeapBuffer	serialize/buffer.c	/^void freeHeapBuffer(buffer *buff)$/;"	f
+freeHeapCFMD	config/tableMetadata.c	/^void freeHeapCFMD(columnFamilyMetadata *cfm)$/;"	f
+freeHeapCFStore	db/columnFamilyStore.c	/^void freeHeapCFStore(columnFamilyStore *cfs)$/;"	f
+freeHeapCLHeader	db/commitLog.c	/^void freeHeapCLHeader(clHeader *header)$/;"	f
+freeHeapCLWriter	db/columnFamilyStore.c	/^void freeHeapCLWriter(commitLogWriter *clw)$/;"	f
+freeHeapColumn	db/column.c	/^void freeHeapColumn(column *x)$/;"	f
+freeHeapColumnFamily	db/columnFamily.c	/^void freeHeapColumnFamily(columnFamily *cf)$/;"	f
+freeHeapColumnSet	db/column.c	/^void freeHeapColumnSet(columnSet *cs)$/;"	f
+freeHeapCommitLog	db/commitLog.c	/^void freeHeapCommitLog(commitLog* cl)$/;"	f
+freeHeapFL	db/columnFamilyStore.c	/^void freeHeapFL(flushTask *ft)$/;"	f
+freeHeapFile	utils/auxilFile.c	/^int freeHeapFile(fileAbstract *fa)$/;"	f
+freeHeapMemTL	db/memTable.c	/^void freeHeapMemTL(memTableList *mtl)$/;"	f
+freeHeapMemTable	db/memTable.c	/^void freeHeapMemTable(memTable *mt)$/;"	f
+freeHeapQP	db/queryPath.c	/^void freeHeapQP(queryPath *qp)$/;"	f
+freeHeapRM	db/rowMutation.c	/^void freeHeapRM(rowMutation *rm)$/;"	f
+freeHeapSST	db/ssTable.c	/^void freeHeapSST(ssTable *sst)$/;"	f
+freeHeapSSTL	db/ssTable.c	/^void freeHeapSSTL(ssTableList *sstl)$/;"	f
+freeHeapSortedDE	db/memTable.c	/^void freeHeapSortedDE(sortedDE *de)$/;"	f
+freeIndexIndex	db/indexHelper.c	/^void freeIndexIndex(keyIndex *ki)$/;"	f
+freeKeyFromMt	db/memTable.c	/^void freeKeyFromMt(memTable *mt, const char *key)$/;"	f
+freeTempHeapKeyIndex	db/indexHelper.c	/^void freeTempHeapKeyIndex(keyIndex *ki)$/;"	f
+froze	db/memTable.h	/^    int froze;$/;"	m	struct:memTable
+fseekToPos	utils/auxilFile.c	/^int fseekToPos(fileAbstract *fa, off_t pos)$/;"	f
+g_cfmDict	config/tableMetadata.c	/^dict *g_cfmDict = NULL;$/;"	v
+g_dataModel	db/dataModel.c	/^dataModel g_dataModel;$/;"	v
+g_sd	config/tableMetadata.c	/^seed g_sd;$/;"	v
+getBloomFilter	db/bloomFilter.c	/^int getBloomFilter(int hashCount, int strCount, bloomFilter **bfv)$/;"	f
+getBuffer	serialize/buffer.c	/^buffer *getBuffer()$/;"	f
+getBufferBytes	serialize/buffer.c	/^int getBufferBytes(buffer *buff, char **bytes)$/;"	f
+getBytesCount	serialize/buffer.c	/^int getBytesCount(buffer *buff, int *count)$/;"	f
+getCF	db/columnFamily.c	/^columnFamily* getCF(columnFamilyMetadata *cfm)$/;"	f
+getCFColumnCount	db/columnFamily.c	/^int getCFColumnCount(columnFamily *cf, int *count)$/;"	f
+getCFCount	config/tableMetadata.c	/^int getCFCount(int *count)$/;"	f
+getCFID	db/columnFamily.c	/^int getCFID(columnFamily *cf, int *ID)$/;"	f
+getCFKeyspace	db/columnFamily.c	/^char *getCFKeyspace(columnFamily *cf)$/;"	f
+getCFName	db/columnFamily.c	/^char *getCFName(columnFamily *cf)$/;"	f
+getCFSColumn	db/columnFamilyStore.c	/^column *getCFSColumn(columnFamilyStore *cfs, queryPath *qp)$/;"	f
+getCFStore	db/columnFamilyStore.c	/^columnFamilyStore *getCFStore(columnFamilyMetadata *cfmd)$/;"	f
+getCFType	db/columnFamily.c	/^int getCFType(columnFamily *cf, enum cfType *v)$/;"	f
+getCLHeader	db/commitLog.c	/^clHeader *getCLHeader(int cfCount)$/;"	f
+getCLPos	db/commitLog.c	/^long getCLPos(commitLog *cl)$/;"	f
+getCLWriter	db/columnFamilyStore.c	/^commitLogWriter *getCLWriter(buffer *buff, $/;"	f
+getCRC32	utils/crc32.c	/^int getCRC32(buffer *buff,  unsigned int *crc)$/;"	f
+getColumn	db/column.c	/^column *getColumn()$/;"	f
+getColumnCount	db/column.c	/^int getColumnCount(columnSet *cs, int *v)$/;"	f
+getColumnDM	db/dataModel.c	/^column *getColumnDM(queryPath *path)$/;"	f
+getColumnSerializeLen	db/column.c	/^int getColumnSerializeLen(column *x)$/;"	f
+getColumnSet	db/column.c	/^columnSet *getColumnSet()$/;"	f
+getCommitLog	db/commitLog.c	/^commitLog *getCommitLog(char *cp, char type)$/;"	f
+getCommitLogFilePath	db/commitLog.c	/^char *getCommitLogFilePath()$/;"	f
+getCommitLogReader	db/commitLog.c	/^commitLog *getCommitLogReader(char *fullLogPath)$/;"	f
+getCommitLogWriter	db/commitLog.c	/^commitLog *getCommitLogWriter()$/;"	f
+getCurFilePos	utils/auxilFile.c	/^long getCurFilePos(fileAbstract *fa)$/;"	f
+getCurTime	config/tableMetadata.c	/^time_t getCurTime()$/;"	f
+getDataPath	config/tableMetadata.c	/^int getDataPath(const char **dp)$/;"	f
+getFirstDirtyPos	db/commitLog.c	/^int getFirstDirtyPos(clHeader *header)$/;"	f
+getFirstMT	db/memTable.c	/^memTable *getFirstMT(memTableList *mtl)$/;"	f
+getFirstSSTL	db/ssTable.c	/^int getFirstSSTL(ssTableList *sstl, ssTable **sst)$/;"	f
+getFlushTask	db/columnFamilyStore.c	/^flushTask *getFlushTask(columnFamilyStore *cfs, memTable *mt)$/;"	f
+getKeyCFPairCount	db/memTable.c	/^int getKeyCFPairCount(memTable *mt, int *count)$/;"	f
+getKeyIndex	db/indexHelper.c	/^keyIndex *getKeyIndex(long size)$/;"	f
+getMTColumnCount	db/memTable.c	/^int getMTColumnCount(memTable *mt)$/;"	f
+getMemTable	db/memTable.c	/^memTable *getMemTable()$/;"	f
+getPidPath	config/tableMetadata.c	/^int getPidPath(const char **pp)$/;"	f
+getRM	db/rowMutation.c	/^rowMutation *getRM()$/;"	f
+getRMCFID	db/rowMutation.c	/^int getRMCFID(rowMutation *rm, int *id)$/;"	f
+getSortedEntry	db/memTable.c	/^sortedDE *getSortedEntry(memTable *mt)$/;"	f
+get_handler_info	seda/handler.c	/^handler_info * get_handler_info(handler h, void *arg)$/;"	f
+get_node	udpserver/slist.c	/^node_t * get_node()$/;"	f
+get_stage	seda/stage.c	/^stage *get_stage(int thread_num, char *stage_name)$/;"	f
+gethash	test/system/hash.c	/^	unsigned int (*gethash)(void *);$/;"	m	struct:_hashtable	file:
+h	seda/handler.h	/^	handler h;$/;"	m	struct:handler_info
+handler	seda/handler.h	/^typedef void (*handler)(void *arg);$/;"	t
+handler_info	seda/handler.h	/^typedef struct handler_info{$/;"	s
+handler_info	seda/handler.h	/^}handler_info;$/;"	t	typeref:struct:handler_info
+hash	db/bloomFilter.c	/^int hash(char *data, int length, int seed) $/;"	f
+hashCount	db/bloomFilter.h	/^	int hashCount;$/;"	m	struct:bloomFilter
+hashFunc	db/memTable.c	/^static unsigned int hashFunc(const void *key)$/;"	f	file:
+hashFunction	test/system/dict.h	/^    unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dictType
+hashFunction	utils/dict.h	/^    unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dictType
+hash_create	test/system/hash.c	/^hashtable *hash_create(unsigned int (*keyfunc)(void *),$/;"	f
+hash_free	test/system/hash.c	/^void hash_free(hashtable *tab)$/;"	f
+hash_insert	test/system/hash.c	/^void hash_insert(void *key, void *data, hashtable *tab)$/;"	f
+hashentry	test/system/hash.c	/^struct hashentry$/;"	s	file:
+hashentry_free	test/system/hash.c	/^inline struct hashentry *hashentry_free(struct hashentry *h)$/;"	f
+hashentry_new	test/system/hash.c	/^inline struct hashentry *hashentry_new(void *key, void *data)$/;"	f
+hashindex	test/system/hash.c	21;"	d	file:
+hashlist	test/system/hash.c	/^	struct hashentry **hashlist;$/;"	m	struct:_hashtable	typeref:struct:_hashtable::hashentry	file:
+hashsize	test/system/hash.c	/^	int hashsize;$/;"	m	struct:_hashtable	file:
+hashtable	test/system/hash.h	/^typedef struct _hashtable   hashtable;$/;"	t	typeref:struct:_hashtable
+head	db/adlist.h	/^    listNode *head;$/;"	m	struct:list
+head	udpserver/slist.h	/^        node_t *head;$/;"	m	struct:__queue
+header	db/column.h	/^	columnsHeader header;$/;"	m	struct:columnSet
+hello_LDADD	test/autoconfig/Makefile	/^hello_LDADD = $(LDADD)$/;"	m
+hello_OBJECTS	test/autoconfig/Makefile	/^hello_OBJECTS = $(am_hello_OBJECTS)$/;"	m
+hello_SOURCES	test/autoconfig/Makefile	/^hello_SOURCES = test.c $/;"	m
+hlist_append	test/system/hash.c	/^inline int hlist_append(struct hashentry **root, void *key, void *data)$/;"	f
+hlist_remove	test/system/hash.c	/^int hlist_remove(struct hashentry **root, void *key,$/;"	f
+hlist_update	test/system/hash.c	/^int hlist_update(struct hashentry *root, void *key, void *data,$/;"	f
+host_alias	test/autoconfig/Makefile	/^host_alias = $/;"	m
+ht	test/system/dict.h	/^    dictht ht[2];$/;"	m	struct:dict
+ht	utils/dict.h	/^    dictht ht[2];$/;"	m	struct:dict
+htmldir	test/autoconfig/Makefile	/^htmldir = ${docdir}$/;"	m
+i	splay_rb_tree/test.c	/^	int i;$/;"	m	struct:Int	file:
+ia_get	test/ia/ia.c	/^int ia_get(struct infinite_array *array_ptr, int index)$/;"	f
+ia_init	test/ia/ia.h	53;"	d
+ia_locate	test/ia/ia.c	/^static struct infinite_array *ia_locate($/;"	f	file:
+ia_store	test/ia/ia.c	/^ia_store(struct infinite_array * array_ptr,$/;"	f
+id	seda/thread.h	/^	pthread_t id;$/;"	m	struct:thread_info
+incSSTSN	db/ssTable.c	/^static int incSSTSN()$/;"	f	file:
+includedir	test/autoconfig/Makefile	/^includedir = ${prefix}\/include$/;"	m
+incrColumnCount	db/column.c	/^void incrColumnCount(column *c)$/;"	f
+incrFlushTask	db/columnFamilyStore.c	/^void incrFlushTask(flushTask *ft)$/;"	f
+incrSSTRef	db/ssTable.c	/^void incrSSTRef(ssTable *sst)$/;"	f
+index	test/system/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+index	utils/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+indexFile	db/ssTable.h	/^	fileAbstract *indexFile;$/;"	m	struct:ssTable
+infinite_array	test/ia/ia.h	/^struct infinite_array {$/;"	s
+infodir	test/autoconfig/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	seda/stage_manager.c	/^int init = 0;$/;"	v
+initCF	db/columnFamily.c	/^int initCF(columnFamily *cf, columnFamilyMetadata *cfmd)$/;"	f
+initCFSThread	db/columnFamilyStore.c	/^void  initCFSThread()$/;"	f
+initDM	db/dataModel.c	/^int __init initDM()$/;"	f
+initDictCFMD	config/tableMetadata.c	/^int __init initDictCFMD()$/;"	f
+init_stage_manager	seda/stage_manager.c	/^static int init_stage_manager()$/;"	f	file:
+init_thread_info	seda/thread.c	/^int init_thread_info(thread_info *ti)$/;"	f
+initialize_queue	udpserver/slist.c	/^void initialize_queue(queue_t *q)$/;"	f
+insertCF	db/columnFamily.c	/^int insertCF(columnFamily *cf, columnFamily *inserted)$/;"	f
+insertCFStore	db/columnFamilyStore.c	/^int insertCFStore(columnFamilyStore *cfs, rowMutation *rm)$/;"	f
+insertDM	db/dataModel.c	/^int insertDM(rowMutation *rm)$/;"	f
+insertDMCFS	db/dataModel.c	/^int insertDMCFS(columnFamilyStore *cfs)$/;"	f
+insertMemTable	db/memTable.c	/^int insertMemTable(memTable *mt, rowMutation *rm)$/;"	f
+install_sh	test/autoconfig/Makefile	/^install_sh = ${SHELL} \/home\/ydx\/program\/test\/autoconfig\/install-sh$/;"	m
+install_sh_DATA	test/autoconfig/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	test/autoconfig/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	test/autoconfig/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+isComment	config/config.c	/^int isComment(char *line, int len)$/;"	f
+isDirty	db/commitLog.c	/^int isDirty(clHeader *header, int entry)$/;"	f
+iter	db/adlist.h	/^    listIter iter;$/;"	m	struct:list
+iterators	test/system/dict.h	/^    int iterators; \/* number of iterators currently running *\/$/;"	m	struct:dict
+iterators	utils/dict.h	/^    int iterators; \/* number of iterators currently running *\/$/;"	m	struct:dict
+key	db/indexHelper.h	/^	char *key;$/;"	m	struct:keyPosition
+key	db/queryPath.h	/^	char *key;$/;"	m	struct:queryPath
+key	db/rowMutation.h	/^	char *key;$/;"	m	struct:rowMutation
+key	test/system/dict.h	/^    void *key;$/;"	m	struct:dictEntry
+key	test/system/hash.c	/^	void *key;$/;"	m	struct:hashentry	file:
+key	utils/dict.h	/^    void *key;$/;"	m	struct:dictEntry
+keyCF_pair	db/memTable.h	/^    dict *keyCF_pair;\/\/该字段用来存储key cf对$/;"	m	struct:memTable
+keyCF_pairCompare	db/memTable.c	/^static int keyCF_pairCompare(void *privdata, const void *key1, const void *key2)$/;"	f	file:
+keyCompare	db/memTable.c	/^static int keyCompare(const void *e1, const void *e2)$/;"	f	file:
+keyCompare	test/system/dict.h	/^    int (*keyCompare)(void *privdata, const void *key1, const void *key2);$/;"	m	struct:dictType
+keyCompare	test/system/test.c	/^int keyCompare(void *privdata, const void *key1, const void *key2)$/;"	f
+keyCompare	utils/dict.h	/^    int (*keyCompare)(void *privdata, const void *key1, const void *key2);$/;"	m	struct:dictType
+keyDestructor	config/tableMetadata.c	/^static void keyDestructor(void *privdata, void *key)$/;"	f	file:
+keyDestructor	db/memTable.c	/^static void keyDestructor(void *privdata, void *key)$/;"	f	file:
+keyDestructor	test/system/dict.h	/^    void (*keyDestructor)(void *privdata, void *key);$/;"	m	struct:dictType
+keyDestructor	test/system/test.c	/^void keyDestructor(void *privdata, void *key)$/;"	f
+keyDestructor	utils/dict.h	/^    void (*keyDestructor)(void *privdata, void *key);$/;"	m	struct:dictType
+keyDup	test/system/dict.h	/^    void *(*keyDup)(void *privdata, const void *key);$/;"	m	struct:dictType
+keyDup	utils/dict.h	/^    void *(*keyDup)(void *privdata, const void *key);$/;"	m	struct:dictType
+keyIndex	db/indexHelper.h	/^typedef struct keyIndex{$/;"	s
+keyIndex	db/indexHelper.h	/^}keyIndex;$/;"	t	typeref:struct:keyIndex
+keyPosition	db/indexHelper.h	/^typedef struct keyPosition{$/;"	s
+keyPosition	db/indexHelper.h	/^}keyPosition;$/;"	t	typeref:struct:keyPosition
+keyProc	config/config.h	/^typedef struct keyProc{$/;"	s
+keyProc	config/config.h	/^}keyProc;$/;"	t	typeref:struct:keyProc
+keyspace	db/queryPath.h	/^	char *keyspace;$/;"	m	struct:queryPath
+keyspaceName	config/tableMetadata.h	/^    char *keyspaceName;                          $/;"	m	struct:columnFamilyMetadata
+keyspaceName	db/rowMutation.h	/^	char *keyspaceName;$/;"	m	struct:rowMutation
+keyspaceProc	config/config.c	/^static int keyspaceProc(tokens *tks)$/;"	f	file:
+ki	db/indexHelper.h	/^	keyPosition *ki;$/;"	m	struct:keyIndex
+leak	config/test.c	/^int  leak()$/;"	f
+len	config/config.h	/^    int len;$/;"	m	struct:token
+len	db/adlist.h	/^    unsigned int len;$/;"	m	struct:list
+lh_strhash	test/system/hash.c	/^int lh_strhash(void *src, unsigned int *hash)$/;"	f
+libdir	test/autoconfig/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	test/autoconfig/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+line	config/test.c	/^char line[TEST_LEN][100] = $/;"	v
+link	db/column.h	/^	RB_ENTRY(column) link;$/;"	m	struct:column
+link	db/commitLog.h	/^	LIST_ENTRY(commitLog) link;$/;"	m	struct:commitLog
+link	db/memTable.h	/^    LIST_ENTRY(memTable) link;$/;"	m	struct:memTable
+link	db/ssTable.h	/^	LIST_ENTRY(ssTable) link;$/;"	m	struct:ssTable
+link	db/superColumn.h	/^	RB_ENTRY(superColumn) link;$/;"	m	struct:superColumn
+link	seda/handler.h	/^	TAILQ_ENTRY(handler_info) link; \/\/list$/;"	m	struct:handler_info
+link	seda/stage.h	/^	RB_ENTRY(stage) link;$/;"	m	struct:stage
+list	db/adlist.h	/^typedef struct list {$/;"	s
+list	db/adlist.h	/^} list;$/;"	t	typeref:struct:list
+listAddNodeHead	db/adlist.c	/^list *listAddNodeHead(list *list, void *value)$/;"	f
+listAddNodeTail	db/adlist.c	/^list *listAddNodeTail(list *list, void *value)$/;"	f
+listCreate	db/adlist.c	/^list *listCreate(void)$/;"	f
+listDelNode	db/adlist.c	/^void listDelNode(list *list, listNode *node)$/;"	f
+listDup	db/adlist.c	/^list *listDup(list *orig)$/;"	f
+listFirst	db/adlist.h	59;"	d
+listGetDupMethod	db/adlist.h	69;"	d
+listGetFree	db/adlist.h	70;"	d
+listGetIterator	db/adlist.c	/^listIter *listGetIterator(list *list, int direction)$/;"	f
+listGetMatchMethod	db/adlist.h	71;"	d
+listIndex	db/adlist.c	/^listNode *listIndex(list *list, int index) {$/;"	f
+listIter	db/adlist.h	/^typedef struct listIter {$/;"	s
+listIter	db/adlist.h	/^} listIter;$/;"	t	typeref:struct:listIter
+listLast	db/adlist.h	60;"	d
+listLength	db/adlist.h	58;"	d
+listNext	db/adlist.c	/^listNode *listNext(listIter *iter)$/;"	f
+listNextNode	db/adlist.h	62;"	d
+listNode	db/adlist.h	/^typedef struct listNode {$/;"	s
+listNode	db/adlist.h	/^} listNode;$/;"	t	typeref:struct:listNode
+listNodeValue	db/adlist.h	63;"	d
+listPrevNode	db/adlist.h	61;"	d
+listRelease	db/adlist.c	/^void listRelease(list *list)$/;"	f
+listReleaseIterator	db/adlist.c	/^void listReleaseIterator(listIter *iter) {$/;"	f
+listRewind	db/adlist.c	/^void listRewind(list *list) {$/;"	f
+listRewindTail	db/adlist.c	/^void listRewindTail(list *list) {$/;"	f
+listSearchKey	db/adlist.c	/^listNode *listSearchKey(list *list, void *key)$/;"	f
+listSetDupMethod	db/adlist.h	65;"	d
+listSetFreeMethod	db/adlist.h	66;"	d
+listSetMatchMethod	db/adlist.h	67;"	d
+listYield	db/adlist.c	/^listNode *listYield(list *list) {$/;"	f
+loadConfig	config/config.c	/^int __init loadConfig(char *confFile)$/;"	f
+localDelete	db/columnFamily.h	/^	uint32_t localDelete;$/;"	m	struct:columnFamily
+localDelete	db/superColumn.h	/^	unsigned int localDelete;$/;"	m	struct:superColumn
+localedir	test/autoconfig/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	test/autoconfig/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lock	include/seda.h	/^	pthread_mutex_t lock;$/;"	m	struct:stage_manager
+lock	seda/seda.h	/^	pthread_mutex_t lock;$/;"	m	struct:stage_manager
+lockQ	seda/thread.h	/^	pthread_mutex_t lockQ;$/;"	m	struct:thread_info
+main	config/test.c	/^int main()$/;"	f
+main	db/test.c	/^int main()$/;"	f
+main	debug/test.c	/^int main()$/;"	f
+main	mem/test.c	/^int main()$/;"	f
+main	seda/test.s	/^main:$/;"	l
+main	seda/test_seda.c	/^int main()$/;"	f
+main	serialize/test.c	/^int main()$/;"	f
+main	splay_rb_tree/test.c	/^int main()$/;"	f
+main	splay_rb_tree/test_tree.c	/^int main()$/;"	f
+main	test/autoconfig/test-1.0/test.c	/^int main()$/;"	f
+main	test/autoconfig/test.c	/^int main()$/;"	f
+main	test/b.c	/^int main(int argc, char **argv)$/;"	f
+main	test/kk.c	/^	          main(int argc, char *argv[])$/;"	f
+main	test/ss.c	/^int main()$/;"	f
+main	test/system/const.c	/^int main()$/;"	f
+main	test/system/test.c	/^int main()$/;"	f
+main	test/test.cpp	/^int main()$/;"	f
+main	udpserver/server.c	/^int main(int argc, char **argv)$/;"	f
+makeSSTablePath	db/ssTable.c	/^static int makeSSTablePath(const char *dataPath, char *keyspace, $/;"	f	file:
+mandir	test/autoconfig/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+markedForDelete	db/columnFamily.h	/^	uint32_t markedForDelete;$/;"	m	struct:columnFamily
+markedForDelete	db/superColumn.h	/^	unsigned int markedForDelete;$/;"	m	struct:superColumn
+match	db/adlist.h	/^    int (*match)(void *ptr, void *key);$/;"	m	struct:list
+maximize_sndbuf	udpserver/udpsocket.c	/^static void maximize_sndbuf(const int sfd) $/;"	f	file:
+memTLInsert	db/memTable.c	/^void memTLInsert(memTableList *mtl, memTable *mt)$/;"	f
+memTable	db/memTable.h	/^typedef struct memTable{$/;"	s
+memTable	db/memTable.h	/^}memTable;$/;"	t	typeref:struct:memTable
+memTableList	db/memTable.h	/^typedef LIST_HEAD(memTableList, memTable) memTableList;$/;"	t
+memTableType	db/memTable.c	/^static dictType memTableType = {$/;"	v	file:
+mkdir_p	test/autoconfig/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	test/autoconfig/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mt	db/columnFamilyStore.c	/^	memTable *mt;$/;"	m	struct:flushTask	file:
+mutex	db/columnFamilyStore.c	/^	pthread_mutex_t mutex;$/;"	m	struct:flushTask	file:
+mutex	udpserver/slist.h	/^	pthread_mutex_t mutex;$/;"	m	struct:__queue
+name	config/config.h	/^    char *name;$/;"	m	struct:keyProc
+name	db/column.h	/^	char *name;$/;"	m	struct:column
+name	db/superColumn.h	/^	char *name;$/;"	m	struct:superColumn
+name	debug/log.c	/^char *name = NULL;$/;"	v
+name	seda/stage.h	/^	char *name;$/;"	m	struct:stage
+name	udpserver/log.c	/^char *name = NULL;$/;"	v
+needFlush	db/memTable.c	/^int needFlush(memTable *mt)$/;"	f
+needReplay	db/commitLog.c	/^static int needReplay(rowMutation *rm, commitLog *cl, long pos)$/;"	f	file:
+new_socket	udpserver/udpsocket.c	/^static int new_socket(struct addrinfo *ai) $/;"	f	file:
+new_udpsocket	udpserver/udpsocket.c	/^int new_udpsocket(char *node, int port)$/;"	f
+next	db/adlist.h	/^    listNode *next;$/;"	m	struct:listIter
+next	db/adlist.h	/^    struct listNode *next;$/;"	m	struct:listNode	typeref:struct:listNode::listNode
+next	test/ia/ia.h	/^	struct infinite_array *next;$/;"	m	struct:infinite_array	typeref:struct:infinite_array::infinite_array
+next	test/system/dict.h	/^    struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry
+next	test/system/hash.c	/^	struct hashentry *next;$/;"	m	struct:hashentry	typeref:struct:hashentry::hashentry	file:
+next	udpserver/slist.h	/^        struct __slist *next;$/;"	m	struct:__slist	typeref:struct:__slist::__slist
+next	utils/dict.h	/^    struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry
+nextEntry	test/system/dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+nextEntry	utils/dict.h	/^    dictEntry *entry, *nextEntry;$/;"	m	struct:dictIterator
+node_t	udpserver/slist.h	/^}node_t;$/;"	t	typeref:struct:__slist
+oldincludedir	test/autoconfig/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+only_one_node	udpserver/slist.c	/^static int only_one_node(queue_t *q)$/;"	f	file:
+openFile	utils/auxilFile.c	/^static int openFile(char *fileName, char *mode, int bufferSize, $/;"	f	file:
+openReadFile	utils/auxilFile.c	/^int openReadFile(char *fileName, int bufferSize, fileAbstract **fa)$/;"	f
+openReadFromWrite	db/ssTable.c	/^ssTable *openReadFromWrite(ssTable *sstW)$/;"	f
+openReaderFileFromExist	utils/auxilFile.c	/^int openReaderFileFromExist(fileAbstract *fa, int buffSize, $/;"	f
+openWriteFile	utils/auxilFile.c	/^int openWriteFile(char *fileName, int bufferSize, fileAbstract **fa)$/;"	f
+openWriteSSTable	db/ssTable.c	/^ssTable *openWriteSSTable(columnFamilyMetadata *cfmd, int keyCount)$/;"	f
+open_file	debug/log.c	/^static int open_file(char *na)$/;"	f	file:
+open_file	udpserver/log.c	/^static int open_file(char *na)$/;"	f	file:
+otherPath	config/tableMetadata.h	/^	char *otherPath;$/;"	m	struct:fileLocation
+p	config/tableMetadata.h	/^	char **p;$/;"	m	struct:seed
+pdfdir	test/autoconfig/Makefile	/^pdfdir = ${docdir}$/;"	m
+pidPath	config/tableMetadata.h	/^	char *pidPath;$/;"	m	struct:fileLocation
+pidPathPorc	config/config.c	/^static int pidPathPorc(tokens *tks)$/;"	f	file:
+pipe	seda/thread.h	/^	int pipe[2];\/\/pipe 0 read, pipe 1 write $/;"	m	struct:thread_info
+pkgdatadir	test/autoconfig/Makefile	/^pkgdatadir = $(datadir)\/test$/;"	m
+pkgincludedir	test/autoconfig/Makefile	/^pkgincludedir = $(includedir)\/test$/;"	m
+pkglibdir	test/autoconfig/Makefile	/^pkglibdir = $(libdir)\/test$/;"	m
+pkglibexecdir	test/autoconfig/Makefile	/^pkglibexecdir = $(libexecdir)\/test$/;"	m
+pop_from_queue	udpserver/slist.c	/^node_t * pop_from_queue(queue_t *q)$/;"	f
+pos	db/indexHelper.h	/^	long pos;$/;"	m	struct:keyIndex
+pos	db/indexHelper.h	/^	long pos;$/;"	m	struct:keyPosition
+pos	serialize/buffer.h	/^    int pos;$/;"	m	struct:buffer
+posAt	db/commitLog.c	/^    int *posAt;$/;"	m	struct:clHeader	file:
+prefix	test/autoconfig/Makefile	/^prefix = \/usr\/local$/;"	m
+prev	db/adlist.h	/^    struct listNode *prev;$/;"	m	struct:listNode	typeref:struct:listNode::listNode
+printTableMetadata	config/tableMetadata.c	/^void printTableMetadata()$/;"	f
+printTokens	config/config.c	/^void printTokens(tokens *tks)$/;"	f
+privdata	test/system/dict.h	/^    void *privdata;$/;"	m	struct:dict
+privdata	utils/dict.h	/^    void *privdata;$/;"	m	struct:dict
+proc	config/config.h	/^    Proc proc;$/;"	m	struct:keyProc
+program_transform_name	test/autoconfig/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	test/autoconfig/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+prototypes	test/autoconfig/test-1.0/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	test/autoconfig/Makefile	/^psdir = ${docdir}$/;"	m
+push_into_queue	udpserver/slist.c	/^node_t *  push_into_queue(node_t * n, queue_t *q)$/;"	f
+putCFMDToTable	config/tableMetadata.c	/^int putCFMDToTable(columnFamilyMetadata *cfmd)$/;"	f
+putDataPath	config/tableMetadata.c	/^int putDataPath(const char *p)$/;"	f
+putKeyCFPair	db/memTable.c	/^int putKeyCFPair(memTable *mt, char *key, columnFamily *cf)$/;"	f
+putMetadataToCFMD	config/tableMetadata.c	/^int putMetadataToCFMD(char *keyspaceName, char *cfName, $/;"	f
+putPidPath	config/tableMetadata.c	/^int putPidPath(const char *p)$/;"	f
+putSeed	config/tableMetadata.c	/^int putSeed(char *seed)$/;"	f
+put_node	udpserver/slist.c	/^void put_node(node_t *p)$/;"	f
+queryPath	db/queryPath.h	/^typedef struct queryPath{$/;"	s
+queryPath	db/queryPath.h	/^}queryPath;$/;"	t	typeref:struct:queryPath
+queue	seda/thread.h	/^	struct handler_list queue; \/\/use tail queue$/;"	m	struct:thread_info	typeref:struct:thread_info::handler_list
+queue_t	udpserver/slist.h	/^}queue_t;$/;"	t	typeref:struct:__queue
+rb_cmp	splay_rb_tree/test_tree.c	/^int inline rb_cmp(struct RBINT *x, struct RBINT *y)$/;"	f
+readByte	serialize/serialize.c	/^int readByte(buffer *buff, char *v)$/;"	f
+readBytes	serialize/serialize.c	/^int readBytes(buffer *buff, char **v, int *lenv)$/;"	f
+readFile	utils/auxilFile.c	/^int readFile(fileAbstract *fa, buffer *buff)$/;"	f
+readInt	serialize/serialize.c	/^int readInt(buffer *buff, int *v)$/;"	f
+readLong	serialize/serialize.c	/^int readLong(buffer *buff, long *v)$/;"	f
+readUnsignedInt	serialize/serialize.c	/^int readUnsignedInt(buffer *buff, unsigned int *v)$/;"	f
+read_process	udpserver/udpsocket.c	/^static void read_process(int fd, short which, void *arg)$/;"	f	file:
+recoverFromCommitLog	db/commitLog.c	/^int recoverFromCommitLog()$/;"	f
+recoverFromCurPos	db/commitLog.c	/^static int recoverFromCurPos(commitLog *reader)$/;"	f	file:
+refCount	db/column.h	/^	uint32_t refCount;$/;"	m	struct:column
+refCount	db/columnFamilyStore.c	/^	int refCount;$/;"	m	struct:flushTask	file:
+refCount	db/ssTable.h	/^	uint32_t refCount;$/;"	m	struct:ssTable
+register_stage	seda/stage_manager.c	/^int register_stage(char *stageName, int nThread)$/;"	f
+rehashidx	test/system/dict.h	/^    int rehashidx; \/* rehashing not in progress if rehashidx == -1 *\/$/;"	m	struct:dict
+rehashidx	utils/dict.h	/^    int rehashidx; \/* rehashing not in progress if rehashidx == -1 *\/$/;"	m	struct:dict
+removeFirstSSTL	db/ssTable.c	/^int removeFirstSSTL(ssTableList *sstl, ssTable **sst)$/;"	f
+removeKeyFromMT	db/memTable.c	/^columnFamily * removeKeyFromMT(memTable *mt, char *key)$/;"	f
+removeMTFromList	db/memTable.c	/^void removeMTFromList(memTable *mt)$/;"	f
+reserve	serialize/buffer.c	/^int reserve(buffer *buff, int len)$/;"	f
+reserveTK	config/config.c	/^int reserveTK(tokens *tks, int size)$/;"	f
+reset	serialize/buffer.c	/^int reset(buffer *buff)$/;"	f
+rowMutation	db/rowMutation.h	/^typedef struct rowMutation{$/;"	s
+rowMutation	db/rowMutation.h	/^}rowMutation;$/;"	t	typeref:struct:rowMutation
+safe	test/system/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+safe	utils/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+sbindir	test/autoconfig/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+seed	config/tableMetadata.h	/^typedef struct seed{$/;"	s
+seed	config/tableMetadata.h	/^}seed;$/;"	t	typeref:struct:seed
+seedCount	config/tableMetadata.h	/^	int seedCount;$/;"	m	struct:seed
+seedProc	config/config.c	/^static int seedProc(tokens *tks)$/;"	f	file:
+serializeBF	db/bloomFilter.c	/^int serializeBF(buffer *buff, bloomFilter *bf)$/;"	f
+serializeCF	db/columnFamily.c	/^int serializeCF(columnFamily *cf, buffer *buff)$/;"	f
+serializeCLH	db/commitLog.c	/^int serializeCLH(clHeader *header, buffer *buff)$/;"	f
+serializeColumn	db/column.c	/^int serializeColumn(column *x, buffer *buff)$/;"	f
+serializeColumnSet	db/column.c	/^int serializeColumnSet(columnSet *cs, buffer *buff)$/;"	f
+serializeKP	db/indexHelper.c	/^int serializeKP(buffer *buff, keyPosition *kp)$/;"	f
+serializeRM	db/rowMutation.c	/^int serializeRM(buffer *b, rowMutation *rm)$/;"	f
+setCurSSTSN	db/ssTable.c	/^int setCurSSTSN(int sn)$/;"	f
+setDirty	db/commitLog.c	/^void setDirty(clHeader *header, int entry)$/;"	f
+setEntryPos	db/commitLog.c	/^void setEntryPos(clHeader *header, int entry, int position)$/;"	f
+set_log	debug/log.c	/^int set_log(char *n)$/;"	f
+set_log	udpserver/log.c	/^int set_log(char *n)$/;"	f
+sharedstatedir	test/autoconfig/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+shead	udpserver/udpsocket.c	/^queue_t  shead;$/;"	v
+shouldSkip	config/config.c	/^int shouldSkip(char *line, int len)$/;"	f
+signal	db/columnFamilyStore.c	/^	pthread_cond_t signal;$/;"	m	struct:flushTask	file:
+size	config/tableMetadata.h	/^	int size;$/;"	m	struct:seed
+size	db/column.h	/^	uint16_t size;$/;"	m	struct:column
+size	db/indexHelper.h	/^	long size;$/;"	m	struct:keyIndex
+size	db/memTable.c	/^	int size;$/;"	m	struct:sortedDE	file:
+size	serialize/buffer.h	/^    int size;$/;"	m	struct:buffer
+size	test/system/dict.h	/^    unsigned long size;$/;"	m	struct:dictht
+size	utils/dict.h	/^    unsigned long size;$/;"	m	struct:dictht
+sizemask	test/system/dict.h	/^    unsigned long sizemask;$/;"	m	struct:dictht
+sizemask	utils/dict.h	/^    unsigned long sizemask;$/;"	m	struct:dictht
+smanger	seda/stage_manager.c	/^stage_manager smanger;$/;"	v
+socket_init	udpserver/udpsocket.c	/^int socket_init()$/;"	f
+sortedDE	db/memTable.c	/^typedef struct sortedDE{$/;"	s	file:
+sortedDE	db/memTable.c	/^}sortedDE;$/;"	t	typeref:struct:sortedDE	file:
+splite	config/config.c	/^int splite(char *line, char delimiter, tokens *tks, char *tokenDelimter)$/;"	f
+srcdir	test/autoconfig/Makefile	/^srcdir = .$/;"	m
+ssTL	db/columnFamilyStore.h	/^	ssTableList ssTL;$/;"	m	struct:columnFamilyStore
+ssTLInsert	db/ssTable.c	/^int ssTLInsert(ssTableList *sstl, ssTable *sst)$/;"	f
+ssTable	db/ssTable.h	/^typedef struct ssTable{$/;"	s
+ssTable	db/ssTable.h	/^}ssTable;$/;"	t	typeref:struct:ssTable
+ssTableList	db/ssTable.h	/^typedef LIST_HEAD(ssTableList, ssTable) ssTableList;$/;"	t
+sstMutex	db/ssTable.c	/^static pthread_mutex_t sstMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+stage	seda/stage.h	/^typedef struct stage{$/;"	s
+stage	seda/stage.h	/^}stage;$/;"	t	typeref:struct:stage
+stage_cmp	seda/stage_manager.c	/^static int stage_cmp(stage *l, stage *r)$/;"	f	file:
+stage_manager	include/seda.h	/^typedef struct stage_manager{$/;"	s
+stage_manager	include/seda.h	/^}stage_manager;$/;"	t	typeref:struct:stage_manager
+stage_manager	seda/seda.h	/^typedef struct stage_manager{$/;"	s
+stage_manager	seda/seda.h	/^}stage_manager;$/;"	t	typeref:struct:stage_manager
+stage_set	include/seda.h	/^typedef RB_HEAD(stage_head, stage) stage_set;$/;"	t
+stage_set	seda/seda.h	/^typedef RB_HEAD(stage_head, stage) stage_set;$/;"	t
+stages	include/seda.h	/^	stage_set stages;$/;"	m	struct:stage_manager
+stages	seda/seda.h	/^	stage_set stages;$/;"	m	struct:stage_manager
+standard	config/tableMetadata.h	/^enum cfType{standard, super};$/;"	e	enum:cfType
+start	config/config.h	/^    char *start;$/;"	m	struct:token
+strCount	db/bloomFilter.h	/^	int strCount;$/;"	m	struct:bloomFilter
+strHash	test/system/test.c	/^unsigned int strHash(const void *key)$/;"	f
+strTest	test/system/test.c	/^dictType strTest = {strHash, NULL, NULL, keyCompare, $/;"	v
+strTrim	config/config.c	/^int strTrim(char *line, int len, char *characters)$/;"	f
+subdir	test/autoconfig/Makefile	/^subdir = .$/;"	m
+super	config/tableMetadata.h	/^enum cfType{standard, super};$/;"	e	enum:cfType
+superColumn	db/superColumn.h	/^typedef struct superColumn{$/;"	s
+superColumn	db/superColumn.h	/^}superColumn;$/;"	t	typeref:struct:superColumn
+superColumnComp	db/superColumn.c	/^inline int superColumnComp(superColumn *x, superColumn *y)$/;"	f
+superColumnName	db/queryPath.h	/^	char *superColumnName;$/;"	m	struct:queryPath
+superColumnSet	db/superColumn.h	/^typedef RB_HEAD(superColumnSet,superColumn) superColumnSet; $/;"	t
+synCommitLog	db/commitLog.c	/^int synCommitLog(columnFamilyMetadata *cfmd)$/;"	f
+synFile	utils/auxilFile.c	/^int synFile(fileAbstract *fa)$/;"	f
+synFlushingTask	db/columnFamilyStore.c	/^void synFlushingTask(void *arg)$/;"	f
+sysconfdir	test/autoconfig/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+table	test/system/dict.h	/^    dictEntry **table;$/;"	m	struct:dictht
+table	test/system/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+table	utils/dict.h	/^    dictEntry **table;$/;"	m	struct:dictht
+table	utils/dict.h	/^    int table, index, safe;$/;"	m	struct:dictIterator
+tail	db/adlist.h	/^    listNode *tail;$/;"	m	struct:list
+tail	udpserver/slist.h	/^        node_t *tail;$/;"	m	struct:__queue
+tardir	test/autoconfig/Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	test/autoconfig/Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	test/autoconfig/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	test/autoconfig/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+tardir	test/autoconfig/Makefile	/^	tardir=$(distdir) && $(am__tar) | xz -c >$(distdir).tar.xz$/;"	m
+target_alias	test/autoconfig/Makefile	/^target_alias = $/;"	m
+terminate_threads	seda/stage.c	/^static int terminate_threads(stage *s)$/;"	f	file:
+test_fun	seda/test_seda.c	/^void test_fun(void *arg)$/;"	f
+test_rb_tree	splay_rb_tree/test_tree.c	/^int test_rb_tree()$/;"	f
+test_splay_tree	splay_rb_tree/test_tree.c	/^int test_splay_tree()$/;"	f
+thread_fun	seda/thread.c	/^void * thread_fun(void *arg)$/;"	f
+thread_info	seda/thread.h	/^typedef struct thread_info{$/;"	s
+thread_info	seda/thread.h	/^}thread_info;$/;"	t	typeref:struct:thread_info
+thread_num	seda/stage.h	/^	int thread_num;$/;"	m	struct:stage
+ti	seda/stage.h	/^	thread_info *ti;$/;"	m	struct:stage
+timeInMilliseconds	test/system/dict.c	/^long long timeInMilliseconds(void) {$/;"	f
+timeInMilliseconds	utils/dict.c	/^long long timeInMilliseconds(void) {$/;"	f
+timestamp	db/column.h	/^	uint32_t timestamp;$/;"	m	struct:column
+tk	config/config.h	/^    token *tk;$/;"	m	struct:tokens
+tkCount	config/config.h	/^    int tkCount;$/;"	m	struct:tokens
+tkSize	config/config.h	/^    int tkSize;$/;"	m	struct:tokens
+token	config/config.h	/^typedef struct token{$/;"	s
+token	config/config.h	/^}token;$/;"	t	typeref:struct:token
+tokens	config/config.h	/^typedef struct tokens{$/;"	s
+tokens	config/config.h	/^}tokens;$/;"	t	typeref:struct:tokens
+top_build_prefix	test/autoconfig/Makefile	/^top_build_prefix = $/;"	m
+top_builddir	test/autoconfig/Makefile	/^top_builddir = .$/;"	m
+top_distdir	test/autoconfig/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	test/autoconfig/Makefile	/^top_srcdir = .$/;"	m
+transform	test/autoconfig/Makefile	/^transform = $(program_transform_name)$/;"	m
+type	config/tableMetadata.h	/^	enum cfType type;$/;"	m	struct:columnFamilyMetadata	typeref:enum:columnFamilyMetadata::cfType
+type	db/ssTable.h	/^	char type;$/;"	m	struct:ssTable
+type	test/a.h	/^typedef int type;$/;"	t
+type	test/system/dict.h	/^    dictType *type;$/;"	m	struct:dict
+type	utils/dict.h	/^    dictType *type;$/;"	m	struct:dict
+used	test/system/dict.h	/^    unsigned long used;$/;"	m	struct:dictht
+used	utils/dict.h	/^    unsigned long used;$/;"	m	struct:dictht
+val	test/system/dict.h	/^    void *val;$/;"	m	struct:dictEntry
+val	utils/dict.h	/^    void *val;$/;"	m	struct:dictEntry
+valDestructor	db/memTable.c	/^static void valDestructor(void *privdata, void *ob)$/;"	f	file:
+valDestructor	test/system/dict.h	/^    void (*valDestructor)(void *privdata, void *obj);$/;"	m	struct:dictType
+valDestructor	test/system/test.c	/^void valDestructor(void *privdata, void *value)$/;"	f
+valDestructor	utils/dict.h	/^    void (*valDestructor)(void *privdata, void *obj);$/;"	m	struct:dictType
+valDup	test/system/dict.h	/^    void *(*valDup)(void *privdata, const void *obj);$/;"	m	struct:dictType
+valDup	utils/dict.h	/^    void *(*valDup)(void *privdata, const void *obj);$/;"	m	struct:dictType
+value	db/adlist.h	/^    void *value;$/;"	m	struct:listNode
+value	db/column.h	/^	char *value;$/;"	m	struct:column
+writeAppendFile	utils/auxilFile.c	/^int writeAppendFile(fileAbstract *fa, buffer *buff)$/;"	f
+writeByte	serialize/serialize.c	/^int writeByte(char byte, buffer *buff)$/;"	f
+writeBytes	serialize/serialize.c	/^int writeBytes(char *str, int len, buffer *buff)$/;"	f
+writeCommitLog	db/commitLog.c	/^int writeCommitLog(buffer *rm, const columnFamilyMetadata *cfmd)$/;"	f
+writeHeaderSyn	db/commitLog.c	/^static int writeHeaderSyn(commitLog *cl, int needSeekFile)$/;"	f	file:
+writeInt	serialize/serialize.c	/^int writeInt(int data, buffer *buff)$/;"	f
+writeLong	serialize/serialize.c	/^int writeLong(long data, buffer *buff)$/;"	f
+writeSSTableBF	db/ssTable.c	/^int writeSSTableBF(buffer *bf, ssTable *sst)$/;"	f
+writeSSTableData	db/ssTable.c	/^long writeSSTableData(buffer *cf, ssTable *sst)$/;"	f
+writeSSTableIndex	db/ssTable.c	/^long writeSSTableIndex(buffer *index, ssTable *sst)$/;"	f
+writeUnsignedInt	serialize/serialize.c	/^int writeUnsignedInt(unsigned int data, buffer *buff)$/;"	f
+write_file	debug/log.c	/^static int write_file(char *str)$/;"	f	file:
+write_file	udpserver/log.c	/^static int write_file(char *str)$/;"	f	file:

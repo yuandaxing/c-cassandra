@@ -1,0 +1,23 @@
+//构造析构函数
+memTable *getMemTable();
+void freeHeapMemTable(memTable *mt);
+//插入，删除
+int putKeyCFPair(memTable *mt, char *key, columnFamily *cf);
+int removeKeyFromMT(memTable *mt, char *key, columnFamily **cf);
+int freeKeyFromMt(memTable *mt, char *key);
+
+
+/*将MemTable的内容写磁盘*/
+int flushToDisk(memTable *mt, ssTable *sst);
+///*提供一个插入，一个查询接口*/
+//column *findColumn(memTable *mt, queryPath *queryPath);
+int insertMemTable(memTable *mt, rowMutation *rm);
+/* 保存key/Value  key cf对
+int findCFFromKey(memTable *mt, char *key, columnFamily **cf);
+int getMTColumnCount(memTable *mt);
+
+typedef struct memTable{
+	dict keyCF_pair;//该字段用来存储key cf对
+	int froze;
+	columnFamilyMetadata *cfmd;
+}memTable;

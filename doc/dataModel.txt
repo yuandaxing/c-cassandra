@@ -1,0 +1,17 @@
+//dataModel是对数据模型的最终抽象，它提供了对数据模型操作的所有接口。
+
+//对数据模型的组织其实很简单，就是所有columnFamilyStore的一个hash表
+
+typedef struct dataModel{
+	dict *cfsHashTable;
+}dataModel;
+
+//构造函数，析构函数
+int __init initDM();
+int __exit destroyDM();
+
+
+int insertDM(rowMutation *rm);
+int forceFlushDM(char *tableName, char *cfName);
+int doCompactDM(char *tableName, char *cfName);
+int getColumnDM(queryPath *path, column **x);
